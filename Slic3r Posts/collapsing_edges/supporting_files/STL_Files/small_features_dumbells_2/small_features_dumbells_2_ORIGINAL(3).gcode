@@ -1,0 +1,7016 @@
+; KISSlicer - PRO
+; Windows
+; version 1.1.0.14
+; Built: May  8 2013, 11:26:16
+; Running on 4 cores
+;
+; Saved: Wed Apr 30 02:57:41 2014
+; 'small_features_dumbells_2_ORIGINAL(3).gcode'
+;
+; *** Printer Settings ***
+;
+; printer_name = Multi-Extruders
+; bed_STL_filename = E:\Clients\Dropbox\Sean's RepRap\compress
+;     ion connector\Connector 41 lg\print_bed_delta.stl
+; extension = gcode
+; cost_per_hour = 0
+; g_code_prefix = 4D343220503520533135300A3B205B6D6D5D206D6F64
+;     650A4732310A3B206162736F6C757465206D6F64650A4739300A3B20
+;     486F6D650A4732380A3B2052656C617469766520450A4D38320A3B20
+;     4865617465642062656420636F6E74726F6C0A3B2073657420626564
+;     20746F20323020646567206C6F776572207468616E206D6174657269
+;     616C206265642074656D7020616E6420776169742074696C6C206163
+;     6869657665640A4D31393020533C4245443E0A
+; g_code_warm = 3B2053656C656374206E65772065787472756465720A54
+;     3C4558542B303E0A3B205761726D2069742075702C20616E64207761
+;     69742074696C6C2069742773207761726D0A4D31303920533C54454D
+;     503E0A
+; g_code_cool = 3B20446573656C65637420746865202873616D65292065
+;     787472756465722028757375616C6C7920746F20636F6F6C290A4D31
+;     303420533C54454D503E0A
+; g_code_N_layers = 3B204D617962652072652D686F6D65205820262059
+;     3F0A
+; g_code_postfix = 3B20676F20686F6D650A4732380A3B207475726E206
+;     F666620746865206265640A4D3134302053300A3B7475726E206F666
+;     6206578747275646572730A54300A4D3130342053300A54310A4D313
+;     0342053300A54320A4D3130342053300A3B7761697420666F7220352
+;     06D696E7574657320746F20636F6F6C20686F742D656E64732074686
+;     56E207475726E206F66662066616E0A473420503330303030310A4D3
+;     432205035205330
+; post_process = NULL
+; every_N_layers = 0
+; num_extruders = 1
+; firmware_type = 2
+; add_comments = 1
+; fan_on = 
+; fan_off = 
+; fan_pwm = 0
+; add_m101_g10 = 0
+; z_speed_mm_per_s = 270
+; z_settle_mm = 0
+; bed_size_x_mm = 300
+; bed_size_y_mm = 300
+; bed_size_z_mm = 350
+; bed_offset_x_mm = 0
+; bed_offset_y_mm = 0
+; bed_offset_z_mm = -0.02
+; bed_roughness_mm = 0
+; travel_speed_mm_per_s = 270
+; first_layer_speed_mm_per_s = 45
+; dmax_per_layer_mm_per_s = 15
+; xy_accel_mm_per_s_per_s = 4000
+; lo_speed_perim_mm_per_s = 20
+; lo_speed_solid_mm_per_s = 20
+; lo_speed_sparse_mm_per_s = 20
+; hi_speed_perim_mm_per_s = 80
+; hi_speed_solid_mm_per_s = 80
+; hi_speed_sparse_mm_per_s = 80
+; ext_gain_1 = 1
+; ext_material_1 = 2
+; ext_axis_1 = 0
+; ext_gain_2 = 1
+; ext_material_2 = 3
+; ext_axis_2 = 0
+; ext_gain_3 = 1
+; ext_material_3 = 2
+; ext_axis_3 = 0
+; model_ext = 0
+; support_ext = 0
+; support_body_ext = 0
+; raft_ext = 0
+; solid_loop_overlap_fraction = 0.5
+;
+; *** Material Settings for Extruder 1 ***
+;
+; material_name = Ultimachine ABS Orange
+; g_code_matl = 3B204D617962652073657420736F6D65206D6174657269
+;     616C2D737065636966696320472D636F64653F
+; fan_Z_mm = 0
+; fan_loops_percent = 60
+; fan_inside_percent = 60
+; fan_cool_percent = 60
+; temperature_C = 225
+; keep_warm_C = 160
+; first_layer_C = 225
+; bed_C = 80
+; sec_per_C_per_C = 0.001
+; flow_min_mm3_per_s = 0.4
+; flow_max_mm3_per_s = 10
+; destring_suck = 12
+; destring_prime = 12
+; destring_min_mm = 3
+; destring_trigger_mm = 10
+; destring_speed_mm_per_s = 175
+; Z_lift_mm = 1
+; min_layer_time_s = 15
+; wipe_mm = 5
+; cost_per_cm3 = 0.8
+; flowrate_tweak = 1
+; fiber_dia_mm = 1.75
+; color = 4170916608
+;
+; *** Style Settings ***
+;
+; style_name = Anki Shells
+; layer_thickness_mm = 0.175
+; extrusion_width_mm = 0.3
+; num_loops = 1
+; skin_thickness_mm = 0.35
+; infill_extrusion_width = 0.3
+; infill_density_denominator = 0
+; stacked_layers = 1
+; use_destring = 1
+; use_wipe = 1
+; loops_insideout = 0
+; infill_st_oct_rnd = 2
+; inset_surface_xy_mm = 0
+; seam_jitter_degrees = 360
+; seam_depth_scaler = 0.1
+;
+; *** Support Settings ***
+;
+; support_name = sample support
+; support_sheathe = 1
+; support_density = 0
+; support_inflate_mm = 2
+; support_gap_mm = 0.5
+; support_angle_deg = 45
+; support_z_max_mm = -1
+; sheathe_z_max_mm = -1
+; raft_mode = 0
+; prime_pillar_mode = 0
+; raft_inflate_mm = 2
+;
+; *** Actual Slicing Settings As Used ***
+;
+; layer_thickness_mm = 0.175
+; extrusion_width = 0.3
+; num_ISOs = 1
+; wall_thickness = 0.35
+; infill_style = 1
+; support_style = 0
+; support_angle = 44.9
+; destring_min_mm = 3
+; stacked_infill_layers = 1
+; raft_style = 0
+; extra_raft_depth = 0
+; oversample_res_mm = 0.2
+; crowning_threshold_mm = 0.5
+; loops_insideout = 0
+; solid_loop_overlap_fraction = 0.5
+; inflate_raft_mm = 0
+; inflate_support_mm = 0
+; model_support_gap_mm = 0.5
+; infill_st_oct_rnd = 2
+; support_Z_max_mm = 1e+020
+; sheathe_Z_max_mm = 1e+020
+; inset_surface_xy_mm = 0
+; seam_jitter_degrees = 360
+; seam_depth_scaler = 0.1
+; Speed vs Quality = 1.00
+; Perimeter Speed = 20.00
+; Solid Speed = 20.00
+; Sparse Speed = 20.00
+;
+; *** G-code Prefix ***
+;
+M42 P5 S150
+; [mm] mode
+G21
+; absolute mode
+G90
+; Home
+G28
+; Relative E
+M82
+; Heated bed control
+; set bed to 20 deg lower than material bed temp and wait till achieved
+M190 S80
+
+;
+; *** Main G-code ***
+;
+; Reset extruder pos
+G92 E0
+; BEGIN_LAYER_OBJECT z=0.16
+;
+; *** Warming Extruder 1 to 225 C ***
+; Select new extruder
+T0
+; Warm it up, and wait till it's warm
+M109 S225
+
+;
+G92 E0
+;
+; fan on
+
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.33 Y-16.32 Z1.155 E0 F16200
+G1 X-24.33 Y-16.32 Z0.155 E0
+G1 E12 F10500
+G1 X-24.34 Y-16.34 E12.0005 F1200
+G1 X-22.74 Y-16.35 E12.0354
+; fan off
+
+G1 X-22.64 Y-16.25 E12.0387
+G1 X-22.58 Y-15.9 E12.0463
+G1 X-22.28 Y-15.44 E12.0582
+G1 X-22.22 Y-15.39 E12.06
+; fan on
+
+G1 X-21.82 Y-15.13 E12.0705
+; fan off
+
+G1 X-21.66 Y-15.1 E12.0741
+G1 X-21.64 Y-14.92 E12.078
+; fan on
+
+G1 X-21.96 Y-14.81 E12.0853
+; fan off
+
+G1 X-22.57 Y-14.17 E12.1047
+; fan on
+
+G1 X-22.62 Y-13.76 E12.1137
+G1 X-22.72 Y-13.66 E12.1167
+G1 X-24.15 Y-13.66 E12.148
+; fan off
+
+G1 X-24.35 Y-13.69 E12.1523
+; fan on
+
+G1 X-24.34 Y-16.34 E12.2102
+; fan off
+
+G1 X-24.32 Y-16.33 E12.2107
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E0.2107 F10500
+G1 X-24.33 Y-16.32 E0.2107 F1200
+G1 X-24.34 Y-16.34 E0.2107
+G1 X-22.74 Y-16.35 E0.2107
+G1 X-22.64 Y-16.25 E0.2107
+G1 X-22.58 Y-15.9 E0.2107
+; fan on
+
+G1 X-22.28 Y-15.44 E0.2107
+; fan off
+
+G1 X-22.22 Y-15.39 E0.2107
+G1 X-21.82 Y-15.13 E0.2107
+; fan on
+
+G1 X-21.66 Y-15.1 E0.2107
+G1 X-21.64 Y-14.92 E0.2107
+G1 X-21.96 Y-14.81 E0.2107
+; fan off
+
+G1 X-22.57 Y-14.17 E0.2107
+; fan on
+
+G1 X-22.6 Y-13.97 E0.2107
+G1 X-22.6 Y-13.97 Z1.155 E0.2107 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-16.28 Y-16.33 E0.2107
+G1 X-16.28 Y-16.33 Z0.155 E0.2107
+G1 E12.2107 F10500
+G1 X-16.29 Y-16.35 E12.2111 F1200
+G1 X-14.68 Y-16.35 E12.2462
+; fan off
+
+G1 X-14.66 Y-16.15 E12.2506
+; fan on
+
+G1 X-14.66 Y-13.66 E12.305
+; fan off
+
+G1 X-16.32 Y-13.66 E12.3411
+G1 X-16.46 Y-14.15 E12.3524
+; fan on
+
+G1 X-16.74 Y-14.58 E12.3635
+; fan off
+
+G1 X-16.76 Y-14.6 E12.3641
+G1 X-17.21 Y-14.89 E12.3759
+; fan on
+
+G1 X-17.38 Y-14.92 E12.3796
+G1 X-17.37 Y-15.1 E12.3834
+G1 X-17.24 Y-15.12 E12.3864
+G1 X-16.77 Y-15.36 E12.3979
+; fan off
+
+G1 X-16.62 Y-15.53 E12.403
+G1 X-16.44 Y-15.87 E12.4112
+; fan on
+
+G1 X-16.35 Y-16.19 E12.4185
+G1 X-16.29 Y-16.35 E12.4223
+; fan off
+
+G1 X-16.27 Y-16.34 E12.4227
+;
+; 'Crown', 0.5 [feed mm/s], 20.0 [head mm/s]
+G1 X-17.67 Y-14.97 E12.4227 F16200
+; fan on
+
+G1 X-21.36 Y-14.97 E12.5134 F1200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-22.17 Y-15.01 E12.5134 F16200
+; fan off
+
+G1 X-23.24 Y-13.94 E12.5464 F1200
+G1 X-23.67 Y-13.94 E12.5557
+G1 X-22.41 Y-15.19 E12.5944
+; fan on
+
+G1 X-22.6 Y-15.43 E12.6009
+G1 X-24.07 Y-13.97 E12.6462
+; fan off
+
+G1 X-24.07 Y-14.39 E12.6554
+; fan on
+
+G1 X-22.77 Y-15.68 E12.6954
+; fan off
+
+G1 X-22.89 Y-15.99 E12.7026
+G1 X-24.07 Y-14.81 E12.7389
+; fan on
+
+G1 X-24.07 Y-15.24 E12.7481
+G1 X-23.24 Y-16.07 E12.7738
+; fan off
+
+G1 X-23.66 Y-16.07 E12.7831
+; fan on
+
+G1 X-24.08 Y-15.65 E12.796
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E0.796 F10500
+; fan off
+
+G1 X-23.66 Y-16.07 E0.796 F1200
+; fan on
+
+G1 X-23.24 Y-16.07 E0.796
+G1 X-24.07 Y-15.24 E0.796
+; fan off
+
+G1 X-24.07 Y-14.81 E0.796
+; fan on
+
+G1 X-22.89 Y-15.99 E0.796
+; fan off
+
+G1 X-22.77 Y-15.68 E0.796
+G1 X-23.05 Y-15.41 E0.796
+G1 X-23.05 Y-15.41 Z1.155 E0.796 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-16.18 Y-15.92 E0.796
+G1 X-16.18 Y-15.92 Z0.155 E0.796
+G1 E12.796 F10500
+G1 X-16.08 Y-16.01 E12.7989 F1200
+G1 X-15.6 Y-16.06 E12.8094
+; fan on
+
+G1 X-16.75 Y-14.92 E12.8447
+; fan off
+
+G1 X-16.51 Y-14.73 E12.8513
+G1 X-15.16 Y-16.08 E12.893
+; fan on
+
+G1 X-14.93 Y-15.89 E12.8996
+G1 X-16.35 Y-14.47 E12.9435
+; fan off
+
+G1 X-16.17 Y-14.22 E12.9502
+; fan on
+
+G1 X-14.94 Y-15.45 E12.9882
+; fan off
+
+G1 X-14.94 Y-15.03 E12.9975
+G1 X-16.03 Y-13.94 E13.031
+; fan on
+
+G1 X-15.6 Y-13.94 E13.0403
+G1 X-14.94 Y-14.6 E13.0607
+; fan off
+
+G1 X-14.94 Y-14.18 E13.07
+; fan on
+
+G1 X-15.23 Y-13.9 E13.0787
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E1.0787 F10500
+; fan off
+
+G1 X-14.94 Y-14.18 E1.0787 F1200
+; fan on
+
+G1 X-14.94 Y-14.6 E1.0787
+G1 X-15.6 Y-13.94 E1.0787
+; fan off
+
+G1 X-16.03 Y-13.94 E1.0787
+; fan on
+
+G1 X-14.94 Y-15.03 E1.0787
+; fan off
+
+G1 X-14.94 Y-15.45 E1.0787
+G1 X-15.55 Y-14.85 E1.0787
+G1 X-15.55 Y-14.85 Z1.155 E1.0787 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.33 Y-4.24 E1.0787
+G1 X-24.33 Y-4.24 Z0.155 E1.0787
+G1 E13.0787 F10500
+; fan on
+
+G1 X-24.35 Y-4.25 E13.0791 F1200
+G1 X-24.18 Y-4.3 E13.083
+G1 X-22.7 Y-4.3 E13.1152
+; fan off
+
+G1 X-22.61 Y-4.18 E13.1185
+G1 X-22.59 Y-4.01 E13.1221
+G1 X-22.32 Y-3.63 E13.1323
+G1 X-21.91 Y-3.36 E13.143
+; fan on
+
+G1 X-21.56 Y-3.33 E13.1508
+G1 X-17.32 Y-3.33 E13.2433
+; fan off
+
+G1 X-17.14 Y-3.36 E13.2472
+G1 X-16.67 Y-3.58 E13.2585
+G1 X-16.56 Y-3.7 E13.2623
+G1 X-16.31 Y-4.3 E13.2764
+G1 X-14.66 Y-4.29 E13.3124
+; fan on
+
+G1 X-14.66 Y-1.78 E13.3673
+; fan off
+
+G1 X-14.76 Y-1.67 E13.3706
+G1 X-16.21 Y-1.67 E13.4021
+; fan on
+
+G1 X-16.33 Y-1.75 E13.4053
+G1 X-16.44 Y-2.08 E13.4128
+G1 X-16.97 Y-2.6 E13.4291
+; fan off
+
+G1 X-17.4 Y-2.64 E13.4386
+; fan on
+
+G1 X-21.63 Y-2.64 E13.5307
+; fan off
+
+G1 X-22.06 Y-2.59 E13.5403
+G1 X-22.57 Y-2.09 E13.5559
+G1 X-22.65 Y-1.71 E13.5643
+G1 X-22.81 Y-1.67 E13.5679
+G1 X-24.27 Y-1.67 E13.5998
+; fan on
+
+G1 X-24.35 Y-1.81 E13.6032
+G1 X-24.35 Y-4.25 E13.6566
+; fan off
+
+G1 X-24.33 Y-4.25 E13.657
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.08 Y-3.77 E13.657 F16200
+G1 X-23.83 Y-4.02 E13.6646 F1200
+G1 X-23.4 Y-4.02 E13.674
+G1 X-24.07 Y-3.36 E13.6945
+; fan on
+
+G1 X-24.07 Y-2.93 E13.7038
+G1 X-22.96 Y-4.04 E13.7378
+; fan off
+
+G1 X-22.78 Y-3.8 E13.7444
+G1 X-24.07 Y-2.51 E13.7842
+; fan on
+
+G1 X-24.07 Y-2.09 E13.7934
+G1 X-22.6 Y-3.55 E13.8387
+; fan off
+
+G1 X-22.39 Y-3.34 E13.8452
+G1 X-23.76 Y-1.96 E13.8877
+; fan on
+
+G1 X-23.34 Y-1.96 E13.8969
+G1 X-22.1 Y-3.21 E13.9353
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-21.82 Y-3.06 E13.9353 F16200
+G1 X-22.01 Y-2.87 E13.9413 F1200
+G1 X-21.5 Y-2.96 E13.9528
+; fan off
+
+G1 X-21.38 Y-3.08 E13.9566
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E1.9566 F10500
+G1 X-21.82 Y-3.06 E1.9566 F1200
+; fan on
+
+G1 X-22.01 Y-2.87 E1.9566
+G1 X-21.5 Y-2.96 E1.9566
+; fan off
+
+G1 X-21.38 Y-3.08 E1.9566
+G1 X-21.38 Y-3.08 Z1.155 E1.9566 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-15.75 Y-4.04 E1.9566
+G1 X-15.75 Y-4.04 Z0.155 E1.9566
+G1 E13.9566 F10500
+; fan on
+
+G1 X-16.92 Y-2.87 E13.9925 F1200
+; fan off
+
+G1 X-16.67 Y-2.69 E13.9991
+G1 X-15.34 Y-4.03 E14.0403
+; fan on
+
+G1 X-14.94 Y-4 E14.049
+G1 X-16.46 Y-2.48 E14.0959
+; fan off
+
+G1 X-16.25 Y-2.26 E14.1024
+G1 X-14.94 Y-3.57 E14.1429
+; fan on
+
+G1 X-14.94 Y-3.15 E14.1521
+G1 X-16.09 Y-2 E14.1876
+G1 X-15.71 Y-1.96 E14.1961
+; fan off
+
+G1 X-14.94 Y-2.73 E14.2197
+; fan on
+
+G1 X-14.94 Y-2.3 E14.229
+G1 X-15.32 Y-1.92 E14.2407
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E2.2407 F10500
+G1 X-14.94 Y-2.3 E2.2407 F1200
+; fan off
+
+G1 X-14.94 Y-2.73 E2.2407
+; fan on
+
+G1 X-15.71 Y-1.96 E2.2407
+; fan off
+
+G1 X-16.09 Y-2 E2.2407
+; fan on
+
+G1 X-14.94 Y-3.15 E2.2407
+; fan off
+
+G1 X-14.94 Y-3.57 E2.2407
+G1 X-15.31 Y-3.21 E2.2407
+G1 X-15.31 Y-3.21 Z1.155 E2.2407 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.26 Y-0.34 E2.2407
+G1 X-24.26 Y-0.34 Z0.155 E2.2407
+G1 E14.2407 F10500
+G1 X-24.27 Y-0.36 E14.2412 F1200
+; fan on
+
+G1 X-22.78 Y-0.36 E14.2736
+; fan off
+
+G1 X-22.65 Y-0.31 E14.2766
+G1 X-22.57 Y0.06 E14.2848
+G1 X-22.18 Y0.45 E14.2969
+; fan on
+
+G1 X-21.66 Y0.59 E14.3088
+G1 X-17.32 Y0.59 E14.4035
+; fan off
+
+G1 X-16.87 Y0.48 E14.4136
+G1 X-16.43 Y0.04 E14.4271
+G1 X-16.32 Y-0.27 E14.4343
+G1 X-16.2 Y-0.36 E14.4374
+G1 X-14.77 Y-0.36 E14.4688
+G1 X-14.66 Y-0.25 E14.4721
+; fan on
+
+G1 X-14.66 Y2.25 E14.5267
+; fan off
+
+G1 X-14.77 Y2.36 E14.53
+G1 X-16.2 Y2.36 E14.5613
+G1 X-16.32 Y2.28 E14.5644
+G1 X-16.43 Y1.96 E14.5717
+; fan on
+
+G1 X-16.88 Y1.52 E14.5854
+; fan off
+
+G1 X-17.33 Y1.41 E14.5956
+; fan on
+
+G1 X-21.65 Y1.41 E14.6898
+; fan off
+
+G1 X-22.19 Y1.55 E14.702
+G1 X-22.57 Y1.94 E14.7139
+G1 X-22.65 Y2.31 E14.7221
+G1 X-22.78 Y2.36 E14.7252
+G1 X-24.27 Y2.36 E14.7576
+; fan on
+
+G1 X-24.35 Y2.22 E14.7609
+G1 X-24.35 Y-0.22 E14.8143
+; fan off
+
+G1 X-24.27 Y-0.36 E14.8177
+G1 X-24.25 Y-0.34 E14.8181
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-23.96 Y-0.07 E14.8181 F16200
+G1 X-24 Y-0.03 E14.8195 F1200
+G1 X-24.06 Y0.45 E14.8301
+G1 X-23.55 Y-0.06 E14.8459
+; fan on
+
+G1 X-23.12 Y-0.06 E14.8552
+G1 X-24.07 Y0.88 E14.8843
+; fan off
+
+G1 X-24.07 Y1.31 E14.8936
+G1 X-22.85 Y0.09 E14.9311
+; fan on
+
+G1 X-22.68 Y0.34 E14.9377
+G1 X-24.08 Y1.74 E14.9809
+; fan off
+
+G1 X-23.98 Y2.07 E14.9883
+; fan on
+
+G1 X-22.47 Y0.56 E15.0351
+; fan off
+
+G1 X-22.22 Y0.73 E15.0417
+G1 X-23.55 Y2.06 E15.0826
+; fan on
+
+G1 X-23.12 Y2.06 E15.0919
+G1 X-21.86 Y0.8 E15.1307
+; fan off
+
+G1 X-21.83 Y1.19 E15.1393
+G1 X-21.5 Y0.86 E15.1496
+; fan on
+
+G1 X-21.35 Y1.14 E15.1565
+; fan off
+
+G1 X-21.04 Y0.83 E15.1662
+; fan on
+
+G1 X-20.96 Y1.17 E15.1739
+G1 X-20.65 Y0.86 E15.1836
+; fan off
+
+G1 X-20.51 Y1.14 E15.1905
+; fan on
+
+G1 X-20.19 Y0.83 E15.2002
+; fan off
+
+G1 X-20.11 Y1.17 E15.208
+; fan on
+
+G1 X-19.8 Y0.86 E15.2177
+; fan off
+
+G1 X-19.66 Y1.14 E15.2246
+; fan on
+
+G1 X-19.34 Y0.83 E15.2343
+; fan off
+
+G1 X-19.27 Y1.17 E15.2421
+; fan on
+
+G1 X-18.95 Y0.86 E15.2518
+G1 X-18.81 Y1.14 E15.2587
+; fan off
+
+G1 X-18.49 Y0.83 E15.2684
+; fan on
+
+G1 X-18.42 Y1.17 E15.2761
+G1 X-18.1 Y0.86 E15.2858
+; fan off
+
+G1 X-17.96 Y1.14 E15.2927
+; fan on
+
+G1 X-17.65 Y0.83 E15.3024
+; fan off
+
+G1 X-17.57 Y1.17 E15.3102
+; fan on
+
+G1 X-17.24 Y0.84 E15.3204
+; fan off
+
+G1 X-17.13 Y1.16 E15.3277
+; fan on
+
+G1 X-15.91 Y-0.06 E15.3654
+; fan off
+
+G1 X-15.49 Y-0.06 E15.3747
+G1 X-16.81 Y1.26 E15.4155
+; fan on
+
+G1 X-16.57 Y1.44 E15.4221
+G1 X-15.05 Y-0.07 E15.4688
+; fan off
+
+G1 X-14.93 Y0.23 E15.476
+; fan on
+
+G1 X-16.35 Y1.66 E15.5198
+; fan off
+
+G1 X-16.17 Y1.89 E15.5264
+G1 X-14.94 Y0.67 E15.5643
+; fan on
+
+G1 X-14.94 Y1.09 E15.5735
+G1 X-15.91 Y2.06 E15.6034
+; fan off
+
+G1 X-15.49 Y2.06 E15.6126
+G1 X-14.95 Y1.52 E15.6292
+; fan on
+
+G1 X-15.01 Y2.01 E15.6399
+G1 X-15.11 Y2.11 E15.6428
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E3.6428 F10500
+G1 X-15.01 Y2.01 E3.6428 F1200
+G1 X-14.95 Y1.52 E3.6428
+; fan off
+
+G1 X-15.49 Y2.06 E3.6428
+; fan on
+
+G1 X-15.91 Y2.06 E3.6428
+G1 X-14.94 Y1.09 E3.6428
+; fan off
+
+G1 X-14.94 Y0.67 E3.6428
+G1 X-15.93 Y1.66 E3.6428
+G1 X-15.93 Y1.66 Z1.155 E3.6428 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.26 Y3.69 E3.6428
+G1 X-24.26 Y3.69 Z0.155 E3.6428
+G1 E15.6428 F10500
+; fan on
+
+G1 X-24.27 Y3.67 E15.6433 F1200
+G1 X-22.81 Y3.67 E15.6751
+G1 X-22.64 Y3.71 E15.6788
+G1 X-22.56 Y4.06 E15.6867
+; fan off
+
+G1 X-22.38 Y4.27 E15.6926
+; fan on
+
+G1 X-22.23 Y4.37 E15.6966
+G1 X-21.61 Y4.5 E15.7105
+G1 X-17.31 Y4.5 E15.8043
+; fan off
+
+G1 X-16.75 Y4.36 E15.8169
+G1 X-16.46 Y4.08 E15.8258
+G1 X-16.35 Y3.74 E15.8335
+G1 X-16.21 Y3.67 E15.8369
+G1 X-14.76 Y3.67 E15.8685
+G1 X-14.66 Y3.78 E15.8718
+; fan on
+
+G1 X-14.66 Y6.29 E15.9267
+; fan off
+
+G1 X-16.32 Y6.3 E15.963
+G1 X-16.44 Y5.98 E15.9704
+; fan on
+
+G1 X-16.87 Y5.57 E15.9834
+; fan off
+
+G1 X-17.21 Y5.54 E15.9908
+; fan on
+
+G1 X-21.82 Y5.54 E16.0914
+; fan off
+
+G1 X-22.17 Y5.58 E16.0991
+G1 X-22.58 Y5.98 E16.1116
+G1 X-22.61 Y6.18 E16.116
+G1 X-22.7 Y6.3 E16.1193
+G1 X-24.18 Y6.3 E16.1515
+G1 X-24.35 Y6.25 E16.1554
+; fan on
+
+G1 X-24.35 Y3.81 E16.2087
+; fan off
+
+G1 X-24.27 Y3.67 E16.2121
+G1 X-24.25 Y3.69 E16.2126
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-23.74 Y3.95 E16.2126 F16200
+G1 X-24.07 Y4.28 E16.2226 F1200
+G1 X-24.07 Y4.7 E16.2319
+G1 X-23.33 Y3.96 E16.2547
+; fan on
+
+G1 X-22.91 Y3.97 E16.2639
+G1 X-24.07 Y5.13 E16.2997
+; fan off
+
+G1 X-24.07 Y5.55 E16.309
+G1 X-22.75 Y4.24 E16.3495
+; fan on
+
+G1 X-22.56 Y4.47 E16.3561
+G1 X-24.07 Y5.98 E16.4026
+; fan off
+
+G1 X-23.7 Y6.03 E16.4109
+; fan on
+
+G1 X-22.31 Y4.65 E16.4536
+; fan off
+
+G1 X-21.97 Y4.72 E16.4614
+G1 X-23.31 Y6.07 E16.5029
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-22.19 Y5.37 E16.5029 F16200
+; fan on
+
+G1 X-21.59 Y4.77 E16.5214 F1200
+G1 X-21.17 Y4.77 E16.5306
+G1 X-21.64 Y5.25 E16.5452
+; fan off
+
+G1 X-21.22 Y5.25 E16.5545
+; fan on
+
+G1 X-20.74 Y4.77 E16.5691
+; fan off
+
+G1 X-20.32 Y4.77 E16.5783
+; fan on
+
+G1 X-20.79 Y5.25 E16.5929
+; fan off
+
+G1 X-20.37 Y5.25 E16.6021
+; fan on
+
+G1 X-19.9 Y4.77 E16.6167
+; fan off
+
+G1 X-19.47 Y4.77 E16.626
+; fan on
+
+G1 X-19.94 Y5.25 E16.6405
+; fan off
+
+G1 X-19.52 Y5.25 E16.6498
+; fan on
+
+G1 X-19.05 Y4.77 E16.6644
+; fan off
+
+G1 X-18.62 Y4.77 E16.6736
+; fan on
+
+G1 X-19.09 Y5.25 E16.6882
+; fan off
+
+G1 X-18.67 Y5.25 E16.6975
+; fan on
+
+G1 X-18.2 Y4.77 E16.712
+; fan off
+
+G1 X-17.77 Y4.77 E16.7213
+; fan on
+
+G1 X-18.25 Y5.25 E16.7359
+; fan off
+
+G1 X-17.82 Y5.25 E16.7451
+; fan on
+
+G1 X-17.36 Y4.78 E16.7594
+; fan off
+
+G1 X-16.84 Y4.69 E16.771
+; fan on
+
+G1 X-17.4 Y5.25 E16.7883
+; fan off
+
+G1 X-16.98 Y5.25 E16.7973
+; fan on
+
+G1 X-15.69 Y3.96 E16.8372
+; fan off
+
+G1 X-15.27 Y3.96 E16.8464
+G1 X-16.69 Y5.38 E16.8903
+; fan on
+
+G1 X-16.46 Y5.58 E16.8968
+G1 X-14.94 Y4.06 E16.9436
+; fan off
+
+G1 X-14.94 Y4.49 E16.9529
+; fan on
+
+G1 X-16.25 Y5.8 E16.9933
+; fan off
+
+G1 X-16.07 Y6.04 E16.9999
+G1 X-14.94 Y4.91 E17.0346
+; fan on
+
+G1 X-14.94 Y5.34 E17.0439
+G1 X-15.63 Y6.02 E17.0651
+; fan off
+
+G1 X-15.2 Y6.02 E17.0745
+; fan on
+
+G1 X-14.9 Y5.72 E17.0839
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E5.0839 F10500
+; fan off
+
+G1 X-15.2 Y6.02 E5.0839 F1200
+; fan on
+
+G1 X-15.63 Y6.02 E5.0839
+G1 X-14.94 Y5.34 E5.0839
+; fan off
+
+G1 X-14.94 Y4.91 E5.0839
+G1 X-16.07 Y6.04 E5.0839
+; fan on
+
+G1 X-16.25 Y5.8 E5.0839
+G1 X-15.65 Y5.2 E5.0839
+G1 X-15.65 Y5.2 Z1.155 E5.0839 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.27 Y7.71 E5.0839
+G1 X-24.27 Y7.71 Z0.155 E5.0839
+G1 E17.0839 F10500
+G1 X-24.28 Y7.7 E17.0843 F1200
+G1 X-22.81 Y7.7 E17.1162
+; fan off
+
+G1 X-22.67 Y7.72 E17.1195
+G1 X-22.43 Y8.11 E17.1295
+; fan on
+
+G1 X-22.15 Y8.32 E17.1371
+; fan off
+
+G1 X-21.94 Y8.34 E17.1417
+; fan on
+
+G1 X-17.09 Y8.34 E17.2477
+; fan off
+
+G1 X-16.9 Y8.32 E17.2517
+G1 X-16.55 Y8.17 E17.2599
+G1 X-16.47 Y8.08 E17.2627
+G1 X-16.41 Y7.85 E17.268
+G1 X-16.23 Y7.7 E17.2732
+G1 X-14.76 Y7.7 E17.3053
+G1 X-14.66 Y7.81 E17.3086
+; fan on
+
+G1 X-14.66 Y10.31 E17.3633
+; fan off
+
+G1 X-16.31 Y10.32 E17.3993
+G1 X-16.43 Y10.02 E17.4062
+; fan on
+
+G1 X-16.75 Y9.71 E17.416
+; fan off
+
+G1 X-17.27 Y9.62 E17.4274
+; fan on
+
+G1 X-21.76 Y9.62 E17.5255
+; fan off
+
+G1 X-22.28 Y9.71 E17.5369
+G1 X-22.58 Y10.02 E17.5463
+G1 X-22.61 Y10.21 E17.5505
+G1 X-22.72 Y10.32 E17.5538
+G1 X-24.15 Y10.32 E17.5852
+G1 X-24.35 Y10.28 E17.5894
+; fan on
+
+G1 X-24.35 Y7.84 E17.6428
+; fan off
+
+G1 X-24.28 Y7.7 E17.6463
+G1 X-24.26 Y7.71 E17.6467
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.04 Y8.07 E17.6467 F16200
+G1 X-23.95 Y7.98 E17.6495 F1200
+G1 X-23.53 Y7.98 E17.6587
+G1 X-24.07 Y8.52 E17.6754
+; fan on
+
+G1 X-24.07 Y8.94 E17.6846
+; fan off
+
+G1 X-23.09 Y7.97 E17.7147
+; fan on
+
+G1 X-22.79 Y8.09 E17.7219
+G1 X-24.07 Y9.37 E17.7614
+; fan off
+
+G1 X-24.07 Y9.79 E17.7707
+; fan on
+
+G1 X-22.6 Y8.33 E17.8159
+; fan off
+
+G1 X-22.36 Y8.51 E17.8225
+G1 X-23.88 Y10.03 E17.8697
+; fan on
+
+G1 X-23.46 Y10.03 E17.879
+G1 X-22.06 Y8.63 E17.9222
+; fan off
+
+G1 X-21.64 Y8.64 E17.9314
+; fan on
+
+G1 X-23.06 Y10.06 E17.9754
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-22.01 Y9.43 E17.9754 F16200
+; fan off
+
+G1 X-21.21 Y8.64 E17.9999 F1200
+G1 X-20.79 Y8.64 E18.0091
+; fan on
+
+G1 X-21.5 Y9.35 E18.0312
+; fan off
+
+G1 X-21.08 Y9.35 E18.0405
+; fan on
+
+G1 X-20.37 Y8.64 E18.0625
+; fan off
+
+G1 X-19.94 Y8.64 E18.0718
+G1 X-20.66 Y9.35 E18.0938
+; fan on
+
+G1 X-20.23 Y9.35 E18.1031
+G1 X-19.52 Y8.64 E18.1252
+; fan off
+
+G1 X-19.09 Y8.64 E18.1344
+; fan on
+
+G1 X-19.81 Y9.35 E18.1565
+; fan off
+
+G1 X-19.38 Y9.35 E18.1657
+; fan on
+
+G1 X-18.67 Y8.64 E18.1878
+; fan off
+
+G1 X-18.24 Y8.64 E18.1971
+G1 X-18.96 Y9.35 E18.2191
+; fan on
+
+G1 X-18.53 Y9.35 E18.2284
+G1 X-17.82 Y8.64 E18.2504
+; fan off
+
+G1 X-17.4 Y8.64 E18.2597
+; fan on
+
+G1 X-18.11 Y9.35 E18.2817
+; fan off
+
+G1 X-17.69 Y9.35 E18.291
+; fan on
+
+G1 X-16.89 Y8.55 E18.3157
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-15.85 Y7.94 E18.3157 F16200
+; fan off
+
+G1 X-17.27 Y9.36 E18.3596 F1200
+; fan on
+
+G1 X-16.89 Y9.4 E18.3679
+G1 X-15.47 Y7.98 E18.4117
+; fan off
+
+G1 X-15.04 Y7.98 E18.421
+; fan on
+
+G1 X-16.57 Y9.51 E18.4682
+; fan off
+
+G1 X-16.35 Y9.72 E18.4748
+G1 X-14.94 Y8.31 E18.5184
+; fan on
+
+G1 X-14.94 Y8.73 E18.5276
+G1 X-16.16 Y9.95 E18.5652
+; fan off
+
+G1 X-15.83 Y10.04 E18.5727
+G1 X-14.94 Y9.15 E18.6001
+; fan on
+
+G1 X-14.94 Y9.58 E18.6094
+G1 X-15.44 Y10.08 E18.6249
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E6.6249 F10500
+G1 X-14.94 Y9.58 E6.6249 F1200
+; fan off
+
+G1 X-14.94 Y9.15 E6.6249
+; fan on
+
+G1 X-15.83 Y10.04 E6.6249
+; fan off
+
+G1 X-16.16 Y9.95 E6.6249
+; fan on
+
+G1 X-14.94 Y8.73 E6.6249
+; fan off
+
+G1 X-14.94 Y8.31 E6.6249
+G1 X-15.03 Y8.39 E6.6249
+G1 X-15.03 Y8.39 Z1.155 E6.6249 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.33 Y11.67 E6.6249
+G1 X-24.33 Y11.67 Z0.155 E6.6249
+G1 E18.6249 F10500
+G1 X-24.35 Y11.66 E18.6253 F1200
+G1 X-22.73 Y11.63 E18.6606
+; fan on
+
+G1 X-22.61 Y11.73 E18.6639
+G1 X-22.59 Y11.93 E18.6683
+G1 X-22.26 Y12.24 E18.678
+G1 X-21.94 Y12.26 E18.685
+G1 X-17.16 Y12.26 E18.7894
+; fan off
+
+G1 X-16.76 Y12.24 E18.7981
+G1 X-16.43 Y11.92 E18.8081
+G1 X-16.3 Y11.64 E18.815
+G1 X-14.66 Y11.64 E18.8507
+; fan on
+
+G1 X-14.66 Y14.34 E18.9097
+; fan off
+
+G1 X-16.3 Y14.34 E18.9456
+G1 X-16.44 Y14.04 E18.9529
+G1 X-16.78 Y13.75 E18.9626
+; fan on
+
+G1 X-17.11 Y13.71 E18.9699
+G1 X-21.91 Y13.71 E19.0747
+; fan off
+
+G1 X-22.26 Y13.76 E19.0824
+G1 X-22.58 Y14.04 E19.0917
+G1 X-22.61 Y14.24 E19.096
+G1 X-22.72 Y14.34 E19.0993
+G1 X-24.15 Y14.34 E19.1306
+G1 X-24.35 Y14.31 E19.1348
+; fan on
+
+G1 X-24.35 Y11.66 E19.1928
+; fan off
+
+G1 X-24.33 Y11.67 E19.1933
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.08 Y12.35 E19.1933 F16200
+G1 X-23.65 Y11.92 E19.2065 F1200
+G1 X-23.23 Y11.92 E19.2158
+G1 X-24.07 Y12.76 E19.2418
+; fan on
+
+G1 X-24.07 Y13.19 E19.251
+G1 X-22.86 Y11.98 E19.2883
+; fan off
+
+G1 X-22.68 Y12.22 E19.2949
+G1 X-24.07 Y13.61 E19.3377
+; fan on
+
+G1 X-24.07 Y14.04 E19.347
+G1 X-22.46 Y12.43 E19.3967
+; fan off
+
+G1 X-22.14 Y12.53 E19.404
+G1 X-23.67 Y14.06 E19.4512
+; fan on
+
+G1 X-23.24 Y14.06 E19.4605
+G1 X-21.73 Y12.55 E19.5071
+; fan off
+
+G1 X-21.31 Y12.55 E19.5164
+; fan on
+
+G1 X-22.24 Y13.48 E19.5452
+; fan off
+
+G1 X-21.76 Y13.42 E19.5559
+; fan on
+
+G1 X-20.88 Y12.55 E19.5829
+; fan off
+
+G1 X-20.46 Y12.55 E19.5922
+G1 X-21.34 Y13.43 E19.6194
+; fan on
+
+G1 X-20.92 Y13.43 E19.6287
+G1 X-20.03 Y12.55 E19.6559
+; fan off
+
+G1 X-19.61 Y12.55 E19.6652
+; fan on
+
+G1 X-20.49 Y13.43 E19.6925
+; fan off
+
+G1 X-20.07 Y13.43 E19.7017
+G1 X-19.18 Y12.55 E19.729
+; fan on
+
+G1 X-18.76 Y12.55 E19.7382
+G1 X-19.64 Y13.43 E19.7655
+; fan off
+
+G1 X-19.22 Y13.43 E19.7747
+; fan on
+
+G1 X-18.34 Y12.55 E19.802
+; fan off
+
+G1 X-17.91 Y12.55 E19.8113
+; fan on
+
+G1 X-18.79 Y13.43 E19.8385
+; fan off
+
+G1 X-18.37 Y13.43 E19.8478
+G1 X-17.49 Y12.55 E19.875
+; fan on
+
+G1 X-17.06 Y12.54 E19.8844
+G1 X-17.95 Y13.43 E19.9117
+; fan off
+
+G1 X-17.52 Y13.43 E19.921
+; fan on
+
+G1 X-16.03 Y11.94 E19.9668
+; fan off
+
+G1 X-15.59 Y11.92 E19.9765
+G1 X-17.1 Y13.44 E20.0232
+; fan on
+
+G1 X-16.71 Y13.47 E20.0317
+G1 X-15.15 Y11.91 E20.0799
+; fan off
+
+G1 X-14.93 Y12.11 E20.0865
+; fan on
+
+G1 X-16.46 Y13.64 E20.1338
+; fan off
+
+G1 X-16.25 Y13.86 E20.1404
+G1 X-14.94 Y12.55 E20.1808
+; fan on
+
+G1 X-14.94 Y12.97 E20.19
+G1 X-16.03 Y14.06 E20.2235
+; fan off
+
+G1 X-15.6 Y14.06 E20.2328
+G1 X-14.94 Y13.4 E20.2532
+; fan on
+
+G1 X-14.94 Y13.82 E20.2625
+G1 X-15.23 Y14.1 E20.2712
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E8.2712 F10500
+; fan off
+
+G1 X-14.94 Y13.82 E8.2712 F1200
+; fan on
+
+G1 X-14.94 Y13.4 E8.2712
+G1 X-15.6 Y14.06 E8.2712
+; fan off
+
+G1 X-16.03 Y14.06 E8.2712
+; fan on
+
+G1 X-14.94 Y12.97 E8.2712
+; fan off
+
+G1 X-14.94 Y12.55 E8.2712
+G1 X-15.55 Y13.15 E8.2712
+G1 X-15.55 Y13.15 Z1.155 E8.2712 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.33 Y15.7 E8.2712
+G1 X-24.33 Y15.7 Z0.155 E8.2712
+G1 E20.2712 F10500
+; fan on
+
+G1 X-24.35 Y15.69 E20.2717 F1200
+G1 X-24.15 Y15.66 E20.2759
+G1 X-22.72 Y15.66 E20.3072
+; fan off
+
+G1 X-22.61 Y15.76 E20.3105
+G1 X-22.58 Y15.95 E20.3148
+G1 X-22.34 Y16.13 E20.3212
+G1 X-22 Y16.19 E20.3287
+; fan on
+
+G1 X-17.01 Y16.19 E20.4377
+; fan off
+
+G1 X-16.68 Y16.14 E20.4449
+G1 X-16.44 Y15.95 E20.4516
+G1 X-16.31 Y15.66 E20.4586
+G1 X-14.66 Y15.66 E20.4946
+G1 X-14.66 Y18.15 E20.5489
+; fan on
+
+G1 X-14.68 Y18.35 E20.5533
+G1 X-16.28 Y18.35 E20.5883
+G1 X-16.46 Y18.04 E20.5961
+G1 X-16.8 Y17.84 E20.6047
+G1 X-21.98 Y17.84 E20.7177
+; fan off
+
+G1 X-22.18 Y17.85 E20.722
+G1 X-22.37 Y17.88 E20.7263
+G1 X-22.58 Y18.08 E20.7327
+G1 X-22.61 Y18.27 E20.7369
+G1 X-22.74 Y18.35 E20.7403
+G1 X-24.34 Y18.35 E20.7752
+G1 X-24.35 Y15.69 E20.8333
+; fan on
+
+G1 X-24.33 Y15.7 E20.8337
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-23.84 Y15.94 E20.8337 F16200
+G1 X-24.07 Y16.16 E20.8406 F1200
+G1 X-24.07 Y16.58 E20.8498
+G1 X-23.43 Y15.94 E20.8696
+G1 X-23 Y15.94 E20.8788
+G1 X-24.07 Y17.01 E20.9116
+; fan off
+
+G1 X-24.07 Y17.43 E20.9209
+; fan on
+
+G1 X-22.77 Y16.13 E20.9609
+; fan off
+
+G1 X-22.54 Y16.33 E20.9675
+G1 X-24.08 Y17.87 E21.015
+; fan on
+
+G1 X-23.87 Y18.08 E21.0216
+G1 X-22.24 Y16.45 E21.072
+; fan off
+
+G1 X-21.84 Y16.47 E21.0808
+; fan on
+
+G1 X-23.43 Y18.07 E21.13
+; fan off
+
+G1 X-22.99 Y18.06 E21.1395
+G1 X-21.41 Y16.48 E21.1883
+; fan on
+
+G1 X-20.99 Y16.48 E21.1976
+G1 X-22.07 Y17.55 E21.2308
+; fan off
+
+G1 X-21.64 Y17.55 E21.2401
+; fan on
+
+G1 X-20.57 Y16.48 E21.2732
+; fan off
+
+G1 X-20.14 Y16.48 E21.2825
+G1 X-21.21 Y17.55 E21.3156
+; fan on
+
+G1 X-20.79 Y17.55 E21.3248
+G1 X-19.72 Y16.48 E21.358
+; fan off
+
+G1 X-19.29 Y16.48 E21.3672
+; fan on
+
+G1 X-20.37 Y17.55 E21.4003
+; fan off
+
+G1 X-19.94 Y17.55 E21.4096
+G1 X-18.87 Y16.48 E21.4427
+; fan on
+
+G1 X-18.44 Y16.48 E21.452
+G1 X-19.52 Y17.55 E21.4851
+; fan off
+
+G1 X-19.09 Y17.55 E21.4944
+; fan on
+
+G1 X-18.02 Y16.48 E21.5275
+; fan off
+
+G1 X-17.6 Y16.48 E21.5368
+G1 X-18.67 Y17.55 E21.5699
+; fan on
+
+G1 X-18.25 Y17.55 E21.5791
+G1 X-17.18 Y16.49 E21.6119
+; fan off
+
+G1 X-16.67 Y16.4 E21.6233
+; fan on
+
+G1 X-17.82 Y17.55 E21.6589
+; fan off
+
+G1 X-17.4 Y17.55 E21.6682
+; fan on
+
+G1 X-15.79 Y15.94 E21.7177
+; fan off
+
+G1 X-15.37 Y15.94 E21.727
+G1 X-16.98 Y17.55 E21.7767
+; fan on
+
+G1 X-16.59 Y17.59 E21.7851
+G1 X-14.94 Y15.94 E21.8361
+; fan off
+
+G1 X-14.94 Y16.37 E21.8453
+G1 X-16.36 Y17.78 E21.8889
+; fan on
+
+G1 X-16.16 Y18.01 E21.8955
+G1 X-14.94 Y16.79 E21.9332
+G1 X-14.94 Y17.22 E21.9424
+G1 X-15.8 Y18.07 E21.9688
+; fan off
+
+G1 X-15.37 Y18.07 E21.9781
+G1 X-14.9 Y17.59 E21.9927
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E9.9927 F10500
+; fan on
+
+G1 X-15.37 Y18.07 E9.9927 F1200
+; fan off
+
+G1 X-15.8 Y18.07 E9.9927
+; fan on
+
+G1 X-14.94 Y17.22 E9.9927
+; fan off
+
+G1 X-14.94 Y16.79 E9.9927
+; fan on
+
+G1 X-16.16 Y18.01 E9.9927
+; fan off
+
+G1 X-16.36 Y17.78 E9.9927
+G1 X-16.18 Y17.61 E9.9927
+G1 X-16.18 Y17.61 Z1.155 E9.9927 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.33 Y-8.27 E9.9927
+G1 X-24.33 Y-8.27 Z0.155 E9.9927
+G1 E21.9927 F10500
+G1 X-24.35 Y-8.28 E21.9932 F1200
+G1 X-24.15 Y-8.32 E21.9974
+G1 X-22.72 Y-8.32 E22.0288
+; fan on
+
+G1 X-22.61 Y-8.2 E22.0321
+G1 X-22.6 Y-8.05 E22.0354
+G1 X-22.45 Y-7.68 E22.0441
+G1 X-22.17 Y-7.41 E22.0527
+G1 X-21.68 Y-7.25 E22.0638
+; fan off
+
+G1 X-21.31 Y-7.25 E22.072
+; fan on
+
+G1 X-17.41 Y-7.25 E22.157
+; fan off
+
+G1 X-17.19 Y-7.28 E22.1619
+G1 X-16.84 Y-7.41 E22.17
+G1 X-16.48 Y-7.79 E22.1814
+G1 X-16.32 Y-8.32 E22.1935
+G1 X-14.66 Y-8.31 E22.2297
+; fan on
+
+G1 X-14.66 Y-5.81 E22.2843
+; fan off
+
+G1 X-14.76 Y-5.7 E22.2876
+G1 X-16.22 Y-5.7 E22.3195
+; fan on
+
+G1 X-16.34 Y-5.78 E22.3227
+G1 X-16.44 Y-6.11 E22.3303
+G1 X-17 Y-6.66 E22.3474
+G1 X-17.41 Y-6.76 E22.3567
+G1 X-21.56 Y-6.76 E22.4472
+; fan off
+
+G1 X-22.06 Y-6.65 E22.4584
+G1 X-22.57 Y-6.12 E22.4745
+G1 X-22.64 Y-5.73 E22.483
+G1 X-22.81 Y-5.7 E22.4868
+G1 X-24.28 Y-5.7 E22.5188
+; fan on
+
+G1 X-24.35 Y-5.84 E22.5222
+G1 X-24.35 Y-8.28 E22.5756
+; fan off
+
+G1 X-24.33 Y-8.28 E22.5761
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-23.62 Y-8.05 E22.5761 F16200
+G1 X-24.07 Y-7.6 E22.5898 F1200
+G1 X-24.07 Y-7.18 E22.5991
+G1 X-23.2 Y-8.04 E22.6258
+; fan on
+
+G1 X-22.87 Y-7.95 E22.6334
+G1 X-24.07 Y-6.75 E22.6704
+; fan off
+
+G1 X-24.07 Y-6.33 E22.6797
+; fan on
+
+G1 X-22.75 Y-7.65 E22.7204
+; fan off
+
+G1 X-22.56 Y-7.41 E22.727
+G1 X-23.99 Y-5.98 E22.771
+; fan on
+
+G1 X-23.57 Y-5.98 E22.7802
+G1 X-22.34 Y-7.2 E22.818
+; fan off
+
+G1 X-22.05 Y-7.07 E22.825
+; fan on
+
+G1 X-23.19 Y-5.94 E22.8602
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E10.8602 F10500
+; fan off
+
+G1 X-22.05 Y-7.07 E10.8602 F1200
+; fan on
+
+G1 X-22.34 Y-7.2 E10.8602
+G1 X-23.57 Y-5.98 E10.8602
+; fan off
+
+G1 X-23.99 Y-5.98 E10.8602
+G1 X-23.34 Y-6.63 E10.8602
+G1 X-23.34 Y-6.63 Z1.155 E10.8602 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-16.91 Y-7.13 E10.8602
+G1 X-16.91 Y-7.13 Z0.155 E10.8602
+G1 E22.8602 F10500
+; fan on
+
+G1 X-17 Y-7.03 E22.863 F1200
+G1 X-16.78 Y-6.83 E22.8696
+G1 X-15.57 Y-8.03 E22.9069
+; fan off
+
+G1 X-15.15 Y-8.03 E22.9162
+G1 X-16.56 Y-6.62 E22.9597
+; fan on
+
+G1 X-16.35 Y-6.41 E22.9663
+G1 X-14.94 Y-7.82 E23.0098
+; fan off
+
+G1 X-14.94 Y-7.39 E23.0191
+; fan on
+
+G1 X-16.17 Y-6.16 E23.0571
+; fan off
+
+G1 X-15.94 Y-5.97 E23.0636
+G1 X-14.94 Y-6.97 E23.0945
+; fan on
+
+G1 X-14.94 Y-6.54 E23.1038
+G1 X-15.5 Y-5.98 E23.1211
+; fan off
+
+G1 X-15.08 Y-5.98 E23.1304
+; fan on
+
+G1 X-14.94 Y-6.12 E23.1347
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E11.1347 F10500
+G1 X-15.08 Y-5.98 E11.1347 F1200
+G1 X-15.5 Y-5.98 E11.1347
+; fan off
+
+G1 X-14.94 Y-6.54 E11.1347
+; fan on
+
+G1 X-14.94 Y-6.97 E11.1347
+G1 X-15.94 Y-5.97 E11.1347
+; fan off
+
+G1 X-16.17 Y-6.16 E11.1347
+G1 X-15.15 Y-7.18 E11.1347
+G1 X-15.15 Y-7.18 Z1.155 E11.1347 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.24 Y-4.28 E11.1347
+G1 X-11.24 Y-4.28 Z0.155 E11.1347
+G1 E23.1347 F10500
+; fan on
+
+G1 X-11.24 Y-4.3 E23.1352 F1200
+G1 X-9.76 Y-4.3 E23.1675
+G1 X-9.65 Y-4.21 E23.1706
+G1 X-9.54 Y-3.87 E23.1784
+; fan off
+
+G1 X-9.01 Y-3.37 E23.1943
+; fan on
+
+G1 X-8.61 Y-3.33 E23.2031
+G1 X-4.36 Y-3.33 E23.2958
+; fan off
+
+G1 X-4.21 Y-3.35 E23.2992
+G1 X-3.81 Y-3.48 E23.3084
+G1 X-3.49 Y-3.8 E23.3183
+G1 X-3.36 Y-4.3 E23.3295
+G1 X-1.7 Y-4.3 E23.3657
+; fan on
+
+G1 X-1.7 Y-1.76 E23.4211
+; fan off
+
+G1 X-1.82 Y-1.67 E23.4244
+G1 X-3.27 Y-1.67 E23.4559
+; fan on
+
+G1 X-3.37 Y-1.78 E23.4592
+G1 X-3.39 Y-1.91 E23.462
+G1 X-3.55 Y-2.3 E23.4712
+G1 X-3.74 Y-2.49 E23.4771
+; fan off
+
+G1 X-4.33 Y-2.68 E23.4906
+; fan on
+
+G1 X-4.55 Y-2.72 E23.4955
+G1 X-8.39 Y-2.72 E23.5793
+; fan off
+
+G1 X-9.12 Y-2.58 E23.5956
+G1 X-9.53 Y-2.18 E23.6081
+G1 X-9.56 Y-2.03 E23.6114
+G1 X-9.68 Y-1.67 E23.6197
+G1 X-11.33 Y-1.67 E23.6557
+; fan on
+
+G1 X-11.33 Y-4.18 E23.7103
+; fan off
+
+G1 X-11.24 Y-4.3 E23.7136
+G1 X-11.23 Y-4.29 E23.7141
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-10.66 Y-4.04 E23.7141 F16200
+G1 X-11.04 Y-3.66 E23.7256 F1200
+; fan on
+
+G1 X-11.04 Y-3.24 E23.7349
+G1 X-10.24 Y-4.03 E23.7594
+; fan off
+
+G1 X-9.88 Y-3.97 E23.7674
+G1 X-11.04 Y-2.81 E23.803
+; fan on
+
+G1 X-11.04 Y-2.39 E23.8122
+G1 X-9.73 Y-3.69 E23.8525
+; fan off
+
+G1 X-9.53 Y-3.47 E23.859
+; fan on
+
+G1 X-11.04 Y-1.96 E23.9056
+; fan off
+
+G1 X-10.61 Y-1.96 E23.9148
+G1 X-9.31 Y-3.26 E23.955
+; fan on
+
+G1 X-9.05 Y-3.1 E23.9617
+G1 X-10.23 Y-1.92 E23.9982
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E11.9982 F10500
+; fan off
+
+G1 X-9.05 Y-3.1 E11.9982 F1200
+; fan on
+
+G1 X-9.31 Y-3.26 E11.9982
+G1 X-10.61 Y-1.96 E11.9982
+; fan off
+
+G1 X-11.04 Y-1.96 E11.9982
+; fan on
+
+G1 X-10.5 Y-2.5 E11.9982
+G1 X-10.5 Y-2.5 Z1.155 E11.9982 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-3.9 Y-3.16 E11.9982
+G1 X-3.9 Y-3.16 Z0.155 E11.9982
+G1 E23.9982 F10500
+; fan off
+
+G1 X-4.12 Y-2.94 E24.005 F1200
+; fan on
+
+G1 X-3.83 Y-2.8 E24.012
+G1 X-2.61 Y-4.02 E24.0497
+; fan off
+
+G1 X-2.19 Y-4.02 E24.059
+G1 X-3.54 Y-2.67 E24.1008
+; fan on
+
+G1 X-3.34 Y-2.45 E24.1073
+G1 X-1.98 Y-3.81 E24.1493
+; fan off
+
+G1 X-1.98 Y-3.39 E24.1586
+; fan on
+
+G1 X-3.2 Y-2.16 E24.1964
+; fan off
+
+G1 X-2.99 Y-1.95 E24.203
+G1 X-1.98 Y-2.96 E24.2342
+; fan on
+
+G1 X-1.98 Y-2.54 E24.2435
+G1 X-2.55 Y-1.96 E24.2612
+; fan off
+
+G1 X-2.13 Y-1.96 E24.2705
+; fan on
+
+G1 X-1.97 Y-2.12 E24.2752
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E12.2752 F10500
+G1 X-2.13 Y-1.96 E12.2752 F1200
+; fan off
+
+G1 X-2.55 Y-1.96 E12.2752
+; fan on
+
+G1 X-1.98 Y-2.54 E12.2752
+; fan off
+
+G1 X-1.98 Y-2.96 E12.2752
+; fan on
+
+G1 X-2.99 Y-1.95 E12.2752
+; fan off
+
+G1 X-3.2 Y-2.16 E12.2752
+G1 X-2.22 Y-3.14 E12.2752
+G1 X-2.22 Y-3.14 Z1.155 E12.2752 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.71 Y-0.26 E12.2752
+G1 X1.71 Y-0.26 Z0.155 E12.2752
+G1 E24.2752 F10500
+; fan on
+
+G1 X1.7 Y-0.27 E24.2756 F1200
+G1 X1.83 Y-0.36 E24.279
+G1 X3.26 Y-0.36 E24.3104
+; fan off
+
+G1 X3.37 Y-0.25 E24.3136
+G1 X3.39 Y-0.11 E24.3168
+; fan on
+
+G1 X3.55 Y0.26 E24.3256
+; fan off
+
+G1 X3.72 Y0.43 E24.3309
+; fan on
+
+G1 X4.19 Y0.6 E24.3418
+; fan off
+
+G1 X4.43 Y0.6 E24.3469
+; fan on
+
+G1 X8.77 Y0.6 E24.4416
+; fan off
+
+G1 X9.22 Y0.47 E24.4518
+G1 X9.54 Y0.15 E24.4617
+G1 X9.56 Y0 E24.4649
+G1 X9.68 Y-0.36 E24.4732
+G1 X11.33 Y-0.36 E24.5091
+; fan on
+
+G1 X11.33 Y2.36 E24.5683
+; fan off
+
+G1 X9.68 Y2.36 E24.6042
+; fan on
+
+G1 X9.56 Y2.01 E24.6122
+; fan off
+
+G1 X9.54 Y1.85 E24.6157
+; fan on
+
+G1 X9.21 Y1.52 E24.6258
+; fan off
+
+G1 X8.76 Y1.4 E24.636
+; fan on
+
+G1 X4.26 Y1.4 E24.7342
+; fan off
+
+G1 X4.11 Y1.42 E24.7376
+G1 X3.71 Y1.58 E24.747
+G1 X3.55 Y1.73 E24.7518
+G1 X3.39 Y2.1 E24.7605
+G1 X3.37 Y2.25 E24.7638
+G1 X3.26 Y2.36 E24.767
+G1 X1.83 Y2.36 E24.7984
+; fan on
+
+G1 X1.7 Y2.27 E24.8018
+G1 X1.7 Y-0.27 E24.8572
+; fan off
+
+G1 X1.72 Y-0.27 E24.8576
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X2.35 Y-0.07 E24.8576 F16200
+G1 X1.98 Y0.3 E24.869 F1200
+G1 X1.98 Y0.72 E24.8783
+G1 X2.76 Y-0.07 E24.9026
+; fan on
+
+G1 X3.12 Y0.01 E24.9105
+G1 X1.98 Y1.15 E24.9456
+; fan off
+
+G1 X1.98 Y1.57 E24.9549
+G1 X3.25 Y0.29 E24.9942
+; fan on
+
+G1 X3.43 Y0.54 E25.0009
+G1 X1.97 Y2 E25.0459
+; fan off
+
+G1 X2.33 Y2.07 E25.0538
+; fan on
+
+G1 X3.68 Y0.72 E25.0955
+; fan off
+
+G1 X3.97 Y0.85 E25.1025
+G1 X2.71 Y2.11 E25.1413
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X4.1 Y1.14 E25.1413 F16200
+; fan on
+
+G1 X4.41 Y0.84 E25.1509 F1200
+G1 X4.5 Y1.16 E25.1583
+G1 X4.8 Y0.87 E25.1674
+G1 X4.96 Y1.13 E25.1741
+; fan off
+
+G1 X5.25 Y0.84 E25.1831
+; fan on
+
+G1 X5.35 Y1.16 E25.1906
+G1 X5.65 Y0.87 E25.1996
+; fan off
+
+G1 X5.81 Y1.13 E25.2064
+; fan on
+
+G1 X6.1 Y0.84 E25.2154
+; fan off
+
+G1 X6.2 Y1.16 E25.2228
+; fan on
+
+G1 X6.49 Y0.87 E25.2319
+; fan off
+
+G1 X6.66 Y1.13 E25.2386
+; fan on
+
+G1 X6.95 Y0.84 E25.2477
+; fan off
+
+G1 X7.05 Y1.16 E25.2551
+; fan on
+
+G1 X7.34 Y0.87 E25.2642
+G1 X7.51 Y1.13 E25.2709
+; fan off
+
+G1 X7.8 Y0.84 E25.28
+; fan on
+
+G1 X7.9 Y1.16 E25.2874
+G1 X8.19 Y0.87 E25.2964
+; fan off
+
+G1 X8.35 Y1.13 E25.3032
+; fan on
+
+G1 X8.65 Y0.84 E25.3123
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X9.16 Y0.75 E25.3123 F16200
+; fan off
+
+G1 X8.78 Y1.13 E25.3241 F1200
+; fan on
+
+G1 X9.13 Y1.2 E25.3319
+G1 X10.39 Y-0.06 E25.3709
+; fan off
+
+G1 X10.82 Y-0.06 E25.3801
+G1 X9.41 Y1.35 E25.4235
+; fan on
+
+G1 X9.63 Y1.55 E25.4301
+G1 X11.04 Y0.15 E25.4735
+; fan off
+
+G1 X11.04 Y0.57 E25.4828
+; fan on
+
+G1 X9.81 Y1.79 E25.5205
+; fan off
+
+G1 X9.96 Y2.07 E25.5274
+G1 X11.04 Y1 E25.5606
+; fan on
+
+G1 X11.04 Y1.42 E25.5699
+G1 X10.39 Y2.06 E25.5897
+; fan off
+
+G1 X10.82 Y2.06 E25.599
+; fan on
+
+G1 X11.08 Y1.8 E25.607
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E13.607 F10500
+G1 X10.82 Y2.06 E13.607 F1200
+; fan off
+
+G1 X10.39 Y2.06 E13.607
+; fan on
+
+G1 X11.04 Y1.42 E13.607
+; fan off
+
+G1 X11.04 Y1 E13.607
+; fan on
+
+G1 X9.96 Y2.07 E13.607
+; fan off
+
+G1 X9.81 Y1.79 E13.607
+G1 X10.55 Y1.06 E13.607
+G1 X10.55 Y1.06 Z1.155 E13.607 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.67 Y3.79 E13.607
+G1 X14.67 Y3.79 Z0.155 E13.607
+G1 E25.607 F10500
+; fan on
+
+G1 X14.66 Y3.78 E25.6075 F1200
+G1 X14.76 Y3.67 E25.6107
+G1 X16.21 Y3.67 E25.6424
+; fan off
+
+G1 X16.35 Y3.74 E25.6457
+G1 X16.45 Y4.09 E25.6536
+G1 X16.88 Y4.48 E25.6663
+; fan on
+
+G1 X17.27 Y4.52 E25.6748
+G1 X21.76 Y4.52 E25.7728
+; fan off
+
+G1 X22.11 Y4.47 E25.7806
+G1 X22.28 Y4.38 E25.7849
+G1 X22.57 Y4.07 E25.7939
+G1 X22.65 Y3.71 E25.8021
+G1 X22.81 Y3.67 E25.8057
+G1 X24.27 Y3.67 E25.8375
+; fan on
+
+G1 X24.35 Y3.81 E25.8409
+G1 X24.35 Y6.25 E25.8943
+; fan off
+
+G1 X24.18 Y6.3 E25.8982
+G1 X22.7 Y6.3 E25.9303
+; fan on
+
+G1 X22.61 Y6.18 E25.9336
+; fan off
+
+G1 X22.58 Y5.98 E25.938
+; fan on
+
+G1 X22.15 Y5.54 E25.9515
+; fan off
+
+G1 X21.72 Y5.44 E25.9611
+; fan on
+
+G1 X17.33 Y5.44 E26.057
+; fan off
+
+G1 X16.99 Y5.49 E26.0645
+G1 X16.63 Y5.76 E26.0743
+G1 X16.37 Y6.1 E26.0837
+G1 X16.33 Y6.3 E26.0881
+G1 X14.66 Y6.29 E26.1245
+; fan on
+
+G1 X14.66 Y3.78 E26.1794
+; fan off
+
+G1 X14.68 Y3.78 E26.1798
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X15.29 Y3.95 E26.1798 F16200
+G1 X14.94 Y4.3 E26.1906 F1200
+G1 X14.94 Y4.73 E26.1999
+G1 X15.7 Y3.96 E26.2234
+; fan on
+
+G1 X16.12 Y3.97 E26.2324
+G1 X14.94 Y5.15 E26.2688
+; fan off
+
+G1 X14.94 Y5.57 E26.278
+; fan on
+
+G1 X16.25 Y4.26 E26.3185
+; fan off
+
+G1 X16.46 Y4.48 E26.3251
+G1 X14.94 Y6 E26.372
+; fan on
+
+G1 X15.34 Y6.03 E26.3808
+G1 X16.69 Y4.67 E26.4226
+; fan off
+
+G1 X17 Y4.79 E26.4297
+; fan on
+
+G1 X15.72 Y6.07 E26.4691
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X16.97 Y5.25 E26.4691 F16200
+; fan off
+
+G1 X17.4 Y4.82 E26.4824 F1200
+G1 X17.82 Y4.82 E26.4917
+G1 X17.48 Y5.16 E26.5021
+; fan on
+
+G1 X17.91 Y5.16 E26.5114
+; fan off
+
+G1 X18.24 Y4.82 E26.5218
+; fan on
+
+G1 X18.67 Y4.82 E26.5311
+G1 X18.33 Y5.16 E26.5415
+; fan off
+
+G1 X18.75 Y5.16 E26.5508
+; fan on
+
+G1 X19.09 Y4.82 E26.5612
+; fan off
+
+G1 X19.52 Y4.82 E26.5705
+; fan on
+
+G1 X19.18 Y5.16 E26.5809
+; fan off
+
+G1 X19.6 Y5.16 E26.5902
+; fan on
+
+G1 X19.94 Y4.82 E26.6007
+G1 X20.36 Y4.82 E26.6099
+; fan off
+
+G1 X20.03 Y5.16 E26.6204
+; fan on
+
+G1 X20.45 Y5.16 E26.6296
+; fan off
+
+G1 X20.79 Y4.82 E26.6401
+; fan on
+
+G1 X21.21 Y4.82 E26.6493
+G1 X20.88 Y5.16 E26.6598
+; fan off
+
+G1 X21.3 Y5.16 E26.669
+; fan on
+
+G1 X21.63 Y4.83 E26.6791
+; fan off
+
+G1 X22.16 Y4.72 E26.6909
+; fan on
+
+G1 X21.72 Y5.16 E26.7045
+G1 X22.09 Y5.21 E26.7128
+G1 X23.34 Y3.96 E26.7513
+; fan off
+
+G1 X23.76 Y3.96 E26.7606
+G1 X22.35 Y5.37 E26.8041
+; fan on
+
+G1 X22.57 Y5.58 E26.8106
+G1 X24.07 Y4.09 E26.8567
+; fan off
+
+G1 X24.07 Y4.51 E26.866
+; fan on
+
+G1 X22.78 Y5.8 E26.9058
+; fan off
+
+G1 X22.96 Y6.04 E26.9124
+G1 X24.07 Y4.93 E26.9465
+; fan on
+
+G1 X24.07 Y5.36 E26.9557
+G1 X23.4 Y6.02 E26.9762
+; fan off
+
+G1 X23.83 Y6.02 E26.9856
+; fan on
+
+G1 X24.11 Y5.74 E26.9942
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E14.9942 F10500
+; fan off
+
+G1 X23.83 Y6.02 E14.9942 F1200
+; fan on
+
+G1 X23.4 Y6.02 E14.9942
+; fan off
+
+G1 X24.07 Y5.36 E14.9942
+; fan on
+
+G1 X24.07 Y4.93 E14.9942
+G1 X22.96 Y6.04 E14.9942
+; fan off
+
+G1 X22.78 Y5.8 E14.9942
+G1 X23.45 Y5.13 E14.9942
+G1 X23.45 Y5.13 Z1.155 E14.9942 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.76 Y7.71 E14.9942
+G1 X14.76 Y7.71 Z0.155 E14.9942
+G1 E26.9942 F10500
+; fan on
+
+G1 X14.76 Y7.7 E26.9946 F1200
+G1 X16.23 Y7.7 E27.0268
+; fan off
+
+G1 X16.41 Y7.85 E27.0319
+G1 X16.46 Y8.09 E27.0374
+; fan on
+
+G1 X16.65 Y8.29 E27.0435
+G1 X17.15 Y8.45 E27.0548
+G1 X21.66 Y8.45 E27.1532
+; fan off
+
+G1 X22.04 Y8.42 E27.1615
+G1 X22.17 Y8.33 E27.1651
+G1 X22.36 Y8.29 E27.1691
+G1 X22.47 Y8.18 E27.1727
+G1 X22.65 Y7.72 E27.1834
+G1 X22.81 Y7.7 E27.1871
+G1 X24.28 Y7.7 E27.219
+G1 X24.35 Y7.84 E27.2224
+; fan on
+
+G1 X24.35 Y10.28 E27.2758
+; fan off
+
+G1 X24.16 Y10.32 E27.28
+G1 X22.72 Y10.32 E27.3114
+G1 X22.61 Y10.21 E27.3147
+G1 X22.58 Y10.01 E27.3191
+; fan on
+
+G1 X22.16 Y9.6 E27.3319
+; fan off
+
+G1 X21.83 Y9.57 E27.3392
+; fan on
+
+G1 X17.27 Y9.57 E27.4388
+; fan off
+
+G1 X16.87 Y9.6 E27.4476
+G1 X16.43 Y10.02 E27.4609
+G1 X16.31 Y10.32 E27.4678
+G1 X14.66 Y10.31 E27.5038
+; fan on
+
+G1 X14.66 Y7.81 E27.5585
+; fan off
+
+G1 X14.76 Y7.7 E27.5618
+G1 X14.77 Y7.71 E27.5622
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.97 Y8.09 E27.5622 F16200
+G1 X15.08 Y7.98 E27.5656 F1200
+G1 X15.5 Y7.98 E27.5748
+G1 X14.94 Y8.54 E27.5922
+G1 X14.94 Y8.97 E27.6015
+; fan on
+
+G1 X15.94 Y7.97 E27.6323
+; fan off
+
+G1 X16.19 Y8.15 E27.6389
+G1 X14.94 Y9.39 E27.6773
+; fan on
+
+G1 X14.94 Y9.82 E27.6866
+G1 X16.37 Y8.39 E27.7305
+; fan off
+
+G1 X16.61 Y8.58 E27.7371
+; fan on
+
+G1 X15.15 Y10.03 E27.7821
+; fan off
+
+G1 X15.57 Y10.03 E27.7913
+G1 X16.91 Y8.7 E27.8325
+; fan on
+
+G1 X17.31 Y8.72 E27.8412
+G1 X15.97 Y10.06 E27.8824
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X17.13 Y9.32 E27.8824 F16200
+; fan off
+
+G1 X17.73 Y8.73 E27.9007 F1200
+; fan on
+
+G1 X18.15 Y8.73 E27.91
+G1 X17.61 Y9.27 E27.9269
+; fan off
+
+G1 X18.03 Y9.27 E27.9361
+; fan on
+
+G1 X18.58 Y8.73 E27.953
+; fan off
+
+G1 X19 Y8.73 E27.9623
+; fan on
+
+G1 X18.45 Y9.27 E27.9791
+; fan off
+
+G1 X18.88 Y9.27 E27.9884
+G1 X19.42 Y8.73 E28.0053
+; fan on
+
+G1 X19.85 Y8.73 E28.0145
+G1 X19.3 Y9.27 E28.0314
+; fan off
+
+G1 X19.73 Y9.27 E28.0407
+; fan on
+
+G1 X20.27 Y8.73 E28.0575
+; fan off
+
+G1 X20.7 Y8.73 E28.0668
+; fan on
+
+G1 X20.15 Y9.27 E28.0837
+; fan off
+
+G1 X20.58 Y9.27 E28.0929
+; fan on
+
+G1 X21.12 Y8.73 E28.1098
+; fan off
+
+G1 X21.55 Y8.73 E28.1191
+; fan on
+
+G1 X21 Y9.27 E28.1359
+; fan off
+
+G1 X21.42 Y9.27 E28.1452
+G1 X22.03 Y8.67 E28.164
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X23.19 Y7.94 E28.164 F16200
+; fan on
+
+G1 X21.84 Y9.28 E28.2055 F1200
+; fan off
+
+G1 X22.22 Y9.32 E28.2138
+; fan on
+
+G1 X23.57 Y7.98 E28.2553
+; fan off
+
+G1 X23.99 Y7.98 E28.2645
+G1 X22.46 Y9.51 E28.3116
+; fan on
+
+G1 X22.68 Y9.72 E28.3182
+G1 X24.07 Y8.33 E28.361
+; fan off
+
+G1 X24.07 Y8.75 E28.3703
+; fan on
+
+G1 X22.86 Y9.96 E28.4075
+; fan off
+
+G1 X23.2 Y10.04 E28.4151
+G1 X24.07 Y9.18 E28.4418
+; fan on
+
+G1 X24.07 Y9.6 E28.4511
+G1 X23.59 Y10.08 E28.4658
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E16.4658 F10500
+; fan off
+
+G1 X24.07 Y9.6 E16.4658 F1200
+; fan on
+
+G1 X24.07 Y9.18 E16.4658
+G1 X23.2 Y10.04 E16.4658
+; fan off
+
+G1 X22.86 Y9.96 E16.4658
+G1 X24.07 Y8.75 E16.4658
+; fan on
+
+G1 X24.07 Y8.33 E16.4658
+G1 X23.92 Y8.47 E16.4658
+G1 X23.92 Y8.47 Z1.155 E16.4658 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.68 Y11.65 E16.4658
+G1 X14.68 Y11.65 Z0.155 E16.4658
+G1 E28.4658 F10500
+G1 X14.67 Y11.64 E28.4663 F1200
+G1 X16.28 Y11.64 E28.5015
+; fan off
+
+G1 X16.52 Y12.04 E28.5117
+; fan on
+
+G1 X16.88 Y12.33 E28.5219
+G1 X17.21 Y12.37 E28.5291
+G1 X21.82 Y12.37 E28.6296
+; fan off
+
+G1 X22.17 Y12.32 E28.6375
+G1 X22.59 Y11.93 E28.6498
+G1 X22.61 Y11.73 E28.6542
+G1 X22.73 Y11.63 E28.6575
+G1 X24.35 Y11.64 E28.6928
+; fan on
+
+G1 X24.35 Y14.31 E28.7511
+; fan off
+
+G1 X24.15 Y14.34 E28.7553
+G1 X22.72 Y14.34 E28.7866
+G1 X22.61 Y14.24 E28.7899
+G1 X22.59 Y14.04 E28.7942
+G1 X22.29 Y13.75 E28.8034
+; fan on
+
+G1 X21.74 Y13.63 E28.8156
+G1 X17.3 Y13.63 E28.9124
+; fan off
+
+G1 X16.75 Y13.74 E28.9248
+G1 X16.43 Y14.06 E28.9347
+G1 X16.31 Y14.34 E28.9414
+G1 X14.66 Y14.34 E28.9773
+; fan on
+
+G1 X14.67 Y11.64 E29.0364
+; fan off
+
+G1 X14.68 Y11.65 E29.0368
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.93 Y12.38 E29.0368 F16200
+G1 X15.38 Y11.92 E29.0508 F1200
+G1 X15.81 Y11.92 E29.0601
+G1 X14.94 Y12.79 E29.0867
+; fan on
+
+G1 X14.94 Y13.21 E29.096
+G1 X16.16 Y11.99 E29.1337
+; fan off
+
+G1 X16.34 Y12.23 E29.1403
+G1 X14.94 Y13.63 E29.1836
+; fan on
+
+G1 X14.94 Y14.06 E29.1928
+G1 X16.57 Y12.44 E29.2429
+; fan off
+
+G1 X16.83 Y12.6 E29.2497
+; fan on
+
+G1 X15.37 Y14.06 E29.2948
+; fan off
+
+G1 X15.79 Y14.06 E29.3041
+G1 X17.2 Y12.65 E29.3475
+; fan on
+
+G1 X17.62 Y12.65 E29.3567
+G1 X16.85 Y13.42 E29.3804
+; fan off
+
+G1 X17.35 Y13.35 E29.3913
+; fan on
+
+G1 X18.05 Y12.65 E29.4128
+; fan off
+
+G1 X18.47 Y12.65 E29.4221
+; fan on
+
+G1 X17.77 Y13.36 E29.4438
+; fan off
+
+G1 X18.19 Y13.36 E29.4531
+G1 X18.89 Y12.65 E29.4748
+; fan on
+
+G1 X19.32 Y12.65 E29.484
+G1 X18.61 Y13.36 E29.5058
+; fan off
+
+G1 X19.04 Y13.36 E29.515
+; fan on
+
+G1 X19.74 Y12.65 E29.5368
+; fan off
+
+G1 X20.17 Y12.65 E29.546
+; fan on
+
+G1 X19.46 Y13.36 E29.5677
+; fan off
+
+G1 X19.89 Y13.36 E29.577
+G1 X20.59 Y12.65 E29.5987
+; fan on
+
+G1 X21.01 Y12.65 E29.608
+G1 X20.31 Y13.36 E29.6297
+; fan off
+
+G1 X20.74 Y13.36 E29.639
+; fan on
+
+G1 X21.44 Y12.65 E29.6607
+; fan off
+
+G1 X21.87 Y12.65 E29.6701
+; fan on
+
+G1 X21.16 Y13.36 E29.692
+; fan off
+
+G1 X21.58 Y13.36 E29.7012
+; fan on
+
+G1 X23 Y11.94 E29.7449
+; fan off
+
+G1 X23.44 Y11.92 E29.7546
+G1 X21.98 Y13.39 E29.7998
+; fan on
+
+G1 X22.34 Y13.45 E29.8079
+G1 X23.88 Y11.91 E29.8555
+; fan off
+
+G1 X24.08 Y12.13 E29.862
+G1 X22.57 Y13.64 E29.9086
+; fan on
+
+G1 X22.78 Y13.86 E29.9151
+G1 X24.07 Y12.57 E29.9549
+G1 X24.07 Y13 E29.9642
+G1 X23 Y14.06 E29.997
+; fan off
+
+G1 X23.43 Y14.06 E30.0063
+G1 X24.07 Y13.42 E30.026
+; fan on
+
+G1 X24.07 Y13.84 E30.0352
+G1 X23.81 Y14.1 E30.0431
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E18.0431 F10500
+; fan off
+
+G1 X24.07 Y13.84 E18.0431 F1200
+; fan on
+
+G1 X24.07 Y13.42 E18.0431
+G1 X23.43 Y14.06 E18.0431
+; fan off
+
+G1 X23 Y14.06 E18.0431
+G1 X24.07 Y13 E18.0431
+; fan on
+
+G1 X24.07 Y12.57 E18.0431
+G1 X23.39 Y13.25 E18.0431
+G1 X23.39 Y13.25 Z1.155 E18.0431 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.67 Y15.68 E18.0431
+G1 X14.67 Y15.68 Z0.155 E18.0431
+G1 E30.0431 F10500
+G1 X14.66 Y15.66 E30.0435 F1200
+G1 X16.3 Y15.66 E30.0794
+; fan off
+
+G1 X16.43 Y15.95 E30.0862
+G1 X16.64 Y16.15 E30.0926
+G1 X17.19 Y16.27 E30.1049
+; fan on
+
+G1 X21.84 Y16.27 E30.2063
+; fan off
+
+G1 X22.39 Y16.15 E30.2187
+G1 X22.58 Y15.95 E30.2248
+G1 X22.61 Y15.76 E30.2289
+G1 X22.72 Y15.66 E30.2322
+G1 X24.15 Y15.66 E30.2634
+G1 X24.35 Y15.69 E30.2677
+; fan on
+
+G1 X24.34 Y18.35 E30.3258
+; fan off
+
+G1 X22.74 Y18.35 E30.3607
+G1 X22.61 Y18.27 E30.3641
+; fan on
+
+G1 X22.59 Y18.06 E30.3686
+; fan off
+
+G1 X22.25 Y17.78 E30.3781
+; fan on
+
+G1 X21.92 Y17.74 E30.3854
+G1 X16.97 Y17.74 E30.4936
+; fan off
+
+G1 X16.66 Y17.85 E30.5007
+G1 X16.43 Y18.08 E30.5077
+G1 X16.28 Y18.35 E30.5144
+G1 X14.68 Y18.35 E30.5494
+G1 X14.66 Y18.15 E30.5538
+G1 X14.66 Y15.66 E30.6081
+; fan on
+
+G1 X14.68 Y15.67 E30.6086
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X15.19 Y15.93 E30.6086 F16200
+G1 X14.94 Y16.18 E30.6163 F1200
+G1 X14.94 Y16.6 E30.6256
+G1 X15.6 Y15.94 E30.646
+G1 X16.03 Y15.94 E30.6553
+G1 X14.94 Y17.03 E30.6888
+; fan off
+
+G1 X14.94 Y17.45 E30.6981
+; fan on
+
+G1 X16.25 Y16.14 E30.7385
+; fan off
+
+G1 X16.47 Y16.35 E30.745
+G1 X14.93 Y17.89 E30.7925
+; fan on
+
+G1 X15.16 Y18.08 E30.799
+G1 X16.77 Y16.48 E30.8485
+; fan off
+
+G1 X17.13 Y16.54 E30.8565
+; fan on
+
+G1 X15.6 Y18.07 E30.9036
+; fan off
+
+G1 X16.04 Y18.05 E30.9132
+G1 X17.54 Y16.55 E30.9595
+; fan on
+
+G1 X17.97 Y16.55 E30.9688
+G1 X17.05 Y17.46 E30.997
+; fan off
+
+G1 X17.48 Y17.46 E31.0064
+; fan on
+
+G1 X18.39 Y16.55 E31.0344
+; fan off
+
+G1 X18.82 Y16.55 E31.0437
+; fan on
+
+G1 X17.91 Y17.46 E31.0717
+; fan off
+
+G1 X18.33 Y17.46 E31.081
+G1 X19.24 Y16.55 E31.109
+; fan on
+
+G1 X19.66 Y16.55 E31.1183
+G1 X18.75 Y17.46 E31.1464
+; fan off
+
+G1 X19.18 Y17.46 E31.1556
+; fan on
+
+G1 X20.09 Y16.55 E31.1837
+; fan off
+
+G1 X20.51 Y16.55 E31.1929
+G1 X19.6 Y17.46 E31.221
+; fan on
+
+G1 X20.03 Y17.46 E31.2302
+G1 X20.94 Y16.55 E31.2583
+; fan off
+
+G1 X21.36 Y16.55 E31.2675
+; fan on
+
+G1 X20.45 Y17.46 E31.2956
+; fan off
+
+G1 X20.88 Y17.46 E31.3049
+G1 X21.77 Y16.56 E31.3325
+; fan on
+
+G1 X22.31 Y16.45 E31.3445
+G1 X21.3 Y17.46 E31.3758
+; fan off
+
+G1 X21.72 Y17.46 E31.385
+; fan on
+
+G1 X23.24 Y15.94 E31.4318
+; fan off
+
+G1 X23.67 Y15.94 E31.4411
+G1 X22.13 Y17.48 E31.4886
+; fan on
+
+G1 X22.45 Y17.58 E31.4959
+G1 X24.07 Y15.97 E31.5459
+; fan off
+
+G1 X24.07 Y16.39 E31.5552
+; fan on
+
+G1 X22.68 Y17.78 E31.598
+; fan off
+
+G1 X22.86 Y18.02 E31.6047
+G1 X24.07 Y16.81 E31.6419
+; fan on
+
+G1 X24.07 Y17.24 E31.6512
+G1 X23.24 Y18.07 E31.6768
+; fan off
+
+G1 X23.66 Y18.07 E31.6861
+; fan on
+
+G1 X24.11 Y17.62 E31.7
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E19.7 F10500
+; fan off
+
+G1 X23.66 Y18.07 E19.7 F1200
+; fan on
+
+G1 X23.24 Y18.07 E19.7
+G1 X24.07 Y17.24 E19.7
+; fan off
+
+G1 X24.07 Y16.81 E19.7
+G1 X22.86 Y18.02 E19.7
+; fan on
+
+G1 X22.68 Y17.78 E19.7
+G1 X22.91 Y17.55 E19.7
+G1 X22.91 Y17.55 Z1.155 E19.7 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.67 Y-0.24 E19.7
+G1 X14.67 Y-0.24 Z0.155 E19.7
+G1 E31.7 F10500
+G1 X14.66 Y-0.25 E31.7004 F1200
+G1 X14.77 Y-0.36 E31.7037
+G1 X16.2 Y-0.36 E31.7351
+; fan off
+
+G1 X16.32 Y-0.28 E31.7382
+G1 X16.42 Y0.01 E31.7448
+; fan on
+
+G1 X16.63 Y0.28 E31.7522
+G1 X16.97 Y0.56 E31.7619
+; fan off
+
+G1 X17.49 Y0.66 E31.7735
+; fan on
+
+G1 X21.51 Y0.66 E31.8611
+; fan off
+
+G1 X22.08 Y0.56 E31.8737
+G1 X22.57 Y0.06 E31.889
+G1 X22.65 Y-0.31 E31.8973
+G1 X22.78 Y-0.36 E31.9004
+G1 X24.27 Y-0.36 E31.9327
+; fan on
+
+G1 X24.35 Y-0.22 E31.9361
+G1 X24.35 Y2.22 E31.9895
+; fan off
+
+G1 X24.27 Y2.36 E31.9929
+G1 X22.78 Y2.36 E32.0253
+; fan on
+
+G1 X22.65 Y2.31 E32.0283
+G1 X22.58 Y1.94 E32.0366
+G1 X22.07 Y1.44 E32.052
+G1 X21.51 Y1.34 E32.0645
+G1 X17.5 Y1.34 E32.152
+; fan off
+
+G1 X16.97 Y1.44 E32.1637
+G1 X16.63 Y1.72 E32.1734
+G1 X16.42 Y1.99 E32.1808
+G1 X16.32 Y2.27 E32.1874
+G1 X16.2 Y2.36 E32.1906
+G1 X14.77 Y2.36 E32.222
+; fan on
+
+G1 X14.66 Y2.25 E32.2252
+G1 X14.66 Y-0.25 E32.2798
+; fan off
+
+G1 X14.68 Y-0.25 E32.2802
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X15.07 Y-0.07 E32.2802 F16200
+G1 X15.01 Y-0.01 E32.2822 F1200
+G1 X14.95 Y0.48 E32.2929
+G1 X15.49 Y-0.06 E32.3094
+G1 X15.91 Y-0.06 E32.3187
+; fan on
+
+G1 X14.94 Y0.91 E32.3486
+; fan off
+
+G1 X14.94 Y1.33 E32.3578
+G1 X16.18 Y0.1 E32.3959
+; fan on
+
+G1 X16.35 Y0.35 E32.4026
+G1 X14.93 Y1.77 E32.4464
+; fan off
+
+G1 X15.05 Y2.07 E32.4535
+; fan on
+
+G1 X16.56 Y0.56 E32.5001
+; fan off
+
+G1 X16.79 Y0.76 E32.5066
+G1 X15.49 Y2.06 E32.5468
+; fan on
+
+G1 X15.91 Y2.06 E32.556
+G1 X17.14 Y0.83 E32.594
+; fan off
+
+G1 X17.48 Y0.92 E32.6016
+G1 X17.24 Y1.15 E32.6088
+; fan on
+
+G1 X17.74 Y1.08 E32.6197
+; fan off
+
+G1 X17.93 Y0.89 E32.6257
+; fan on
+
+G1 X18.13 Y1.11 E32.6323
+; fan off
+
+G1 X18.33 Y0.92 E32.6383
+; fan on
+
+G1 X18.59 Y1.08 E32.645
+; fan off
+
+G1 X18.78 Y0.89 E32.651
+; fan on
+
+G1 X18.98 Y1.11 E32.6576
+G1 X19.17 Y0.92 E32.6636
+; fan off
+
+G1 X19.43 Y1.08 E32.6704
+; fan on
+
+G1 X19.63 Y0.89 E32.6764
+; fan off
+
+G1 X19.83 Y1.11 E32.683
+; fan on
+
+G1 X20.02 Y0.92 E32.689
+G1 X20.28 Y1.08 E32.6957
+; fan off
+
+G1 X20.48 Y0.89 E32.7017
+; fan on
+
+G1 X20.68 Y1.11 E32.7083
+; fan off
+
+G1 X20.87 Y0.92 E32.7143
+; fan on
+
+G1 X21.13 Y1.08 E32.7211
+G1 X21.33 Y0.89 E32.7271
+; fan off
+
+G1 X21.52 Y1.12 E32.7337
+; fan on
+
+G1 X21.76 Y0.88 E32.7411
+; fan off
+
+G1 X21.92 Y1.14 E32.7478
+; fan on
+
+G1 X23.12 Y-0.06 E32.7848
+; fan off
+
+G1 X23.55 Y-0.06 E32.7941
+G1 X22.24 Y1.24 E32.8344
+; fan on
+
+G1 X22.47 Y1.44 E32.8409
+G1 X23.98 Y-0.07 E32.8876
+; fan off
+
+G1 X24.08 Y0.26 E32.8951
+; fan on
+
+G1 X22.68 Y1.66 E32.9382
+; fan off
+
+G1 X22.86 Y1.9 E32.9448
+G1 X24.07 Y0.69 E32.9822
+; fan on
+
+G1 X24.07 Y1.12 E32.9915
+G1 X23.12 Y2.06 E33.0206
+; fan off
+
+G1 X23.55 Y2.06 E33.0299
+; fan on
+
+G1 X24.06 Y1.55 E33.0457
+; fan off
+
+G1 X24 Y2.03 E33.0563
+; fan on
+
+G1 X23.93 Y2.11 E33.0587
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E21.0587 F10500
+; fan off
+
+G1 X24 Y2.03 E21.0587 F1200
+; fan on
+
+G1 X24.06 Y1.55 E21.0587
+; fan off
+
+G1 X23.55 Y2.06 E21.0587
+; fan on
+
+G1 X23.12 Y2.06 E21.0587
+G1 X24.07 Y1.12 E21.0587
+; fan off
+
+G1 X24.07 Y0.69 E21.0587
+G1 X23.01 Y1.75 E21.0587
+G1 X23.01 Y1.75 Z1.155 E21.0587 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.67 Y-4.26 E21.0587
+G1 X14.67 Y-4.26 Z0.155 E21.0587
+G1 E33.0587 F10500
+; fan on
+
+G1 X14.66 Y-4.28 E33.0591 F1200
+G1 X16.32 Y-4.3 E33.0954
+G1 X16.5 Y-3.77 E33.1077
+; fan off
+
+G1 X16.79 Y-3.44 E33.1172
+; fan on
+
+G1 X17.59 Y-3.23 E33.1354
+G1 X21.23 Y-3.23 E33.2147
+; fan off
+
+G1 X21.55 Y-3.25 E33.2217
+G1 X21.91 Y-3.34 E33.2298
+G1 X22.28 Y-3.51 E33.2388
+G1 X22.41 Y-3.65 E33.2429
+G1 X22.6 Y-4.04 E33.2523
+G1 X22.61 Y-4.18 E33.2553
+G1 X22.7 Y-4.3 E33.2586
+G1 X24.18 Y-4.3 E33.2908
+; fan on
+
+G1 X24.35 Y-4.25 E33.2946
+G1 X24.35 Y-1.81 E33.348
+; fan off
+
+G1 X24.27 Y-1.67 E33.3514
+G1 X22.81 Y-1.67 E33.3832
+; fan on
+
+G1 X22.65 Y-1.71 E33.3869
+G1 X22.57 Y-2.09 E33.3953
+G1 X22.03 Y-2.64 E33.412
+; fan off
+
+G1 X21.62 Y-2.73 E33.4213
+; fan on
+
+G1 X17.47 Y-2.73 E33.512
+; fan off
+
+G1 X17.1 Y-2.7 E33.5201
+G1 X16.85 Y-2.5 E33.527
+G1 X16.71 Y-2.45 E33.5303
+G1 X16.42 Y-2.03 E33.5414
+G1 X16.33 Y-1.76 E33.5477
+G1 X16.21 Y-1.67 E33.551
+G1 X14.76 Y-1.67 E33.5825
+; fan on
+
+G1 X14.66 Y-1.78 E33.5858
+G1 X14.66 Y-4.28 E33.6404
+; fan off
+
+G1 X14.68 Y-4.27 E33.6408
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.93 Y-3.75 E33.6408 F16200
+G1 X15.2 Y-4.02 E33.6492 F1200
+G1 X15.63 Y-4.02 E33.6586
+G1 X14.94 Y-3.34 E33.6798
+; fan on
+
+G1 X14.94 Y-2.91 E33.6891
+G1 X16.07 Y-4.03 E33.7237
+; fan off
+
+G1 X16.2 Y-3.74 E33.7307
+G1 X14.94 Y-2.49 E33.7695
+; fan on
+
+G1 X14.94 Y-2.06 E33.7788
+G1 X16.37 Y-3.49 E33.8228
+; fan off
+
+G1 X16.58 Y-3.28 E33.8293
+; fan on
+
+G1 X15.27 Y-1.96 E33.8699
+; fan off
+
+G1 X15.69 Y-1.96 E33.8791
+G1 X16.89 Y-3.16 E33.9161
+; fan on
+
+G1 X17.09 Y-2.94 E33.9227
+G1 X17.18 Y-3.03 E33.9254
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E21.9254 F10500
+G1 X17.09 Y-2.94 E21.9254 F1200
+G1 X16.89 Y-3.16 E21.9254
+G1 X15.69 Y-1.96 E21.9254
+; fan off
+
+G1 X15.27 Y-1.96 E21.9254
+G1 X16.58 Y-3.28 E21.9254
+; fan on
+
+G1 X16.37 Y-3.49 E21.9254
+G1 X16.16 Y-3.28 E21.9254
+G1 X16.16 Y-3.28 Z1.155 E21.9254 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X23.28 Y-4.04 E21.9254
+G1 X23.28 Y-4.04 Z0.155 E21.9254
+G1 E33.9254 F10500
+G1 X22.13 Y-2.88 E33.9609 F1200
+G1 X22.36 Y-2.69 E33.9675
+G1 X23.7 Y-4.03 E34.0087
+; fan off
+
+G1 X24.07 Y-3.98 E34.017
+G1 X22.57 Y-2.48 E34.0632
+; fan on
+
+G1 X22.77 Y-2.26 E34.0698
+G1 X24.07 Y-3.55 E34.1097
+; fan off
+
+G1 X24.07 Y-3.13 E34.119
+; fan on
+
+G1 X22.91 Y-1.97 E34.1548
+; fan off
+
+G1 X23.33 Y-1.96 E34.1641
+G1 X24.07 Y-2.7 E34.1868
+; fan on
+
+G1 X24.07 Y-2.28 E34.1961
+G1 X23.71 Y-1.92 E34.2071
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E22.2071 F10500
+; fan off
+
+G1 X24.07 Y-2.28 E22.2071 F1200
+; fan on
+
+G1 X24.07 Y-2.7 E22.2071
+G1 X23.33 Y-1.96 E22.2071
+; fan off
+
+G1 X22.91 Y-1.97 E22.2071
+G1 X24.07 Y-3.13 E22.2071
+; fan on
+
+G1 X24.07 Y-3.55 E22.2071
+G1 X23.69 Y-3.17 E22.2071
+G1 X23.69 Y-3.17 Z1.155 E22.2071 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.67 Y-8.29 E22.2071
+G1 X14.67 Y-8.29 Z0.155 E22.2071
+G1 E34.2071 F10500
+G1 X14.66 Y-8.31 E34.2076 F1200
+G1 X16.32 Y-8.32 E34.2438
+; fan off
+
+G1 X16.47 Y-7.78 E34.256
+; fan on
+
+G1 X16.95 Y-7.3 E34.2708
+; fan off
+
+G1 X17.49 Y-7.15 E34.2829
+; fan on
+
+G1 X21.41 Y-7.15 E34.3685
+; fan off
+
+G1 X21.71 Y-7.18 E34.3752
+G1 X21.86 Y-7.26 E34.3788
+G1 X22.06 Y-7.3 E34.3833
+G1 X22.47 Y-7.69 E34.3956
+G1 X22.56 Y-7.86 E34.3999
+G1 X22.62 Y-8.21 E34.4076
+G1 X22.72 Y-8.32 E34.4108
+G1 X24.15 Y-8.32 E34.4422
+; fan on
+
+G1 X24.35 Y-8.28 E34.4464
+G1 X24.35 Y-5.84 E34.4998
+; fan off
+
+G1 X24.28 Y-5.7 E34.5032
+G1 X22.81 Y-5.7 E34.5352
+; fan on
+
+G1 X22.64 Y-5.74 E34.539
+G1 X22.57 Y-6.12 E34.5475
+G1 X21.98 Y-6.72 E34.5659
+G1 X21.42 Y-6.86 E34.5786
+G1 X17.6 Y-6.86 E34.6618
+; fan off
+
+G1 X17.08 Y-6.74 E34.6735
+G1 X16.76 Y-6.56 E34.6816
+G1 X16.62 Y-6.42 E34.686
+G1 X16.44 Y-6.1 E34.6938
+G1 X16.34 Y-5.78 E34.7013
+G1 X16.22 Y-5.7 E34.7044
+G1 X14.76 Y-5.7 E34.7363
+; fan on
+
+G1 X14.66 Y-5.81 E34.7396
+G1 X14.66 Y-8.31 E34.7942
+; fan off
+
+G1 X14.68 Y-8.3 E34.7946
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X15.41 Y-8.05 E34.7946 F16200
+G1 X14.94 Y-7.58 E34.8091 F1200
+G1 X14.94 Y-7.15 E34.8184
+G1 X15.83 Y-8.04 E34.8459
+; fan on
+
+G1 X16.13 Y-7.92 E34.853
+G1 X14.94 Y-6.73 E34.8898
+; fan off
+
+G1 X14.94 Y-6.31 E34.899
+; fan on
+
+G1 X16.26 Y-7.62 E34.9397
+; fan off
+
+G1 X16.46 Y-7.4 E34.9463
+G1 X15.04 Y-5.98 E34.9901
+; fan on
+
+G1 X15.47 Y-5.98 E34.9993
+G1 X16.67 Y-7.19 E35.0366
+; fan off
+
+G1 X16.81 Y-6.9 E35.0436
+; fan on
+
+G1 X15.85 Y-5.94 E35.0733
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E23.0733 F10500
+; fan off
+
+G1 X16.81 Y-6.9 E23.0733 F1200
+; fan on
+
+G1 X16.67 Y-7.19 E23.0733
+G1 X15.47 Y-5.98 E23.0733
+; fan off
+
+G1 X15.04 Y-5.98 E23.0733
+G1 X15.88 Y-6.82 E23.0733
+G1 X15.88 Y-6.82 Z1.155 E23.0733 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X22.22 Y-6.8 E23.0733
+G1 X22.22 Y-6.8 Z0.155 E23.0733
+G1 E35.0733 F10500
+; fan on
+
+G1 X23.46 Y-8.03 E35.1115 F1200
+; fan off
+
+G1 X23.88 Y-8.03 E35.1208
+; fan on
+
+G1 X22.47 Y-6.62 E35.1643
+; fan off
+
+G1 X22.68 Y-6.4 E35.1709
+G1 X24.07 Y-7.79 E35.2138
+; fan on
+
+G1 X24.07 Y-7.37 E35.223
+G1 X22.85 Y-6.15 E35.2605
+; fan off
+
+G1 X23.09 Y-5.97 E35.2671
+; fan on
+
+G1 X24.07 Y-6.94 E35.2972
+; fan off
+
+G1 X24.07 Y-6.52 E35.3065
+G1 X23.53 Y-5.98 E35.3232
+; fan on
+
+G1 X23.95 Y-5.98 E35.3324
+; fan off
+
+G1 X24.07 Y-6.1 E35.3362
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E23.3362 F10500
+; fan on
+
+G1 X23.95 Y-5.98 E23.3362 F1200
+; fan off
+
+G1 X23.53 Y-5.98 E23.3362
+; fan on
+
+G1 X24.07 Y-6.52 E23.3362
+; fan off
+
+G1 X24.07 Y-6.94 E23.3362
+; fan on
+
+G1 X23.09 Y-5.97 E23.3362
+; fan off
+
+G1 X22.85 Y-6.15 E23.3362
+G1 X23.94 Y-7.24 E23.3362
+G1 X23.94 Y-7.24 Z1.155 E23.3362 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.67 Y-12.32 E23.3362
+G1 X14.67 Y-12.32 Z0.155 E23.3362
+G1 E35.3362 F10500
+; fan on
+
+G1 X14.66 Y-12.34 E35.3366 F1200
+G1 X16.32 Y-12.34 E35.3727
+G1 X16.46 Y-11.82 E35.3845
+; fan off
+
+G1 X16.83 Y-11.39 E35.3969
+; fan on
+
+G1 X17.23 Y-11.12 E35.4076
+; fan off
+
+G1 X17.82 Y-11.06 E35.4204
+; fan on
+
+G1 X21.18 Y-11.06 E35.4939
+; fan off
+
+G1 X21.58 Y-11.09 E35.5026
+G1 X21.98 Y-11.21 E35.5116
+G1 X22.57 Y-11.83 E35.5304
+G1 X22.62 Y-12.24 E35.5394
+; fan on
+
+G1 X22.72 Y-12.34 E35.5425
+G1 X24.15 Y-12.34 E35.5737
+; fan off
+
+G1 X24.35 Y-12.31 E35.578
+G1 X24.35 Y-9.64 E35.6363
+; fan on
+
+G1 X22.73 Y-9.64 E35.6716
+G1 X22.64 Y-9.75 E35.6749
+G1 X22.57 Y-10.15 E35.6837
+G1 X21.95 Y-10.79 E35.7033
+G1 X21.67 Y-10.89 E35.7095
+G1 X21.12 Y-10.93 E35.7216
+G1 X17.9 Y-10.93 E35.792
+; fan off
+
+G1 X17.21 Y-10.87 E35.8072
+G1 X16.96 Y-10.68 E35.814
+G1 X16.78 Y-10.64 E35.8181
+G1 X16.63 Y-10.47 E35.8229
+G1 X16.43 Y-10.07 E35.8327
+G1 X16.31 Y-9.64 E35.8426
+G1 X14.66 Y-9.64 E35.8784
+; fan on
+
+G1 X14.66 Y-12.34 E35.9375
+; fan off
+
+G1 X14.68 Y-12.33 E35.938
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X15.19 Y-12.07 E35.938 F16200
+G1 X14.94 Y-11.82 E35.9457 F1200
+G1 X14.94 Y-11.4 E35.955
+; fan on
+
+G1 X15.6 Y-12.06 E35.9754
+; fan off
+
+G1 X16.03 Y-12.06 E35.9846
+; fan on
+
+G1 X14.94 Y-10.97 E36.0182
+; fan off
+
+G1 X14.94 Y-10.55 E36.0274
+G1 X16.17 Y-11.78 E36.0655
+; fan on
+
+G1 X16.35 Y-11.54 E36.0721
+G1 X14.93 Y-10.11 E36.1161
+; fan off
+
+G1 X15.15 Y-9.91 E36.1226
+; fan on
+
+G1 X16.54 Y-11.3 E36.1654
+; fan off
+
+G1 X16.77 Y-11.1 E36.172
+G1 X15.6 Y-9.93 E36.2083
+; fan on
+
+G1 X16.08 Y-9.98 E36.2188
+G1 X16.21 Y-10.12 E36.223
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E24.223 F10500
+G1 X16.08 Y-9.98 E24.223 F1200
+G1 X15.6 Y-9.93 E24.223
+G1 X16.77 Y-11.1 E24.223
+; fan off
+
+G1 X16.54 Y-11.3 E24.223
+G1 X15.15 Y-9.91 E24.223
+; fan on
+
+G1 X14.93 Y-10.11 E24.223
+G1 X15 Y-10.18 E24.223
+G1 X15 Y-10.18 Z1.155 E24.223 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X22.2 Y-11.02 E24.223
+G1 X22.2 Y-11.02 Z0.155 E24.223
+G1 E36.223 F10500
+G1 X23.24 Y-12.06 E36.2551 F1200
+; fan off
+
+G1 X23.67 Y-12.06 E36.2644
+; fan on
+
+G1 X22.37 Y-10.76 E36.3043
+; fan off
+
+G1 X22.57 Y-10.54 E36.3109
+G1 X24.07 Y-12.04 E36.357
+; fan on
+
+G1 X24.07 Y-11.61 E36.3662
+G1 X22.77 Y-10.32 E36.4062
+; fan off
+
+G1 X22.89 Y-10.01 E36.4134
+; fan on
+
+G1 X24.07 Y-11.19 E36.4497
+; fan off
+
+G1 X24.07 Y-10.76 E36.459
+G1 X23.23 Y-9.92 E36.4849
+; fan on
+
+G1 X23.65 Y-9.92 E36.4942
+G1 X24.11 Y-10.38 E36.5084
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E24.5084 F10500
+G1 X23.65 Y-9.92 E24.5084 F1200
+; fan off
+
+G1 X23.23 Y-9.92 E24.5084
+; fan on
+
+G1 X24.07 Y-10.76 E24.5084
+; fan off
+
+G1 X24.07 Y-11.19 E24.5084
+G1 X22.89 Y-10.01 E24.5084
+; fan on
+
+G1 X22.77 Y-10.32 E24.5084
+G1 X23 Y-10.54 E24.5084
+G1 X23 Y-10.54 Z1.155 E24.5084 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X14.69 Y-16.33 E24.5084
+G1 X14.69 Y-16.33 Z0.155 E24.5084
+G1 E36.5084 F10500
+G1 X14.68 Y-16.35 E36.5089 F1200
+G1 X16.28 Y-16.35 E36.5437
+; fan off
+
+G1 X16.53 Y-15.75 E36.558
+; fan on
+
+G1 X16.57 Y-15.56 E36.5623
+G1 X16.87 Y-15.24 E36.5716
+; fan off
+
+G1 X17 Y-15.17 E36.575
+; fan on
+
+G1 X17.06 Y-14.82 E36.5829
+; fan off
+
+G1 X16.8 Y-14.7 E36.5891
+; fan on
+
+G1 X16.68 Y-14.58 E36.593
+G1 X16.45 Y-14.14 E36.6038
+; fan off
+
+G1 X16.31 Y-13.66 E36.6146
+; fan on
+
+G1 X14.66 Y-13.66 E36.6507
+; fan off
+
+G1 X14.66 Y-16.15 E36.705
+; fan on
+
+G1 X14.68 Y-16.35 E36.7095
+G1 X14.7 Y-16.34 E36.7099
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E24.7099 F10500
+G1 X14.69 Y-16.33 E24.7099 F1200
+G1 X14.68 Y-16.35 E24.7099
+G1 X16.28 Y-16.35 E24.7099
+G1 X16.53 Y-15.75 E24.7099
+; fan off
+
+G1 X16.57 Y-15.56 E24.7099
+; fan on
+
+G1 X16.87 Y-15.24 E24.7099
+; fan off
+
+G1 X17 Y-15.17 E24.7099
+; fan on
+
+G1 X17.06 Y-14.82 E24.7099
+; fan off
+
+G1 X16.8 Y-14.7 E24.7099
+; fan on
+
+G1 X16.68 Y-14.58 E24.7099
+; fan off
+
+G1 X16.45 Y-14.14 E24.7099
+; fan on
+
+G1 X16.31 Y-13.66 E24.7099
+G1 X16.18 Y-13.66 E24.7099
+G1 X16.18 Y-13.66 Z1.155 E24.7099 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X22.65 Y-16.23 E24.7099
+G1 X22.65 Y-16.23 Z0.155 E24.7099
+G1 E36.7099 F10500
+; fan off
+
+G1 X22.64 Y-16.25 E36.7103 F1200
+; fan on
+
+G1 X22.74 Y-16.35 E36.7136
+G1 X24.34 Y-16.35 E36.7486
+; fan off
+
+G1 X24.35 Y-13.69 E36.8067
+; fan on
+
+G1 X24.15 Y-13.66 E36.8109
+G1 X22.72 Y-13.66 E36.8422
+G1 X22.62 Y-13.76 E36.8452
+G1 X22.58 Y-14.13 E36.8533
+G1 X22.28 Y-14.58 E36.8652
+; fan off
+
+G1 X22.27 Y-14.59 E36.8656
+G1 X21.84 Y-14.9 E36.8769
+; fan on
+
+G1 X21.85 Y-15.12 E36.8819
+G1 X21.97 Y-15.22 E36.8852
+G1 X22.15 Y-15.25 E36.8891
+; fan off
+
+G1 X22.36 Y-15.46 E36.8957
+; fan on
+
+G1 X22.4 Y-15.64 E36.8996
+G1 X22.58 Y-15.88 E36.9063
+; fan off
+
+G1 X22.64 Y-16.25 E36.9143
+; fan on
+
+G1 X22.65 Y-16.24 E36.9147
+;
+; 'Crown', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X21.53 Y-15.02 E36.9147 F16200
+G1 X21.57 Y-14.98 E36.916 F1200
+G1 X21.33 Y-15.01 E36.9214
+G1 X20.9 Y-15.01 E36.9309
+G1 X17.5 Y-15.01 E37.0063
+; fan off
+
+G1 X17.49 Y-15 E37.0067
+G1 X17.25 Y-15.05 E37.012
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X16.4 Y-14.55 E37.012 F16200
+G1 X15.79 Y-13.94 E37.0308 F1200
+G1 X15.37 Y-13.94 E37.04
+G1 X16.58 Y-15.15 E37.0774
+; fan on
+
+G1 X16.38 Y-15.38 E37.0839
+G1 X14.94 Y-13.94 E37.1282
+; fan off
+
+G1 X14.94 Y-14.37 E37.1375
+G1 X16.24 Y-15.67 E37.1776
+; fan on
+
+G1 X16.11 Y-15.96 E37.1846
+G1 X14.94 Y-14.79 E37.2207
+G1 X14.94 Y-15.22 E37.23
+G1 X15.8 Y-16.07 E37.2564
+; fan off
+
+G1 X15.37 Y-16.07 E37.2657
+G1 X14.93 Y-15.63 E37.2793
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E25.2793 F10500
+; fan on
+
+G1 X15.37 Y-16.07 E25.2793 F1200
+; fan off
+
+G1 X15.8 Y-16.07 E25.2793
+; fan on
+
+G1 X14.94 Y-15.22 E25.2793
+; fan off
+
+G1 X14.94 Y-14.79 E25.2793
+G1 X16.11 Y-15.96 E25.2793
+; fan on
+
+G1 X16.24 Y-15.67 E25.2793
+G1 X16 Y-15.43 E25.2793
+G1 X16 Y-15.43 Z1.155 E25.2793 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X22.84 Y-15.9 E25.2793
+G1 X22.84 Y-15.9 Z0.155 E25.2793
+G1 E37.2793 F10500
+G1 X22.96 Y-16.02 E37.2831 F1200
+G1 X23.43 Y-16.06 E37.2934
+G1 X22.28 Y-14.92 E37.3288
+; fan off
+
+G1 X22.52 Y-14.73 E37.3354
+; fan on
+
+G1 X23.87 Y-16.08 E37.3772
+; fan off
+
+G1 X24.08 Y-15.87 E37.3838
+G1 X22.68 Y-14.47 E37.427
+; fan on
+
+G1 X22.85 Y-14.21 E37.4337
+G1 X24.07 Y-15.43 E37.4714
+; fan off
+
+G1 X24.07 Y-15.01 E37.4806
+; fan on
+
+G1 X23 Y-13.94 E37.5135
+; fan off
+
+G1 X23.43 Y-13.94 E37.5227
+G1 X24.07 Y-14.58 E37.5424
+; fan on
+
+G1 X24.07 Y-14.16 E37.5517
+; fan off
+
+G1 X23.81 Y-13.9 E37.5595
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E25.5595 F10500
+; fan on
+
+G1 X24.07 Y-14.16 E25.5595 F1200
+; fan off
+
+G1 X24.07 Y-14.58 E25.5595
+; fan on
+
+G1 X23.43 Y-13.94 E25.5595
+; fan off
+
+G1 X23 Y-13.94 E25.5595
+; fan on
+
+G1 X24.07 Y-15.01 E25.5595
+; fan off
+
+G1 X24.07 Y-15.43 E25.5595
+G1 X23.39 Y-14.75 E25.5595
+G1 X23.39 Y-14.75 Z1.155 E25.5595 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.73 Y-12.32 E25.5595
+G1 X1.73 Y-12.32 Z0.155 E25.5595
+G1 E37.5595 F10500
+; fan on
+
+G1 X1.72 Y-12.34 E37.56 F1200
+G1 X3.36 Y-12.34 E37.5959
+; fan off
+
+G1 X3.39 Y-12.01 E37.6031
+G1 X3.62 Y-11.52 E37.6149
+; fan on
+
+G1 X3.84 Y-11.33 E37.6212
+G1 X4.02 Y-11.29 E37.6253
+G1 X4.65 Y-11.07 E37.6398
+G1 X8.47 Y-11.07 E37.7233
+; fan off
+
+G1 X9.03 Y-11.24 E37.736
+G1 X9.41 Y-11.6 E37.7475
+G1 X9.51 Y-11.73 E37.7511
+G1 X9.67 Y-12.25 E37.763
+G1 X9.78 Y-12.34 E37.766
+G1 X11.22 Y-12.34 E37.7974
+; fan on
+
+G1 X11.33 Y-12.24 E37.8007
+G1 X11.33 Y-9.73 E37.8554
+; fan off
+
+G1 X11.21 Y-9.64 E37.8586
+G1 X9.79 Y-9.64 E37.8898
+; fan on
+
+G1 X9.68 Y-9.72 E37.8927
+G1 X9.56 Y-10.08 E37.9011
+; fan off
+
+G1 X9.53 Y-10.25 E37.9048
+; fan on
+
+G1 X9.03 Y-10.75 E37.9203
+; fan off
+
+G1 X8.52 Y-10.9 E37.9319
+; fan on
+
+G1 X4.79 Y-10.9 E38.0133
+; fan off
+
+G1 X4.44 Y-10.9 E38.0209
+G1 X4.31 Y-10.88 E38.0238
+G1 X3.82 Y-10.66 E38.0354
+G1 X3.55 Y-10.37 E38.0442
+G1 X3.39 Y-9.96 E38.0538
+G1 X3.36 Y-9.64 E38.0608
+; fan on
+
+G1 X1.73 Y-9.64 E38.0965
+; fan off
+
+G1 X1.7 Y-9.84 E38.101
+G1 X1.72 Y-12.34 E38.1556
+; fan on
+
+G1 X1.74 Y-12.33 E38.156
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X2.47 Y-12.07 E38.156 F16200
+G1 X1.98 Y-11.58 E38.1711 F1200
+G1 X1.98 Y-11.16 E38.1804
+G1 X2.89 Y-12.07 E38.2086
+; fan off
+
+G1 X3.13 Y-11.89 E38.2152
+; fan on
+
+G1 X1.98 Y-10.73 E38.2507
+; fan off
+
+G1 X1.98 Y-10.31 E38.26
+G1 X3.28 Y-11.61 E38.3001
+; fan on
+
+G1 X3.43 Y-11.34 E38.3069
+G1 X2.01 Y-9.92 E38.3506
+; fan off
+
+G1 X2.44 Y-9.92 E38.3598
+; fan on
+
+G1 X3.59 Y-11.07 E38.3954
+; fan off
+
+G1 X3.22 Y-10.28 E38.4144
+; fan on
+
+G1 X2.82 Y-9.88 E38.4269
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E26.4269 F10500
+; fan off
+
+G1 X3.22 Y-10.28 E26.4269 F1200
+; fan on
+
+G1 X3.59 Y-11.07 E26.4269
+; fan off
+
+G1 X2.44 Y-9.92 E26.4269
+; fan on
+
+G1 X2.01 Y-9.92 E26.4269
+G1 X3.07 Y-10.98 E26.4269
+G1 X3.07 Y-10.98 Z1.155 E26.4269 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X9.28 Y-10.82 E26.4269
+G1 X9.28 Y-10.82 Z0.155 E26.4269
+G1 E38.4269 F10500
+G1 X10.51 Y-12.06 E38.465 F1200
+; fan off
+
+G1 X10.94 Y-12.06 E38.4743
+G1 X9.53 Y-10.65 E38.5179
+; fan on
+
+G1 X9.73 Y-10.42 E38.5244
+G1 X11.04 Y-11.73 E38.5649
+; fan off
+
+G1 X11.04 Y-11.31 E38.5741
+; fan on
+
+G1 X9.84 Y-10.11 E38.6111
+; fan off
+
+G1 X10.06 Y-9.91 E38.6176
+G1 X11.04 Y-10.88 E38.6477
+; fan on
+
+G1 X11.04 Y-10.46 E38.657
+G1 X10.5 Y-9.93 E38.6734
+; fan off
+
+G1 X10.98 Y-9.98 E38.6839
+; fan on
+
+G1 X11.08 Y-10.08 E38.6869
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E26.6869 F10500
+G1 X10.98 Y-9.98 E26.6869 F1200
+G1 X10.5 Y-9.93 E26.6869
+; fan off
+
+G1 X11.04 Y-10.46 E26.6869
+; fan on
+
+G1 X11.04 Y-10.88 E26.6869
+G1 X10.06 Y-9.91 E26.6869
+; fan off
+
+G1 X9.84 Y-10.11 E26.6869
+G1 X10.92 Y-11.19 E26.6869
+G1 X10.92 Y-11.19 Z1.155 E26.6869 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.72 Y-8.3 E26.6869
+G1 X1.72 Y-8.3 Z0.155 E26.6869
+G1 E38.6869 F10500
+; fan on
+
+G1 X1.72 Y-8.32 E38.6874 F1200
+G1 X3.36 Y-8.31 E38.7234
+G1 X3.41 Y-7.9 E38.7325
+; fan off
+
+G1 X4.02 Y-7.29 E38.7513
+; fan on
+
+G1 X4.76 Y-7.15 E38.7677
+G1 X8.38 Y-7.15 E38.8467
+; fan off
+
+G1 X8.88 Y-7.28 E38.858
+G1 X9.31 Y-7.49 E38.8685
+G1 X9.41 Y-7.62 E38.872
+G1 X9.64 Y-8.08 E38.8831
+G1 X9.66 Y-8.22 E38.8863
+G1 X9.78 Y-8.32 E38.8895
+; fan on
+
+G1 X11.22 Y-8.32 E38.9212
+; fan off
+
+G1 X11.33 Y-8.21 E38.9244
+G1 X11.33 Y-5.7 E38.9792
+; fan on
+
+G1 X9.68 Y-5.7 E39.0153
+G1 X9.56 Y-6.05 E39.0235
+G1 X9.53 Y-6.21 E39.027
+G1 X9.13 Y-6.63 E39.0396
+; fan off
+
+G1 X8.98 Y-6.7 E39.0433
+G1 X8.24 Y-6.85 E39.0598
+; fan on
+
+G1 X4.69 Y-6.85 E39.1372
+; fan off
+
+G1 X4.12 Y-6.73 E39.1498
+G1 X4.02 Y-6.65 E39.1527
+G1 X3.82 Y-6.62 E39.157
+G1 X3.55 Y-6.33 E39.1657
+G1 X3.39 Y-5.94 E39.1748
+G1 X3.37 Y-5.81 E39.1778
+; fan on
+
+G1 X3.27 Y-5.7 E39.181
+G1 X1.82 Y-5.7 E39.2129
+; fan off
+
+G1 X1.7 Y-5.79 E39.2162
+G1 X1.72 Y-8.32 E39.2713
+; fan on
+
+G1 X1.73 Y-8.3 E39.2717
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.97 Y-7.75 E39.2717 F16200
+G1 X2.25 Y-8.03 E39.2804 F1200
+G1 X2.67 Y-8.03 E39.2896
+G1 X1.98 Y-7.34 E39.3111
+G1 X1.98 Y-6.92 E39.3203
+G1 X3.1 Y-8.04 E39.3551
+; fan off
+
+G1 X3.22 Y-7.73 E39.3624
+G1 X1.98 Y-6.49 E39.4007
+; fan on
+
+G1 X1.98 Y-6.07 E39.41
+G1 X3.41 Y-7.5 E39.4543
+; fan off
+
+G1 X3.62 Y-7.29 E39.4608
+; fan on
+
+G1 X2.31 Y-5.98 E39.5013
+; fan off
+
+G1 X2.74 Y-5.98 E39.5106
+G1 X3.88 Y-7.12 E39.5458
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E27.5458 F10500
+; fan on
+
+G1 X2.74 Y-5.98 E27.5458 F1200
+; fan off
+
+G1 X2.31 Y-5.98 E27.5458
+; fan on
+
+G1 X3.62 Y-7.29 E27.5458
+; fan off
+
+G1 X3.41 Y-7.5 E27.5458
+G1 X2.84 Y-6.93 E27.5458
+G1 X2.84 Y-6.93 Z1.155 E27.5458 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X10.32 Y-8.05 E27.5458
+G1 X10.32 Y-8.05 Z0.155 E27.5458
+G1 E39.5458 F10500
+; fan on
+
+G1 X9.19 Y-6.92 E39.5806 F1200
+; fan off
+
+G1 X9.42 Y-6.72 E39.5871
+G1 X10.74 Y-8.04 E39.628
+; fan on
+
+G1 X11.05 Y-7.92 E39.6351
+G1 X9.63 Y-6.51 E39.6789
+; fan off
+
+G1 X9.81 Y-6.26 E39.6855
+G1 X11.04 Y-7.49 E39.7234
+; fan on
+
+G1 X11.04 Y-7.07 E39.7327
+G1 X9.95 Y-5.98 E39.7661
+G1 X10.38 Y-5.98 E39.7754
+G1 X11.04 Y-6.64 E39.7958
+; fan off
+
+G1 X11.04 Y-6.22 E39.805
+G1 X10.75 Y-5.94 E39.8137
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E27.8137 F10500
+; fan on
+
+G1 X11.04 Y-6.22 E27.8137 F1200
+; fan off
+
+G1 X11.04 Y-6.64 E27.8137
+; fan on
+
+G1 X10.38 Y-5.98 E27.8137
+; fan off
+
+G1 X9.95 Y-5.98 E27.8137
+; fan on
+
+G1 X11.04 Y-7.07 E27.8137
+; fan off
+
+G1 X11.04 Y-7.49 E27.8137
+G1 X10.43 Y-6.88 E27.8137
+G1 X10.43 Y-6.88 Z1.155 E27.8137 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.71 Y-4.28 E27.8137
+G1 X1.71 Y-4.28 Z0.155 E27.8137
+G1 E39.8137 F10500
+; fan on
+
+G1 X1.7 Y-4.3 E39.8142 F1200
+G1 X3.35 Y-4.3 E39.8502
+; fan off
+
+G1 X3.49 Y-3.79 E39.8615
+G1 X3.83 Y-3.45 E39.8722
+; fan on
+
+G1 X4.08 Y-3.36 E39.8779
+G1 X4.66 Y-3.27 E39.8908
+G1 X8.25 Y-3.27 E39.9691
+; fan off
+
+G1 X9.02 Y-3.36 E39.9861
+G1 X9.55 Y-3.88 E40.0021
+G1 X9.65 Y-4.2 E40.0096
+G1 X9.76 Y-4.3 E40.0127
+G1 X11.24 Y-4.3 E40.045
+; fan on
+
+G1 X11.33 Y-4.18 E40.0483
+G1 X11.33 Y-1.67 E40.103
+; fan off
+
+G1 X9.68 Y-1.67 E40.1389
+; fan on
+
+G1 X9.56 Y-2.02 E40.147
+G1 X9.53 Y-2.18 E40.1506
+G1 X9.13 Y-2.58 E40.1628
+; fan off
+
+G1 X8.6 Y-2.73 E40.1749
+; fan on
+
+G1 X4.48 Y-2.73 E40.2648
+; fan off
+
+G1 X4.16 Y-2.69 E40.2719
+G1 X3.82 Y-2.55 E40.2801
+G1 X3.62 Y-2.39 E40.2854
+G1 X3.55 Y-2.3 E40.2881
+G1 X3.39 Y-1.92 E40.2971
+G1 X3.37 Y-1.78 E40.3001
+G1 X3.27 Y-1.67 E40.3034
+G1 X1.82 Y-1.67 E40.3349
+; fan on
+
+G1 X1.7 Y-1.76 E40.3382
+G1 X1.7 Y-4.3 E40.3936
+; fan off
+
+G1 X1.72 Y-4.29 E40.3941
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.96 Y-3.51 E40.3941 F16200
+G1 X2.48 Y-4.02 E40.41 F1200
+G1 X2.9 Y-4.02 E40.4192
+; fan on
+
+G1 X1.98 Y-3.1 E40.4478
+; fan off
+
+G1 X1.98 Y-2.67 E40.4571
+; fan on
+
+G1 X3.16 Y-3.86 E40.4936
+; fan off
+
+G1 X3.31 Y-3.59 E40.5004
+G1 X1.96 Y-2.24 E40.542
+; fan on
+
+G1 X2.1 Y-1.95 E40.5489
+G1 X3.52 Y-3.37 E40.5927
+; fan off
+
+G1 X3.76 Y-3.18 E40.5993
+G1 X2.54 Y-1.96 E40.6369
+; fan on
+
+G1 X2.96 Y-1.96 E40.6462
+G1 X3.31 Y-2.31 E40.6569
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E28.6569 F10500
+G1 X2.96 Y-1.96 E28.6569 F1200
+G1 X2.54 Y-1.96 E28.6569
+G1 X3.76 Y-3.18 E28.6569
+; fan off
+
+G1 X3.52 Y-3.37 E28.6569
+G1 X2.1 Y-1.95 E28.6569
+; fan on
+
+G1 X2.08 Y-2 E28.6569
+G1 X2.08 Y-2 Z1.155 E28.6569 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X9 Y-2.91 E28.6569
+G1 X9 Y-2.91 Z0.155 E28.6569
+G1 E40.6569 F10500
+G1 X10.11 Y-4.02 E40.691 F1200
+G1 X10.54 Y-4.02 E40.7004
+G1 X9.3 Y-2.78 E40.7386
+; fan off
+
+G1 X9.52 Y-2.58 E40.7452
+G1 X10.97 Y-4.03 E40.7898
+; fan on
+
+G1 X11.04 Y-3.68 E40.7977
+G1 X9.73 Y-2.37 E40.8382
+; fan off
+
+G1 X9.84 Y-2.06 E40.8454
+; fan on
+
+G1 X11.04 Y-3.25 E40.8822
+; fan off
+
+G1 X11.04 Y-2.82 E40.8914
+G1 X10.18 Y-1.96 E40.918
+; fan on
+
+G1 X10.6 Y-1.96 E40.9272
+G1 X11.04 Y-2.4 E40.9406
+; fan off
+
+G1 X11.04 Y-1.97 E40.9499
+; fan on
+
+G1 X10.98 Y-1.92 E40.9516
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E28.9516 F10500
+G1 X11.04 Y-1.97 E28.9516 F1200
+G1 X11.04 Y-2.4 E28.9516
+; fan off
+
+G1 X10.6 Y-1.96 E28.9516
+; fan on
+
+G1 X10.18 Y-1.96 E28.9516
+G1 X11.04 Y-2.82 E28.9516
+; fan off
+
+G1 X11.04 Y-3.25 E28.9516
+; fan on
+
+G1 X9.84 Y-2.06 E28.9516
+; fan off
+
+G1 X9.8 Y-2.18 E28.9516
+G1 X9.8 Y-2.18 Z1.155 E28.9516 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.71 Y3.78 E28.9516
+G1 X1.71 Y3.78 Z0.155 E28.9516
+G1 E40.9516 F10500
+G1 X1.7 Y3.76 E40.952 F1200
+G1 X1.82 Y3.67 E40.9553
+G1 X3.27 Y3.67 E40.9868
+; fan on
+
+G1 X3.37 Y3.78 E40.9901
+G1 X3.4 Y3.98 E40.9946
+G1 X3.93 Y4.49 E41.0105
+; fan off
+
+G1 X4.26 Y4.52 E41.0179
+; fan on
+
+G1 X8.61 Y4.52 E41.1128
+; fan off
+
+G1 X8.94 Y4.5 E41.1201
+G1 X9.43 Y4.27 E41.1318
+G1 X9.56 Y3.95 E41.1395
+G1 X9.64 Y3.85 E41.1422
+G1 X9.67 Y3.67 E41.1461
+G1 X11.33 Y3.67 E41.1823
+; fan on
+
+G1 X11.33 Y6.18 E41.2369
+; fan off
+
+G1 X11.24 Y6.3 E41.2403
+G1 X9.76 Y6.3 E41.2726
+; fan on
+
+G1 X9.59 Y6.15 E41.2775
+G1 X9.53 Y5.87 E41.2836
+G1 X9.22 Y5.58 E41.293
+; fan off
+
+G1 X8.49 Y5.45 E41.3091
+; fan on
+
+G1 X4.4 Y5.45 E41.3985
+; fan off
+
+G1 X3.77 Y5.61 E41.4126
+G1 X3.55 Y5.77 E41.4187
+G1 X3.39 Y6.12 E41.427
+G1 X3.37 Y6.29 E41.4308
+G1 X1.7 Y6.3 E41.4673
+; fan on
+
+G1 X1.7 Y3.76 E41.5227
+; fan off
+
+G1 X1.72 Y3.76 E41.5231
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X2.01 Y4.09 E41.5231 F16200
+G1 X2.13 Y3.96 E41.5269 F1200
+G1 X2.55 Y3.96 E41.5361
+G1 X1.98 Y4.54 E41.5539
+; fan on
+
+G1 X1.98 Y4.96 E41.5631
+G1 X2.99 Y3.95 E41.5944
+; fan off
+
+G1 X3.21 Y4.15 E41.6009
+G1 X1.98 Y5.39 E41.639
+; fan on
+
+G1 X1.98 Y5.81 E41.6483
+G1 X3.41 Y4.38 E41.6926
+; fan off
+
+G1 X3.63 Y4.58 E41.6991
+; fan on
+
+G1 X2.19 Y6.02 E41.7436
+; fan off
+
+G1 X2.61 Y6.02 E41.7528
+G1 X3.87 Y4.76 E41.7917
+; fan on
+
+G1 X4.25 Y4.81 E41.8
+G1 X3.7 Y5.36 E41.8171
+G1 X4.31 Y5.18 E41.831
+; fan off
+
+G1 X4.67 Y4.81 E41.8422
+; fan on
+
+G1 X5.1 Y4.81 E41.8515
+; fan off
+
+G1 X4.74 Y5.17 E41.8626
+; fan on
+
+G1 X5.16 Y5.17 E41.8718
+G1 X5.52 Y4.81 E41.8829
+; fan off
+
+G1 X5.94 Y4.81 E41.8922
+; fan on
+
+G1 X5.58 Y5.17 E41.9033
+; fan off
+
+G1 X6.01 Y5.17 E41.9126
+; fan on
+
+G1 X6.37 Y4.81 E41.9237
+G1 X6.79 Y4.81 E41.9329
+; fan off
+
+G1 X6.43 Y5.17 E41.944
+; fan on
+
+G1 X6.86 Y5.17 E41.9533
+; fan off
+
+G1 X7.22 Y4.81 E41.9644
+; fan on
+
+G1 X7.64 Y4.81 E41.9737
+G1 X7.28 Y5.17 E41.9848
+; fan off
+
+G1 X7.71 Y5.17 E41.994
+; fan on
+
+G1 X8.07 Y4.81 E42.0051
+; fan off
+
+G1 X8.49 Y4.81 E42.0144
+; fan on
+
+G1 X8.13 Y5.17 E42.0255
+G1 X8.55 Y5.17 E42.0347
+; fan off
+
+G1 X9.01 Y4.71 E42.049
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X10.23 Y3.92 E42.049 F16200
+; fan on
+
+G1 X8.93 Y5.22 E42.0891 F1200
+; fan off
+
+G1 X9.28 Y5.3 E42.0968
+G1 X10.61 Y3.96 E42.1381
+; fan on
+
+G1 X11.04 Y3.96 E42.1473
+G1 X9.52 Y5.48 E42.1941
+; fan off
+
+G1 X9.73 Y5.7 E42.2007
+; fan on
+
+G1 X11.04 Y4.39 E42.2411
+; fan off
+
+G1 X11.04 Y4.81 E42.2503
+G1 X9.86 Y5.99 E42.2868
+; fan on
+
+G1 X10.25 Y6.03 E42.2953
+G1 X11.04 Y5.24 E42.3197
+; fan off
+
+G1 X11.04 Y5.66 E42.3289
+; fan on
+
+G1 X10.63 Y6.07 E42.3415
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E30.3415 F10500
+; fan off
+
+G1 X11.04 Y5.66 E30.3415 F1200
+; fan on
+
+G1 X11.04 Y5.24 E30.3415
+G1 X10.25 Y6.03 E30.3415
+; fan off
+
+G1 X9.86 Y5.99 E30.3415
+; fan on
+
+G1 X11.04 Y4.81 E30.3415
+; fan off
+
+G1 X11.04 Y4.39 E30.3415
+G1 X10.75 Y4.67 E30.3415
+G1 X10.75 Y4.67 Z1.155 E30.3415 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.71 Y7.81 E30.3415
+G1 X1.71 Y7.81 Z0.155 E30.3415
+G1 E42.3415 F10500
+G1 X1.7 Y7.79 E42.3419 F1200
+G1 X1.82 Y7.7 E42.3452
+G1 X3.27 Y7.7 E42.3771
+; fan on
+
+G1 X3.38 Y7.8 E42.3803
+G1 X3.41 Y8 E42.3846
+G1 X3.72 Y8.32 E42.3943
+G1 X4.2 Y8.44 E42.4052
+G1 X8.71 Y8.44 E42.5036
+; fan off
+
+G1 X9.22 Y8.34 E42.5149
+G1 X9.63 Y7.9 E42.528
+G1 X9.67 Y7.69 E42.5325
+G1 X11.33 Y7.7 E42.5688
+; fan on
+
+G1 X11.33 Y10.21 E42.6236
+; fan off
+
+G1 X11.22 Y10.32 E42.6269
+G1 X9.77 Y10.32 E42.6585
+; fan on
+
+G1 X9.64 Y10.24 E42.6619
+G1 X9.53 Y9.91 E42.6693
+; fan off
+
+G1 X9.33 Y9.72 E42.6755
+; fan on
+
+G1 X8.84 Y9.57 E42.6868
+G1 X4.33 Y9.57 E42.7852
+; fan off
+
+G1 X3.95 Y9.6 E42.7934
+G1 X3.82 Y9.69 E42.797
+G1 X3.64 Y9.73 E42.801
+G1 X3.55 Y9.81 E42.8036
+G1 X3.39 Y10.15 E42.8117
+G1 X3.37 Y10.31 E42.8154
+G1 X1.7 Y10.32 E42.8518
+; fan on
+
+G1 X1.7 Y7.79 E42.9069
+; fan off
+
+G1 X1.72 Y7.79 E42.9073
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.96 Y8.37 E42.9073 F16200
+G1 X2.35 Y7.98 E42.9193 F1200
+G1 X2.78 Y7.98 E42.9286
+G1 X1.98 Y8.78 E42.9533
+; fan on
+
+G1 X1.98 Y9.21 E42.9626
+G1 X3.13 Y8.05 E42.9983
+; fan off
+
+G1 X3.31 Y8.3 E43.0049
+G1 X1.97 Y9.63 E43.0462
+; fan on
+
+G1 X1.99 Y10.04 E43.055
+G1 X3.53 Y8.5 E43.1023
+; fan off
+
+G1 X3.83 Y8.63 E43.1094
+; fan on
+
+G1 X2.42 Y10.03 E43.1528
+; fan off
+
+G1 X2.85 Y10.03 E43.162
+G1 X4.16 Y8.72 E43.2027
+; fan on
+
+G1 X4.58 Y8.72 E43.2119
+G1 X3.97 Y9.33 E43.2308
+; fan off
+
+G1 X4.45 Y9.27 E43.2415
+; fan on
+
+G1 X5.01 Y8.72 E43.2585
+; fan off
+
+G1 X5.43 Y8.72 E43.2678
+; fan on
+
+G1 X4.87 Y9.28 E43.285
+; fan off
+
+G1 X5.3 Y9.28 E43.2943
+; fan on
+
+G1 X5.86 Y8.72 E43.3116
+; fan off
+
+G1 X6.28 Y8.72 E43.3208
+; fan on
+
+G1 X5.72 Y9.28 E43.3381
+; fan off
+
+G1 X6.14 Y9.28 E43.3473
+G1 X6.7 Y8.72 E43.3646
+; fan on
+
+G1 X7.13 Y8.72 E43.3739
+G1 X6.57 Y9.28 E43.3911
+; fan off
+
+G1 X6.99 Y9.28 E43.4004
+; fan on
+
+G1 X7.55 Y8.72 E43.4176
+; fan off
+
+G1 X7.98 Y8.72 E43.4269
+; fan on
+
+G1 X7.42 Y9.28 E43.4442
+; fan off
+
+G1 X7.84 Y9.28 E43.4534
+; fan on
+
+G1 X8.4 Y8.72 E43.4706
+; fan off
+
+G1 X8.84 Y8.71 E43.4802
+; fan on
+
+G1 X8.27 Y9.28 E43.4979
+; fan off
+
+G1 X8.69 Y9.28 E43.5071
+; fan on
+
+G1 X9.99 Y7.98 E43.5472
+; fan off
+
+G1 X10.41 Y7.98 E43.5565
+G1 X9.07 Y9.33 E43.598
+; fan on
+
+G1 X9.39 Y9.43 E43.6054
+G1 X10.85 Y7.97 E43.6505
+; fan off
+
+G1 X11.05 Y8.19 E43.657
+G1 X9.63 Y9.62 E43.701
+; fan on
+
+G1 X9.81 Y9.86 E43.7076
+G1 X11.04 Y8.63 E43.7453
+G1 X11.04 Y9.06 E43.7546
+G1 X10.06 Y10.03 E43.7848
+; fan off
+
+G1 X10.48 Y10.03 E43.7941
+G1 X11.04 Y9.48 E43.8112
+; fan on
+
+G1 X11.04 Y9.9 E43.8204
+G1 X10.92 Y10.02 E43.8241
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E31.8241 F10500
+; fan off
+
+G1 X11.04 Y9.9 E31.8241 F1200
+; fan on
+
+G1 X11.04 Y9.48 E31.8241
+; fan off
+
+G1 X10.48 Y10.03 E31.8241
+; fan on
+
+G1 X10.06 Y10.03 E31.8241
+G1 X11.04 Y9.06 E31.8241
+; fan off
+
+G1 X11.04 Y8.63 E31.8241
+; fan on
+
+G1 X10.05 Y9.61 E31.8241
+G1 X10.05 Y9.61 Z1.155 E31.8241 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.74 Y11.65 E31.8241
+G1 X1.74 Y11.65 Z0.155 E31.8241
+G1 E43.8241 F10500
+; fan off
+
+G1 X1.73 Y11.64 E43.8246 F1200
+G1 X3.36 Y11.64 E43.8602
+; fan on
+
+G1 X3.43 Y12 E43.8684
+G1 X3.62 Y12.2 E43.8743
+G1 X4.14 Y12.35 E43.8862
+G1 X8.79 Y12.35 E43.9876
+; fan off
+
+G1 X9.34 Y12.22 E43.9999
+G1 X9.56 Y12.01 E44.0065
+G1 X9.67 Y11.71 E44.0135
+G1 X9.79 Y11.64 E44.0166
+G1 X11.21 Y11.64 E44.0477
+G1 X11.33 Y11.73 E44.051
+G1 X11.33 Y14.24 E44.1057
+; fan on
+
+G1 X11.22 Y14.34 E44.1089
+G1 X9.78 Y14.34 E44.1404
+G1 X9.65 Y14.27 E44.1437
+G1 X9.54 Y13.94 E44.1512
+G1 X9.3 Y13.75 E44.1579
+G1 X8.93 Y13.7 E44.1661
+G1 X4.04 Y13.7 E44.2728
+; fan off
+
+G1 X3.85 Y13.73 E44.2769
+G1 X3.55 Y13.88 E44.2844
+G1 X3.39 Y14.17 E44.2914
+G1 X3.37 Y14.34 E44.2953
+G1 X1.7 Y14.34 E44.3317
+; fan on
+
+G1 X1.7 Y11.83 E44.3865
+; fan off
+
+G1 X1.73 Y11.64 E44.3908
+G1 X1.74 Y11.65 E44.3912
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X2.24 Y11.91 E44.3912 F16200
+G1 X1.98 Y12.17 E44.3993 F1200
+G1 X1.98 Y12.6 E44.4087
+G1 X2.65 Y11.92 E44.4296
+; fan on
+
+G1 X3.08 Y11.92 E44.4388
+; fan off
+
+G1 X1.98 Y13.02 E44.4729
+; fan on
+
+G1 X1.98 Y13.45 E44.4821
+G1 X3.24 Y12.18 E44.5212
+; fan off
+
+G1 X3.45 Y12.4 E44.5278
+; fan on
+
+G1 X1.96 Y13.89 E44.5736
+; fan off
+
+G1 X2.2 Y14.07 E44.5801
+G1 X3.74 Y12.53 E44.6278
+; fan on
+
+G1 X4.08 Y12.61 E44.6354
+G1 X2.64 Y14.06 E44.6799
+; fan off
+
+G1 X3.1 Y14.02 E44.6899
+; fan on
+
+G1 X4.5 Y12.62 E44.733
+; fan off
+
+G1 X4.92 Y12.62 E44.7423
+G1 X4.12 Y13.42 E44.7669
+; fan on
+
+G1 X4.55 Y13.42 E44.7762
+G1 X5.35 Y12.62 E44.8008
+; fan off
+
+G1 X5.77 Y12.62 E44.8101
+G1 X4.97 Y13.42 E44.8346
+; fan on
+
+G1 X5.4 Y13.42 E44.8439
+G1 X6.19 Y12.62 E44.8685
+; fan off
+
+G1 X6.62 Y12.62 E44.8777
+; fan on
+
+G1 X5.82 Y13.42 E44.9023
+; fan off
+
+G1 X6.25 Y13.42 E44.9116
+; fan on
+
+G1 X7.04 Y12.62 E44.9361
+; fan off
+
+G1 X7.47 Y12.62 E44.9454
+G1 X6.67 Y13.42 E44.97
+; fan on
+
+G1 X7.1 Y13.42 E44.9792
+G1 X7.89 Y12.62 E45.0038
+; fan off
+
+G1 X8.32 Y12.62 E45.0131
+; fan on
+
+G1 X7.52 Y13.42 E45.0377
+; fan off
+
+G1 X7.94 Y13.42 E45.0469
+G1 X8.73 Y12.64 E45.0712
+; fan on
+
+G1 X9.25 Y12.54 E45.0826
+G1 X8.37 Y13.42 E45.1097
+; fan off
+
+G1 X8.79 Y13.42 E45.1189
+; fan on
+
+G1 X10.29 Y11.92 E45.1652
+; fan off
+
+G1 X10.72 Y11.92 E45.1745
+G1 X9.19 Y13.45 E45.2215
+; fan on
+
+G1 X9.5 Y13.56 E45.2287
+G1 X11.04 Y12.03 E45.2761
+; fan off
+
+G1 X11.04 Y12.45 E45.2853
+; fan on
+
+G1 X9.73 Y13.76 E45.3256
+; fan off
+
+G1 X9.87 Y14.04 E45.3325
+G1 X11.04 Y12.87 E45.3683
+; fan on
+
+G1 X11.04 Y13.3 E45.3776
+G1 X10.28 Y14.06 E45.401
+; fan off
+
+G1 X10.7 Y14.06 E45.4103
+; fan on
+
+G1 X11.08 Y13.68 E45.4221
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E33.4221 F10500
+; fan off
+
+G1 X10.7 Y14.06 E33.4221 F1200
+; fan on
+
+G1 X10.28 Y14.06 E33.4221
+G1 X11.04 Y13.3 E33.4221
+; fan off
+
+G1 X11.04 Y12.87 E33.4221
+; fan on
+
+G1 X9.87 Y14.04 E33.4221
+; fan off
+
+G1 X9.73 Y13.76 E33.4221
+G1 X10.14 Y13.34 E33.4221
+G1 X10.14 Y13.34 Z1.155 E33.4221 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.73 Y15.68 E33.4221
+G1 X1.73 Y15.68 Z0.155 E33.4221
+G1 E45.4221 F10500
+G1 X1.72 Y15.66 E45.4225 F1200
+G1 X3.37 Y15.66 E45.4586
+; fan on
+
+G1 X3.4 Y15.85 E45.4628
+G1 X3.72 Y16.17 E45.4727
+G1 X4.16 Y16.19 E45.4824
+G1 X9.03 Y16.19 E45.5886
+; fan off
+
+G1 X9.38 Y16.13 E45.5965
+G1 X9.52 Y16.04 E45.6
+G1 X9.6 Y15.78 E45.606
+G1 X9.77 Y15.66 E45.6106
+G1 X11.22 Y15.66 E45.6422
+G1 X11.33 Y15.76 E45.6455
+; fan on
+
+G1 X11.33 Y18.27 E45.7002
+; fan off
+
+G1 X11.2 Y18.35 E45.7035
+G1 X9.8 Y18.35 E45.734
+G1 X9.65 Y18.29 E45.7374
+G1 X9.55 Y17.99 E45.7444
+; fan on
+
+G1 X9.44 Y17.89 E45.7476
+G1 X8.92 Y17.75 E45.7594
+G1 X4 Y17.75 E45.8668
+; fan off
+
+G1 X3.57 Y17.92 E45.8769
+G1 X3.45 Y18.05 E45.8808
+G1 X3.34 Y18.35 E45.8876
+G1 X1.74 Y18.35 E45.9226
+G1 X1.7 Y18.17 E45.9267
+G1 X1.72 Y15.66 E45.9814
+; fan on
+
+G1 X1.74 Y15.67 E45.9819
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X2.47 Y15.93 E45.9819 F16200
+G1 X1.98 Y16.42 E45.997 F1200
+G1 X1.98 Y16.84 E46.0063
+G1 X2.89 Y15.93 E46.0344
+G1 X3.2 Y16.04 E46.0416
+G1 X1.98 Y17.27 E46.0794
+; fan off
+
+G1 X1.98 Y17.69 E46.0887
+G1 X3.41 Y16.26 E46.133
+; fan on
+
+G1 X3.66 Y16.44 E46.1396
+G1 X2.02 Y18.07 E46.19
+; fan off
+
+G1 X2.45 Y18.07 E46.1993
+; fan on
+
+G1 X4.03 Y16.49 E46.2482
+; fan off
+
+G1 X4.45 Y16.49 E46.2574
+G1 X2.83 Y18.11 E46.3076
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X3.82 Y17.55 E46.3076 F16200
+; fan on
+
+G1 X4.88 Y16.49 E46.3403 F1200
+G1 X5.3 Y16.49 E46.3496
+G1 X4.32 Y17.47 E46.38
+; fan off
+
+G1 X4.74 Y17.47 E46.3892
+G1 X5.73 Y16.49 E46.4197
+; fan on
+
+G1 X6.15 Y16.49 E46.4289
+G1 X5.16 Y17.47 E46.4593
+; fan off
+
+G1 X5.59 Y17.47 E46.4686
+; fan on
+
+G1 X6.57 Y16.49 E46.499
+; fan off
+
+G1 X7 Y16.49 E46.5083
+G1 X6.01 Y17.47 E46.5387
+; fan on
+
+G1 X6.44 Y17.47 E46.5479
+G1 X7.42 Y16.49 E46.5783
+; fan off
+
+G1 X7.85 Y16.49 E46.5876
+; fan on
+
+G1 X6.86 Y17.47 E46.618
+; fan off
+
+G1 X7.29 Y17.47 E46.6273
+G1 X8.27 Y16.49 E46.6577
+; fan on
+
+G1 X8.7 Y16.49 E46.667
+G1 X7.71 Y17.47 E46.6974
+; fan off
+
+G1 X8.13 Y17.47 E46.7066
+; fan on
+
+G1 X9.18 Y16.43 E46.7389
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X10.13 Y15.9 E46.7389 F16200
+; fan off
+
+G1 X8.56 Y17.47 E46.7875 F1200
+; fan on
+
+G1 X8.98 Y17.47 E46.7968
+G1 X10.51 Y15.94 E46.8441
+; fan off
+
+G1 X10.94 Y15.94 E46.8533
+; fan on
+
+G1 X9.32 Y17.56 E46.9033
+; fan off
+
+G1 X9.62 Y17.68 E46.9104
+G1 X11.04 Y16.27 E46.9541
+; fan on
+
+G1 X11.04 Y16.69 E46.9634
+G1 X9.81 Y17.92 E47.0011
+; fan off
+
+G1 X10.07 Y18.08 E47.0079
+G1 X11.04 Y17.12 E47.0376
+; fan on
+
+G1 X11.04 Y17.54 E47.0469
+G1 X10.51 Y18.06 E47.063
+G1 X10.99 Y18.01 E47.0735
+G1 X11.08 Y17.92 E47.0763
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E35.0763 F10500
+; fan off
+
+G1 X10.99 Y18.01 E35.0763 F1200
+; fan on
+
+G1 X10.51 Y18.06 E35.0763
+; fan off
+
+G1 X11.04 Y17.54 E35.0763
+; fan on
+
+G1 X11.04 Y17.12 E35.0763
+G1 X10.07 Y18.08 E35.0763
+; fan off
+
+G1 X9.81 Y17.92 E35.0763
+G1 X10.91 Y16.81 E35.0763
+G1 X10.91 Y16.81 Z1.155 E35.0763 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.31 Y15.78 E35.0763
+G1 X-11.31 Y15.78 Z0.155 E35.0763
+G1 E47.0763 F10500
+; fan on
+
+G1 X-11.33 Y15.76 E47.0767 F1200
+G1 X-11.22 Y15.66 E47.0799
+G1 X-9.77 Y15.66 E47.1117
+G1 X-9.59 Y15.79 E47.1164
+; fan off
+
+G1 X-9.51 Y16.03 E47.1221
+; fan on
+
+G1 X-9.08 Y16.19 E47.1321
+G1 X-4.11 Y16.19 E47.2405
+; fan off
+
+G1 X-3.91 Y16.19 E47.2449
+G1 X-3.71 Y16.16 E47.2493
+G1 X-3.4 Y15.85 E47.2589
+G1 X-3.37 Y15.66 E47.2631
+G1 X-1.7 Y15.66 E47.2995
+G1 X-1.7 Y18.17 E47.3544
+; fan on
+
+G1 X-1.74 Y18.35 E47.3583
+G1 X-3.35 Y18.35 E47.3934
+G1 X-3.4 Y18.17 E47.3974
+G1 X-3.71 Y17.86 E47.407
+G1 X-4.04 Y17.84 E47.4143
+G1 X-9.02 Y17.84 E47.523
+; fan off
+
+G1 X-9.41 Y17.88 E47.5315
+G1 X-9.54 Y17.99 E47.5352
+G1 X-9.66 Y18.31 E47.5427
+G1 X-9.8 Y18.35 E47.5459
+G1 X-11.2 Y18.35 E47.5763
+G1 X-11.33 Y18.27 E47.5797
+G1 X-11.33 Y15.76 E47.6344
+; fan on
+
+G1 X-11.31 Y15.76 E47.6348
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.05 Y16.29 E47.6348 F16200
+G1 X-10.7 Y15.94 E47.6456 F1200
+G1 X-10.28 Y15.94 E47.6548
+G1 X-11.04 Y16.7 E47.6783
+G1 X-11.04 Y17.13 E47.6875
+G1 X-9.85 Y15.94 E47.7241
+; fan off
+
+G1 X-9.71 Y16.22 E47.7309
+G1 X-11.04 Y17.55 E47.772
+; fan on
+
+G1 X-11.04 Y17.98 E47.7812
+G1 X-9.42 Y16.36 E47.831
+; fan off
+
+G1 X-9.11 Y16.47 E47.8383
+; fan on
+
+G1 X-10.71 Y18.07 E47.8876
+; fan off
+
+G1 X-10.28 Y18.07 E47.8969
+G1 X-8.69 Y16.48 E47.9459
+; fan on
+
+G1 X-8.27 Y16.48 E47.9551
+G1 X-9.41 Y17.62 E47.9902
+; fan off
+
+G1 X-8.89 Y17.53 E48.0016
+; fan on
+
+G1 X-7.85 Y16.48 E48.0338
+; fan off
+
+G1 X-7.42 Y16.48 E48.0431
+G1 X-8.48 Y17.54 E48.0757
+; fan on
+
+G1 X-8.05 Y17.54 E48.0849
+G1 X-7 Y16.48 E48.1175
+; fan off
+
+G1 X-6.57 Y16.48 E48.1268
+; fan on
+
+G1 X-7.63 Y17.54 E48.1593
+; fan off
+
+G1 X-7.2 Y17.54 E48.1686
+G1 X-6.15 Y16.48 E48.2011
+; fan on
+
+G1 X-5.72 Y16.48 E48.2104
+G1 X-6.78 Y17.54 E48.243
+; fan off
+
+G1 X-6.36 Y17.54 E48.2522
+; fan on
+
+G1 X-5.3 Y16.48 E48.2848
+; fan off
+
+G1 X-4.88 Y16.48 E48.2941
+G1 X-5.93 Y17.54 E48.3266
+; fan on
+
+G1 X-5.51 Y17.54 E48.3359
+G1 X-4.45 Y16.48 E48.3684
+; fan off
+
+G1 X-4.03 Y16.48 E48.3777
+; fan on
+
+G1 X-5.08 Y17.54 E48.4103
+; fan off
+
+G1 X-4.66 Y17.54 E48.4196
+; fan on
+
+G1 X-3.1 Y15.98 E48.4677
+; fan off
+
+G1 X-2.64 Y15.95 E48.4777
+G1 X-4.23 Y17.54 E48.5268
+; fan on
+
+G1 X-3.82 Y17.55 E48.5359
+G1 X-2.2 Y15.93 E48.5858
+; fan off
+
+G1 X-1.96 Y16.12 E48.5924
+G1 X-3.52 Y17.67 E48.6406
+; fan on
+
+G1 X-3.3 Y17.87 E48.6471
+G1 X-1.98 Y16.55 E48.6879
+G1 X-1.98 Y16.98 E48.6972
+G1 X-3.07 Y18.07 E48.7309
+; fan off
+
+G1 X-2.64 Y18.07 E48.7402
+G1 X-1.98 Y17.4 E48.7608
+; fan on
+
+G1 X-1.98 Y17.83 E48.7702
+G1 X-2.27 Y18.11 E48.7789
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E36.7789 F10500
+; fan off
+
+G1 X-1.98 Y17.83 E36.7789 F1200
+; fan on
+
+G1 X-1.98 Y17.4 E36.7789
+; fan off
+
+G1 X-2.64 Y18.07 E36.7789
+; fan on
+
+G1 X-3.07 Y18.07 E36.7789
+G1 X-1.98 Y16.98 E36.7789
+; fan off
+
+G1 X-1.98 Y16.55 E36.7789
+G1 X-2.57 Y17.14 E36.7789
+G1 X-2.57 Y17.14 Z1.155 E36.7789 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.31 Y11.75 E36.7789
+G1 X-11.31 Y11.75 Z0.155 E36.7789
+G1 E48.7789 F10500
+; fan on
+
+G1 X-11.33 Y11.73 E48.7793 F1200
+G1 X-11.21 Y11.64 E48.7826
+G1 X-9.79 Y11.64 E48.8137
+; fan off
+
+G1 X-9.67 Y11.71 E48.8167
+G1 X-9.55 Y12.02 E48.8239
+; fan on
+
+G1 X-9.31 Y12.23 E48.831
+; fan off
+
+G1 X-8.94 Y12.27 E48.8392
+; fan on
+
+G1 X-3.95 Y12.27 E48.9481
+; fan off
+
+G1 X-3.53 Y12.13 E48.9577
+G1 X-3.43 Y11.98 E48.9616
+G1 X-3.36 Y11.64 E48.9692
+G1 X-1.73 Y11.64 E49.0048
+G1 X-1.7 Y11.84 E49.0093
+; fan on
+
+G1 X-1.7 Y14.34 E49.0639
+; fan off
+
+G1 X-3.37 Y14.34 E49.1003
+G1 X-3.39 Y14.16 E49.1043
+G1 X-3.58 Y13.88 E49.1116
+; fan on
+
+G1 X-3.97 Y13.71 E49.1209
+; fan off
+
+G1 X-4.22 Y13.71 E49.1263
+; fan on
+
+G1 X-8.98 Y13.71 E49.2303
+; fan off
+
+G1 X-9.42 Y13.83 E49.2402
+G1 X-9.54 Y13.95 E49.2439
+G1 X-9.65 Y14.27 E49.2512
+G1 X-9.78 Y14.34 E49.2545
+G1 X-11.22 Y14.34 E49.286
+G1 X-11.33 Y14.24 E49.2893
+; fan on
+
+G1 X-11.33 Y11.73 E49.3439
+; fan off
+
+G1 X-11.31 Y11.73 E49.3444
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.05 Y12.05 E49.3444 F16200
+G1 X-10.98 Y11.98 E49.3464 F1200
+G1 X-10.5 Y11.93 E49.3569
+G1 X-11.04 Y12.46 E49.3733
+G1 X-11.04 Y12.88 E49.3826
+; fan on
+
+G1 X-10.06 Y11.91 E49.4127
+; fan off
+
+G1 X-9.82 Y12.09 E49.4193
+G1 X-11.04 Y13.31 E49.457
+; fan on
+
+G1 X-11.04 Y13.73 E49.4662
+G1 X-9.63 Y12.32 E49.5097
+; fan off
+
+G1 X-9.38 Y12.5 E49.5163
+G1 X-10.94 Y14.06 E49.5644
+; fan on
+
+G1 X-10.51 Y14.06 E49.5737
+G1 X-9 Y12.55 E49.6203
+G1 X-8.58 Y12.55 E49.6295
+G1 X-10.13 Y14.1 E49.6774
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-9.09 Y13.48 E49.6774 F16200
+; fan off
+
+G1 X-8.16 Y12.55 E49.7061 F1200
+G1 X-7.73 Y12.55 E49.7154
+; fan on
+
+G1 X-8.61 Y13.42 E49.7423
+; fan off
+
+G1 X-8.18 Y13.42 E49.7516
+G1 X-7.31 Y12.55 E49.7786
+; fan on
+
+G1 X-6.88 Y12.55 E49.7878
+G1 X-7.76 Y13.42 E49.8148
+; fan off
+
+G1 X-7.33 Y13.42 E49.824
+; fan on
+
+G1 X-6.46 Y12.55 E49.851
+; fan off
+
+G1 X-6.04 Y12.55 E49.8603
+; fan on
+
+G1 X-6.91 Y13.42 E49.8872
+; fan off
+
+G1 X-6.48 Y13.42 E49.8965
+G1 X-5.61 Y12.55 E49.9234
+; fan on
+
+G1 X-5.19 Y12.55 E49.9327
+G1 X-6.06 Y13.42 E49.9597
+; fan off
+
+G1 X-5.64 Y13.42 E49.9689
+; fan on
+
+G1 X-4.76 Y12.55 E49.9959
+; fan off
+
+G1 X-4.34 Y12.55 E50.0051
+G1 X-5.21 Y13.42 E50.0321
+; fan on
+
+G1 X-4.79 Y13.42 E50.0414
+G1 X-3.86 Y12.5 E50.07
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-2.82 Y11.88 E50.07 F16200
+G1 X-4.36 Y13.42 E50.1178 F1200
+; fan off
+
+G1 X-3.94 Y13.43 E50.1269
+G1 X-2.44 Y11.92 E50.1734
+; fan on
+
+G1 X-2.01 Y11.92 E50.1827
+G1 X-3.64 Y13.55 E50.2328
+; fan off
+
+G1 X-3.37 Y13.71 E50.2395
+G1 X-1.98 Y12.31 E50.2827
+; fan on
+
+G1 X-1.98 Y12.73 E50.2919
+G1 X-3.2 Y13.96 E50.3297
+; fan off
+
+G1 X-2.89 Y14.07 E50.337
+; fan on
+
+G1 X-1.98 Y13.16 E50.3651
+; fan off
+
+G1 X-1.98 Y13.58 E50.3743
+G1 X-2.5 Y14.1 E50.3904
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E38.3904 F10500
+; fan on
+
+G1 X-1.98 Y13.58 E38.3904 F1200
+G1 X-1.98 Y13.16 E38.3904
+; fan off
+
+G1 X-2.89 Y14.07 E38.3904
+; fan on
+
+G1 X-3.2 Y13.96 E38.3904
+G1 X-1.98 Y12.73 E38.3904
+; fan off
+
+G1 X-1.98 Y12.31 E38.3904
+; fan on
+
+G1 X-2.02 Y12.35 E38.3904
+G1 X-2.02 Y12.35 Z1.155 E38.3904 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.32 Y7.72 E38.3904
+G1 X-11.32 Y7.72 Z0.155 E38.3904
+G1 E50.3904 F10500
+; fan off
+
+G1 X-11.33 Y7.7 E50.3909 F1200
+; fan on
+
+G1 X-9.67 Y7.69 E50.4272
+; fan off
+
+G1 X-9.63 Y7.9 E50.4317
+G1 X-9.25 Y8.3 E50.4438
+G1 X-8.69 Y8.42 E50.4563
+; fan on
+
+G1 X-4.26 Y8.42 E50.553
+; fan off
+
+G1 X-3.7 Y8.29 E50.5655
+G1 X-3.41 Y8 E50.5745
+G1 X-3.38 Y7.8 E50.5788
+G1 X-3.27 Y7.7 E50.5821
+G1 X-1.82 Y7.7 E50.6139
+; fan on
+
+G1 X-1.7 Y7.79 E50.6172
+G1 X-1.7 Y10.32 E50.6723
+; fan off
+
+G1 X-3.37 Y10.31 E50.7087
+G1 X-3.39 Y10.15 E50.7124
+; fan on
+
+G1 X-3.57 Y9.81 E50.7206
+; fan off
+
+G1 X-4.09 Y9.59 E50.733
+; fan on
+
+G1 X-4.34 Y9.58 E50.7384
+G1 X-8.81 Y9.58 E50.836
+; fan off
+
+G1 X-9.34 Y9.73 E50.8479
+G1 X-9.53 Y9.91 E50.8537
+G1 X-9.61 Y10.19 E50.8602
+G1 X-9.77 Y10.32 E50.8646
+G1 X-11.22 Y10.32 E50.8964
+; fan on
+
+G1 X-11.33 Y10.21 E50.8997
+G1 X-11.33 Y7.7 E50.9543
+; fan off
+
+G1 X-11.31 Y7.71 E50.9548
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-10.79 Y7.97 E50.9548 F16200
+G1 X-11.04 Y8.22 E50.9625 F1200
+G1 X-11.04 Y8.64 E50.9717
+G1 X-10.38 Y7.98 E50.9921
+; fan on
+
+G1 X-9.95 Y7.98 E51.0014
+; fan off
+
+G1 X-11.04 Y9.07 E51.0349
+; fan on
+
+G1 X-11.04 Y9.49 E51.0441
+G1 X-9.74 Y8.19 E51.0843
+; fan off
+
+G1 X-9.53 Y8.41 E51.0908
+; fan on
+
+G1 X-11.05 Y9.92 E51.1377
+; fan off
+
+G1 X-10.74 Y10.04 E51.1448
+G1 X-9.29 Y8.59 E51.1897
+; fan on
+
+G1 X-8.94 Y8.66 E51.1975
+G1 X-10.35 Y10.08 E51.2412
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-9.31 Y9.46 E51.2412 F16200
+; fan off
+
+G1 X-8.55 Y8.7 E51.2646 F1200
+; fan on
+
+G1 X-8.12 Y8.7 E51.2738
+G1 X-8.72 Y9.29 E51.2922
+; fan off
+
+G1 X-8.29 Y9.29 E51.3015
+; fan on
+
+G1 X-7.7 Y8.7 E51.3199
+; fan off
+
+G1 X-7.28 Y8.7 E51.3291
+; fan on
+
+G1 X-7.87 Y9.29 E51.3475
+; fan off
+
+G1 X-7.45 Y9.29 E51.3567
+G1 X-6.85 Y8.7 E51.3751
+; fan on
+
+G1 X-6.43 Y8.7 E51.3843
+G1 X-7.02 Y9.29 E51.4027
+; fan off
+
+G1 X-6.6 Y9.29 E51.4119
+; fan on
+
+G1 X-6 Y8.7 E51.4303
+; fan off
+
+G1 X-5.58 Y8.7 E51.4395
+; fan on
+
+G1 X-6.17 Y9.29 E51.4579
+; fan off
+
+G1 X-5.75 Y9.29 E51.4671
+; fan on
+
+G1 X-5.15 Y8.7 E51.4855
+; fan off
+
+G1 X-4.73 Y8.7 E51.4947
+G1 X-5.32 Y9.29 E51.5131
+; fan on
+
+G1 X-4.9 Y9.29 E51.5223
+G1 X-4.32 Y8.71 E51.5402
+; fan off
+
+G1 X-3.77 Y8.59 E51.5525
+; fan on
+
+G1 X-4.48 Y9.29 E51.5743
+; fan off
+
+G1 X-4.06 Y9.31 E51.5833
+; fan on
+
+G1 X-2.74 Y7.98 E51.6242
+; fan off
+
+G1 X-2.31 Y7.98 E51.6335
+G1 X-3.75 Y9.42 E51.6779
+; fan on
+
+G1 X-3.47 Y9.57 E51.6848
+G1 X-1.98 Y8.07 E51.731
+; fan off
+
+G1 X-1.98 Y8.49 E51.7403
+; fan on
+
+G1 X-3.27 Y9.79 E51.7802
+; fan off
+
+G1 X-3.11 Y10.05 E51.7869
+G1 X-1.98 Y8.92 E51.8218
+; fan on
+
+G1 X-1.98 Y9.34 E51.8311
+G1 X-2.67 Y10.03 E51.8525
+; fan off
+
+G1 X-2.25 Y10.03 E51.8618
+; fan on
+
+G1 X-1.93 Y9.72 E51.8714
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E39.8714 F10500
+G1 X-2.25 Y10.03 E39.8714 F1200
+; fan off
+
+G1 X-2.67 Y10.03 E39.8714
+; fan on
+
+G1 X-1.98 Y9.34 E39.8714
+; fan off
+
+G1 X-1.98 Y8.92 E39.8714
+; fan on
+
+G1 X-3.11 Y10.05 E39.8714
+; fan off
+
+G1 X-3.27 Y9.79 E39.8714
+G1 X-2.69 Y9.2 E39.8714
+G1 X-2.69 Y9.2 Z1.155 E39.8714 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.32 Y3.69 E39.8714
+G1 X-11.32 Y3.69 Z0.155 E39.8714
+G1 E51.8714 F10500
+; fan on
+
+G1 X-11.33 Y3.67 E51.8719 F1200
+G1 X-9.67 Y3.67 E51.908
+; fan off
+
+G1 X-9.65 Y3.8 E51.9109
+G1 X-9.42 Y4.27 E51.9223
+G1 X-8.83 Y4.51 E51.9362
+; fan on
+
+G1 X-4.29 Y4.52 E52.0352
+; fan off
+
+G1 X-3.98 Y4.47 E52.042
+G1 X-3.81 Y4.39 E52.0463
+G1 X-3.4 Y3.97 E52.0589
+G1 X-3.37 Y3.78 E52.0632
+G1 X-3.27 Y3.67 E52.0665
+G1 X-1.82 Y3.67 E52.098
+; fan on
+
+G1 X-1.7 Y3.76 E52.1013
+G1 X-1.7 Y6.3 E52.1568
+; fan off
+
+G1 X-3.37 Y6.29 E52.1932
+G1 X-3.39 Y6.12 E52.197
+; fan on
+
+G1 X-3.55 Y5.79 E52.205
+; fan off
+
+G1 X-3.64 Y5.7 E52.2079
+; fan on
+
+G1 X-4.08 Y5.54 E52.2181
+G1 X-8.62 Y5.53 E52.3173
+; fan off
+
+G1 X-9.01 Y5.55 E52.3258
+G1 X-9.31 Y5.66 E52.3328
+G1 X-9.53 Y5.88 E52.3395
+G1 X-9.59 Y6.15 E52.3455
+G1 X-9.76 Y6.3 E52.3504
+G1 X-11.24 Y6.3 E52.3827
+G1 X-11.33 Y6.18 E52.3861
+; fan on
+
+G1 X-11.33 Y3.67 E52.4407
+; fan off
+
+G1 X-11.31 Y3.68 E52.4412
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.01 Y3.95 E52.4412 F16200
+G1 X-11.04 Y3.97 E52.4419 F1200
+G1 X-11.04 Y4.4 E52.4511
+G1 X-10.6 Y3.96 E52.4646
+G1 X-10.18 Y3.96 E52.4738
+G1 X-11.04 Y4.82 E52.5003
+; fan on
+
+G1 X-11.04 Y5.25 E52.5096
+G1 X-9.83 Y4.04 E52.5468
+; fan off
+
+G1 X-9.7 Y4.33 E52.5537
+; fan on
+
+G1 X-11.04 Y5.68 E52.5953
+; fan off
+
+G1 X-10.97 Y6.03 E52.6031
+G1 X-9.48 Y4.54 E52.6492
+; fan on
+
+G1 X-9.19 Y4.67 E52.6562
+G1 X-10.54 Y6.02 E52.6979
+; fan off
+
+G1 X-10.11 Y6.02 E52.7072
+; fan on
+
+G1 X-8.88 Y4.79 E52.7451
+; fan off
+
+G1 X-8.47 Y4.8 E52.7542
+G1 X-8.92 Y5.25 E52.768
+G1 X-8.48 Y5.24 E52.7776
+; fan on
+
+G1 X-8.05 Y4.8 E52.791
+; fan off
+
+G1 X-7.62 Y4.8 E52.8003
+; fan on
+
+G1 X-8.06 Y5.24 E52.8136
+; fan off
+
+G1 X-7.63 Y5.24 E52.8229
+; fan on
+
+G1 X-7.2 Y4.8 E52.8363
+; fan off
+
+G1 X-6.77 Y4.8 E52.8455
+; fan on
+
+G1 X-7.21 Y5.24 E52.8589
+; fan off
+
+G1 X-6.78 Y5.24 E52.8682
+; fan on
+
+G1 X-6.35 Y4.8 E52.8816
+; fan off
+
+G1 X-5.93 Y4.8 E52.8908
+; fan on
+
+G1 X-6.36 Y5.24 E52.9042
+; fan off
+
+G1 X-5.93 Y5.24 E52.9135
+; fan on
+
+G1 X-5.5 Y4.8 E52.9269
+; fan off
+
+G1 X-5.08 Y4.8 E52.9361
+; fan on
+
+G1 X-5.51 Y5.24 E52.9495
+; fan off
+
+G1 X-5.09 Y5.24 E52.9588
+; fan on
+
+G1 X-4.65 Y4.81 E52.9721
+; fan off
+
+G1 X-4.22 Y4.79 E52.9816
+; fan on
+
+G1 X-4.66 Y5.24 E52.9953
+G1 X-4.24 Y5.24 E53.0045
+; fan off
+
+G1 X-2.96 Y3.96 E53.0439
+; fan on
+
+G1 X-2.54 Y3.96 E53.0532
+G1 X-3.87 Y5.29 E53.0941
+; fan off
+
+G1 X-3.57 Y5.42 E53.1011
+; fan on
+
+G1 X-2.1 Y3.95 E53.1464
+; fan off
+
+G1 X-1.96 Y4.24 E53.1533
+G1 X-3.34 Y5.61 E53.1957
+; fan on
+
+G1 X-3.2 Y5.9 E53.2027
+G1 X-1.98 Y4.67 E53.2405
+; fan off
+
+G1 X-1.98 Y5.1 E53.2498
+; fan on
+
+G1 X-2.9 Y6.02 E53.2784
+; fan off
+
+G1 X-2.48 Y6.02 E53.2876
+G1 X-1.93 Y5.48 E53.3045
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E41.3045 F10500
+; fan on
+
+G1 X-2.48 Y6.02 E41.3045 F1200
+G1 X-2.9 Y6.02 E41.3045
+; fan off
+
+G1 X-1.98 Y5.1 E41.3045
+; fan on
+
+G1 X-1.98 Y4.67 E41.3045
+G1 X-3.2 Y5.9 E41.3045
+; fan off
+
+G1 X-3.34 Y5.61 E41.3045
+G1 X-3.33 Y5.6 E41.3045
+G1 X-3.33 Y5.6 Z1.155 E41.3045 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.32 Y-0.34 E41.3045
+G1 X-11.32 Y-0.34 Z0.155 E41.3045
+G1 E53.3045 F10500
+G1 X-11.33 Y-0.36 E53.305 F1200
+; fan on
+
+G1 X-9.68 Y-0.36 E53.3408
+; fan off
+
+G1 X-9.56 Y-0.01 E53.3488
+G1 X-9.54 Y0.15 E53.3523
+G1 X-9.23 Y0.45 E53.3616
+G1 X-8.73 Y0.6 E53.3731
+; fan on
+
+G1 X-4.43 Y0.6 E53.4669
+; fan off
+
+G1 X-4.23 Y0.59 E53.4713
+G1 X-4.1 Y0.57 E53.4742
+G1 X-3.63 Y0.35 E53.4855
+G1 X-3.56 Y0.26 E53.488
+G1 X-3.39 Y-0.1 E53.4967
+G1 X-3.37 Y-0.25 E53.5
+G1 X-3.26 Y-0.36 E53.5033
+G1 X-1.83 Y-0.36 E53.5347
+; fan on
+
+G1 X-1.7 Y-0.27 E53.538
+G1 X-1.7 Y2.27 E53.5934
+; fan off
+
+G1 X-1.83 Y2.36 E53.5968
+G1 X-3.26 Y2.36 E53.6281
+; fan on
+
+G1 X-3.37 Y2.25 E53.6314
+G1 X-3.39 Y2.11 E53.6345
+G1 X-3.55 Y1.74 E53.6432
+; fan off
+
+G1 X-3.64 Y1.64 E53.6462
+; fan on
+
+G1 X-4.19 Y1.41 E53.6593
+; fan off
+
+G1 X-4.43 Y1.4 E53.6645
+; fan on
+
+G1 X-8.68 Y1.4 E53.7573
+; fan off
+
+G1 X-8.9 Y1.43 E53.7621
+G1 X-9.24 Y1.56 E53.77
+G1 X-9.54 Y1.85 E53.7791
+G1 X-9.56 Y2 E53.7823
+G1 X-9.68 Y2.36 E53.7906
+G1 X-11.33 Y2.36 E53.8265
+; fan on
+
+G1 X-11.33 Y-0.36 E53.8857
+; fan off
+
+G1 X-11.31 Y-0.34 E53.8861
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.05 Y0.17 E53.8861 F16200
+G1 X-10.82 Y-0.06 E53.8932 F1200
+G1 X-10.39 Y-0.06 E53.9025
+G1 X-11.04 Y0.58 E53.9223
+; fan on
+
+G1 X-11.04 Y1 E53.9315
+G1 X-9.96 Y-0.07 E53.9648
+; fan off
+
+G1 X-9.81 Y0.21 E53.9716
+G1 X-11.04 Y1.43 E54.0094
+; fan on
+
+G1 X-11.04 Y1.85 E54.0187
+G1 X-9.63 Y0.44 E54.0621
+; fan off
+
+G1 X-9.41 Y0.65 E54.0687
+G1 X-10.82 Y2.06 E54.1122
+; fan on
+
+G1 X-10.39 Y2.06 E54.1215
+G1 X-9.12 Y0.78 E54.1609
+G1 X-8.78 Y0.87 E54.1686
+; fan off
+
+G1 X-9.22 Y1.31 E54.1824
+; fan on
+
+G1 X-8.62 Y1.14 E54.196
+G1 X-8.32 Y0.83 E54.2053
+; fan off
+
+G1 X-8.23 Y1.17 E54.2129
+; fan on
+
+G1 X-7.93 Y0.87 E54.2221
+; fan off
+
+G1 X-7.77 Y1.13 E54.2289
+; fan on
+
+G1 X-7.47 Y0.83 E54.2382
+; fan off
+
+G1 X-7.38 Y1.17 E54.2457
+; fan on
+
+G1 X-7.08 Y0.87 E54.255
+; fan off
+
+G1 X-6.92 Y1.13 E54.2618
+; fan on
+
+G1 X-6.62 Y0.83 E54.271
+; fan off
+
+G1 X-6.53 Y1.17 E54.2786
+; fan on
+
+G1 X-6.23 Y0.87 E54.2878
+G1 X-6.07 Y1.13 E54.2946
+; fan off
+
+G1 X-5.77 Y0.83 E54.3039
+; fan on
+
+G1 X-5.68 Y1.17 E54.3114
+G1 X-5.38 Y0.87 E54.3207
+; fan off
+
+G1 X-5.23 Y1.13 E54.3275
+; fan on
+
+G1 X-4.93 Y0.83 E54.3367
+; fan off
+
+G1 X-4.83 Y1.17 E54.3443
+; fan on
+
+G1 X-4.53 Y0.87 E54.3535
+; fan off
+
+G1 X-4.38 Y1.14 E54.3603
+; fan on
+
+G1 X-4.06 Y0.81 E54.3703
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-2.74 Y-0.07 E54.3703 F16200
+G1 X-3.98 Y1.16 E54.4084 F1200
+; fan off
+
+G1 X-3.69 Y1.3 E54.4153
+G1 X-2.33 Y-0.07 E54.4575
+; fan on
+
+G1 X-1.97 Y0 E54.4654
+G1 X-3.43 Y1.46 E54.5106
+; fan off
+
+G1 X-3.26 Y1.71 E54.5172
+G1 X-1.98 Y0.43 E54.5567
+; fan on
+
+G1 X-1.98 Y0.85 E54.566
+G1 X-3.12 Y1.99 E54.6012
+G1 X-2.76 Y2.07 E54.609
+; fan off
+
+G1 X-1.98 Y1.28 E54.6333
+; fan on
+
+G1 X-1.98 Y1.7 E54.6426
+G1 X-2.38 Y2.11 E54.655
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E42.655 F10500
+G1 X-1.98 Y1.7 E42.655 F1200
+; fan off
+
+G1 X-1.98 Y1.28 E42.655
+; fan on
+
+G1 X-2.76 Y2.07 E42.655
+; fan off
+
+G1 X-3.12 Y1.99 E42.655
+; fan on
+
+G1 X-1.98 Y0.85 E42.655
+; fan off
+
+G1 X-1.98 Y0.43 E42.655
+G1 X-2.33 Y0.78 E42.655
+G1 X-2.33 Y0.78 Z1.155 E42.655 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.31 Y-8.19 E42.655
+G1 X-11.31 Y-8.19 Z0.155 E42.655
+G1 E54.655 F10500
+G1 X-11.33 Y-8.21 E54.6554 F1200
+G1 X-11.22 Y-8.32 E54.6587
+; fan on
+
+G1 X-9.78 Y-8.32 E54.6903
+; fan off
+
+G1 X-9.66 Y-8.22 E54.6936
+G1 X-9.63 Y-8.07 E54.6969
+G1 X-9.4 Y-7.63 E54.7078
+G1 X-9.32 Y-7.52 E54.7106
+G1 X-8.86 Y-7.28 E54.722
+; fan on
+
+G1 X-8.36 Y-7.2 E54.7332
+G1 X-4.8 Y-7.2 E54.8109
+; fan off
+
+G1 X-4.03 Y-7.29 E54.8279
+G1 X-3.51 Y-7.79 E54.8434
+G1 X-3.41 Y-7.94 E54.8475
+G1 X-3.37 Y-8.31 E54.8557
+G1 X-1.7 Y-8.32 E54.892
+; fan on
+
+G1 X-1.7 Y-5.79 E54.9471
+; fan off
+
+G1 X-1.82 Y-5.7 E54.9504
+; fan on
+
+G1 X-3.27 Y-5.7 E54.9823
+; fan off
+
+G1 X-3.37 Y-5.81 E54.9856
+G1 X-3.39 Y-5.93 E54.9882
+G1 X-3.55 Y-6.33 E54.9977
+G1 X-3.82 Y-6.6 E55.0059
+; fan on
+
+G1 X-4.3 Y-6.76 E55.017
+; fan off
+
+G1 X-4.71 Y-6.77 E55.0258
+; fan on
+
+G1 X-8.57 Y-6.77 E55.1102
+; fan off
+
+G1 X-8.73 Y-6.75 E55.1138
+G1 X-9.14 Y-6.61 E55.1231
+G1 X-9.53 Y-6.21 E55.1354
+G1 X-9.55 Y-6.07 E55.1385
+G1 X-9.68 Y-5.7 E55.1471
+G1 X-11.33 Y-5.7 E55.1831
+; fan on
+
+G1 X-11.33 Y-8.21 E55.2379
+; fan off
+
+G1 X-11.31 Y-8.21 E55.2383
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-10.95 Y-7.99 E55.2383 F16200
+G1 X-11.04 Y-7.9 E55.241 F1200
+G1 X-11.04 Y-7.48 E55.2503
+G1 X-10.48 Y-8.03 E55.2674
+; fan on
+
+G1 X-10.06 Y-8.03 E55.2766
+G1 X-11.04 Y-7.06 E55.3068
+; fan off
+
+G1 X-11.04 Y-6.63 E55.3161
+G1 X-9.82 Y-7.85 E55.3536
+; fan on
+
+G1 X-9.68 Y-7.57 E55.3605
+G1 X-11.05 Y-6.19 E55.4028
+; fan off
+
+G1 X-10.85 Y-5.97 E55.4094
+; fan on
+
+G1 X-9.5 Y-7.32 E55.451
+; fan off
+
+G1 X-9.22 Y-7.17 E55.4579
+G1 X-10.41 Y-5.98 E55.4946
+; fan on
+
+G1 X-9.99 Y-5.98 E55.5038
+G1 X-9.82 Y-6.16 E55.5092
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E43.5092 F10500
+G1 X-9.99 Y-5.98 E43.5092 F1200
+G1 X-10.41 Y-5.98 E43.5092
+G1 X-9.22 Y-7.17 E43.5092
+; fan off
+
+G1 X-9.5 Y-7.32 E43.5092
+G1 X-10.85 Y-5.97 E43.5092
+; fan on
+
+G1 X-11.05 Y-6.19 E43.5092
+G1 X-10.96 Y-6.28 E43.5092
+G1 X-10.96 Y-6.28 Z1.155 E43.5092 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-3.91 Y-6.97 E43.5092
+G1 X-3.91 Y-6.97 Z0.155 E43.5092
+G1 E55.5092 F10500
+G1 X-2.85 Y-8.03 E55.5422 F1200
+; fan off
+
+G1 X-2.42 Y-8.03 E55.5514
+; fan on
+
+G1 X-3.66 Y-6.8 E55.5896
+; fan off
+
+G1 X-3.43 Y-6.6 E55.5961
+G1 X-1.99 Y-8.04 E55.6404
+; fan on
+
+G1 X-1.97 Y-7.63 E55.6492
+G1 X-3.25 Y-6.35 E55.6886
+; fan off
+
+G1 X-3.12 Y-6.06 E55.6956
+; fan on
+
+G1 X-1.98 Y-7.21 E55.731
+; fan off
+
+G1 X-1.98 Y-6.78 E55.7403
+G1 X-2.78 Y-5.98 E55.765
+; fan on
+
+G1 X-2.35 Y-5.98 E55.7742
+G1 X-1.93 Y-6.4 E55.7872
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E43.7872 F10500
+G1 X-2.35 Y-5.98 E43.7872 F1200
+; fan off
+
+G1 X-2.78 Y-5.98 E43.7872
+; fan on
+
+G1 X-1.98 Y-6.78 E43.7872
+; fan off
+
+G1 X-1.98 Y-7.21 E43.7872
+; fan on
+
+G1 X-3.12 Y-6.06 E43.7872
+; fan off
+
+G1 X-3.25 Y-6.35 E43.7872
+G1 X-2.91 Y-6.7 E43.7872
+G1 X-2.91 Y-6.7 Z1.155 E43.7872 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X1.75 Y-16.33 E43.7872
+G1 X1.75 Y-16.33 Z0.155 E43.7872
+G1 E55.7872 F10500
+G1 X1.74 Y-16.35 E55.7877 F1200
+G1 X3.35 Y-16.35 E55.8228
+; fan on
+
+G1 X3.39 Y-16.05 E55.8294
+G1 X3.54 Y-15.63 E55.8392
+G1 X4.05 Y-15.12 E55.8549
+G1 X4.09 Y-14.86 E55.8607
+; fan off
+
+G1 X3.82 Y-14.7 E55.8674
+; fan on
+
+G1 X3.55 Y-14.4 E55.8764
+G1 X3.39 Y-13.98 E55.886
+; fan off
+
+G1 X3.37 Y-13.66 E55.8931
+; fan on
+
+G1 X1.7 Y-13.66 E55.9295
+; fan off
+
+G1 X1.7 Y-16.17 E55.9843
+; fan on
+
+G1 X1.74 Y-16.35 E55.9883
+G1 X1.76 Y-16.34 E55.9887
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E43.9887 F10500
+G1 X1.75 Y-16.33 E43.9887 F1200
+G1 X1.74 Y-16.35 E43.9887
+G1 X3.35 Y-16.35 E43.9887
+G1 X3.39 Y-16.05 E43.9887
+G1 X3.54 Y-15.63 E43.9887
+; fan off
+
+G1 X4.05 Y-15.12 E43.9887
+; fan on
+
+G1 X4.09 Y-14.86 E43.9887
+G1 X3.82 Y-14.7 E43.9887
+G1 X3.55 Y-14.4 E43.9887
+; fan off
+
+G1 X3.39 Y-13.98 E43.9887
+; fan on
+
+G1 X3.37 Y-13.66 E43.9887
+; fan off
+
+G1 X3.22 Y-13.66 E43.9887
+G1 X3.22 Y-13.66 Z1.155 E43.9887 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X9.68 Y-16.26 E43.9887
+G1 X9.68 Y-16.26 Z0.155 E43.9887
+G1 E55.9887 F10500
+; fan on
+
+G1 X9.67 Y-16.27 E55.9892 F1200
+G1 X9.8 Y-16.35 E55.9926
+G1 X11.2 Y-16.35 E56.023
+; fan off
+
+G1 X11.33 Y-16.27 E56.0264
+G1 X11.33 Y-13.76 E56.081
+; fan on
+
+G1 X11.22 Y-13.66 E56.0843
+G1 X9.78 Y-13.66 E56.1158
+G1 X9.68 Y-13.75 E56.1187
+G1 X9.56 Y-14.08 E56.1263
+G1 X9.46 Y-14.37 E56.1331
+G1 X8.89 Y-14.91 E56.1502
+; fan off
+
+G1 X8.9 Y-15.11 E56.1547
+G1 X9.53 Y-15.75 E56.1743
+; fan on
+
+G1 X9.56 Y-15.91 E56.1777
+G1 X9.67 Y-16.27 E56.1861
+G1 X9.69 Y-16.27 E56.1865
+;
+; 'Crown', 0.5 [feed mm/s], 20.0 [head mm/s]
+G1 X8.63 Y-15.05 E56.1865 F16200
+G1 X8.63 Y-14.98 E56.1881 F1200
+G1 X8.38 Y-15.02 E56.1939
+G1 X8.38 Y-15.01 E56.194
+G1 X4.5 Y-15.01 E56.2819
+; fan off
+
+G1 X4.32 Y-15.05 E56.2862
+G1 X4.3 Y-14.97 E56.2879
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X2.59 Y-13.9 E56.2879 F16200
+G1 X3.69 Y-14.99 E56.3217 F1200
+G1 X3.52 Y-15.25 E56.3284
+G1 X2.2 Y-13.93 E56.3692
+; fan on
+
+G1 X1.96 Y-14.12 E56.3758
+G1 X3.32 Y-15.47 E56.4176
+G1 X3.19 Y-15.77 E56.4247
+G1 X1.98 Y-14.55 E56.4622
+; fan off
+
+G1 X1.98 Y-14.98 E56.4715
+G1 X3.07 Y-16.07 E56.5052
+; fan on
+
+G1 X2.64 Y-16.07 E56.5145
+G1 X1.98 Y-15.4 E56.5351
+; fan off
+
+G1 X1.98 Y-15.83 E56.5445
+; fan on
+
+G1 X2.23 Y-16.08 E56.5522
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E44.5522 F10500
+; fan off
+
+G1 X1.98 Y-15.83 E44.5522 F1200
+; fan on
+
+G1 X1.98 Y-15.4 E44.5522
+G1 X2.64 Y-16.07 E44.5522
+; fan off
+
+G1 X3.07 Y-16.07 E44.5522
+; fan on
+
+G1 X1.98 Y-14.98 E44.5522
+; fan off
+
+G1 X1.98 Y-14.55 E44.5522
+G1 X2.6 Y-15.17 E44.5522
+G1 X2.6 Y-15.17 Z1.155 E44.5522 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X9.26 Y-15.05 E44.5522
+G1 X9.26 Y-15.05 Z0.155 E44.5522
+G1 E56.5522 F10500
+; fan on
+
+G1 X10.28 Y-16.07 E56.5838 F1200
+; fan off
+
+G1 X10.71 Y-16.07 E56.5931
+G1 X9.42 Y-14.78 E56.6327
+; fan on
+
+G1 X9.63 Y-14.57 E56.6393
+G1 X11.04 Y-15.98 E56.6828
+; fan off
+
+G1 X11.04 Y-15.55 E56.692
+; fan on
+
+G1 X9.81 Y-14.33 E56.7298
+; fan off
+
+G1 X9.91 Y-14 E56.7372
+G1 X11.04 Y-15.13 E56.7719
+; fan on
+
+G1 X11.04 Y-14.7 E56.7812
+G1 X10.28 Y-13.94 E56.8047
+G1 X10.7 Y-13.94 E56.8139
+; fan off
+
+G1 X11.08 Y-14.32 E56.8257
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E44.8257 F10500
+; fan on
+
+G1 X10.7 Y-13.94 E44.8257 F1200
+; fan off
+
+G1 X10.28 Y-13.94 E44.8257
+; fan on
+
+G1 X11.04 Y-14.7 E44.8257
+; fan off
+
+G1 X11.04 Y-15.13 E44.8257
+; fan on
+
+G1 X9.91 Y-14 E44.8257
+; fan off
+
+G1 X9.81 Y-14.33 E44.8257
+G1 X10.24 Y-14.76 E44.8257
+G1 X10.24 Y-14.76 Z1.155 E44.8257 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.32 Y-16.25 E44.8257
+G1 X-11.32 Y-16.25 Z0.155 E44.8257
+G1 E56.8257 F10500
+G1 X-11.33 Y-16.27 E56.8261 F1200
+G1 X-11.2 Y-16.35 E56.8295
+; fan on
+
+G1 X-9.8 Y-16.35 E56.8599
+; fan off
+
+G1 X-9.68 Y-16.28 E56.8631
+G1 X-9.56 Y-15.92 E56.8714
+G1 X-9.53 Y-15.75 E56.8751
+; fan on
+
+G1 X-8.92 Y-15.14 E56.8941
+; fan off
+
+G1 X-8.72 Y-15.1 E56.8985
+G1 X-8.7 Y-14.92 E56.9026
+G1 X-9.02 Y-14.8 E56.9101
+; fan on
+
+G1 X-9.53 Y-14.28 E56.926
+; fan off
+
+G1 X-9.55 Y-14.12 E56.9294
+G1 X-9.68 Y-13.75 E56.938
+; fan on
+
+G1 X-9.78 Y-13.66 E56.941
+G1 X-11.22 Y-13.66 E56.9724
+; fan off
+
+G1 X-11.33 Y-13.76 E56.9757
+G1 X-11.33 Y-16.27 E57.0303
+; fan on
+
+G1 X-11.31 Y-16.26 E57.0308
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E45.0308 F10500
+G1 X-11.32 Y-16.25 E45.0308 F1200
+G1 X-11.33 Y-16.27 E45.0308
+G1 X-11.2 Y-16.35 E45.0308
+G1 X-9.8 Y-16.35 E45.0308
+G1 X-9.68 Y-16.28 E45.0308
+G1 X-9.56 Y-15.92 E45.0308
+G1 X-9.53 Y-15.75 E45.0308
+G1 X-8.92 Y-15.14 E45.0308
+; fan off
+
+G1 X-8.72 Y-15.1 E45.0308
+G1 X-8.7 Y-14.92 E45.0308
+; fan on
+
+G1 X-9.02 Y-14.8 E45.0308
+; fan off
+
+G1 X-9.53 Y-14.28 E45.0308
+; fan on
+
+G1 X-9.55 Y-14.12 E45.0308
+G1 X-9.63 Y-13.89 E45.0308
+G1 X-9.63 Y-13.89 Z1.155 E45.0308 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-3.34 Y-16.33 E45.0308
+G1 X-3.34 Y-16.33 Z0.155 E45.0308
+G1 E57.0308 F10500
+G1 X-3.35 Y-16.35 E57.0312 F1200
+G1 X-1.74 Y-16.35 E57.0663
+; fan off
+
+G1 X-1.7 Y-16.17 E57.0704
+G1 X-1.7 Y-13.66 E57.1252
+; fan on
+
+G1 X-3.36 Y-13.66 E57.1614
+G1 X-3.39 Y-14 E57.1688
+G1 X-3.61 Y-14.48 E57.1803
+G1 X-3.91 Y-14.75 E57.1892
+; fan off
+
+G1 X-4.25 Y-14.89 E57.1972
+; fan on
+
+G1 X-4.24 Y-15.1 E57.2019
+G1 X-3.93 Y-15.22 E57.209
+; fan off
+
+G1 X-3.54 Y-15.63 E57.2214
+; fan on
+
+G1 X-3.39 Y-16.04 E57.2308
+G1 X-3.35 Y-16.35 E57.2377
+; fan off
+
+G1 X-3.33 Y-16.34 E57.2382
+;
+; 'Crown', 0.5 [feed mm/s], 20.0 [head mm/s]
+G1 X-4.51 Y-14.97 E57.2382 F16200
+G1 X-4.56 Y-15.01 E57.2396 F1200
+; fan on
+
+G1 X-8.38 Y-15.01 E57.3257
+; fan off
+
+G1 X-8.43 Y-14.97 E57.3272
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-9.28 Y-15.17 E57.3272 F16200
+G1 X-10.51 Y-13.94 E57.3652 F1200
+G1 X-10.94 Y-13.94 E57.3744
+; fan on
+
+G1 X-9.53 Y-15.35 E57.418
+; fan off
+
+G1 X-9.73 Y-15.58 E57.4245
+G1 X-11.04 Y-14.27 E57.4649
+; fan on
+
+G1 X-11.04 Y-14.69 E57.4742
+G1 X-9.84 Y-15.89 E57.5111
+; fan off
+
+G1 X-10.07 Y-16.08 E57.5177
+G1 X-11.04 Y-15.12 E57.5475
+; fan on
+
+G1 X-11.04 Y-15.54 E57.5567
+G1 X-10.51 Y-16.06 E57.5729
+G1 X-10.99 Y-16.01 E57.5833
+; fan off
+
+G1 X-11.05 Y-15.95 E57.5852
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E45.5852 F10500
+G1 X-10.99 Y-16.01 E45.5852 F1200
+G1 X-10.51 Y-16.06 E45.5852
+; fan on
+
+G1 X-11.04 Y-15.54 E45.5852
+; fan off
+
+G1 X-11.04 Y-15.12 E45.5852
+; fan on
+
+G1 X-10.07 Y-16.08 E45.5852
+; fan off
+
+G1 X-9.84 Y-15.89 E45.5852
+G1 X-10.98 Y-14.75 E45.5852
+G1 X-10.98 Y-14.75 Z1.155 E45.5852 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-2.86 Y-16.08 E45.5852
+G1 X-2.86 Y-16.08 Z0.155 E45.5852
+G1 E57.5852 F10500
+; fan on
+
+G1 X-3.2 Y-15.74 E57.5957 F1200
+G1 X-3.57 Y-14.94 E57.6149
+G1 X-2.45 Y-16.07 E57.6497
+; fan off
+
+G1 X-2.02 Y-16.07 E57.6589
+; fan on
+
+G1 X-3.42 Y-14.67 E57.7022
+; fan off
+
+G1 X-3.26 Y-14.41 E57.7089
+G1 X-1.98 Y-15.69 E57.7484
+; fan on
+
+G1 X-1.98 Y-15.27 E57.7576
+G1 X-3.13 Y-14.12 E57.7932
+; fan off
+
+G1 X-2.89 Y-13.93 E57.7998
+G1 X-1.98 Y-14.84 E57.828
+; fan on
+
+G1 X-1.98 Y-14.42 E57.8372
+G1 X-2.5 Y-13.9 E57.8533
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E45.8533 F10500
+G1 X-1.98 Y-14.42 E45.8533 F1200
+; fan off
+
+G1 X-1.98 Y-14.84 E45.8533
+; fan on
+
+G1 X-2.89 Y-13.93 E45.8533
+; fan off
+
+G1 X-3.13 Y-14.12 E45.8533
+G1 X-1.98 Y-15.27 E45.8533
+; fan on
+
+G1 X-1.98 Y-15.69 E45.8533
+G1 X-2.11 Y-15.56 E45.8533
+G1 X-2.11 Y-15.56 Z1.155 E45.8533 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.31 Y-12.22 E45.8533
+G1 X-11.31 Y-12.22 Z0.155 E45.8533
+G1 E57.8533 F10500
+G1 X-11.33 Y-12.24 E57.8537 F1200
+G1 X-11.22 Y-12.34 E57.857
+G1 X-9.78 Y-12.34 E57.8884
+; fan off
+
+G1 X-9.67 Y-12.25 E57.8915
+G1 X-9.5 Y-11.72 E57.9037
+; fan on
+
+G1 X-9.22 Y-11.4 E57.9129
+; fan off
+
+G1 X-8.98 Y-11.24 E57.9192
+; fan on
+
+G1 X-8.33 Y-11.08 E57.934
+G1 X-4.68 Y-11.08 E58.0136
+; fan off
+
+G1 X-4.19 Y-11.2 E58.0247
+G1 X-3.82 Y-11.37 E58.0336
+G1 X-3.64 Y-11.52 E58.0386
+G1 X-3.39 Y-12 E58.0505
+G1 X-3.37 Y-12.34 E58.0579
+G1 X-1.7 Y-12.34 E58.0942
+; fan on
+
+G1 X-1.7 Y-9.83 E58.149
+; fan off
+
+G1 X-1.73 Y-9.64 E58.1533
+G1 X-3.36 Y-9.64 E58.1889
+; fan on
+
+G1 X-3.4 Y-10.02 E58.1974
+G1 X-3.56 Y-10.37 E58.2057
+G1 X-3.82 Y-10.65 E58.2142
+G1 X-4.41 Y-10.89 E58.2281
+G1 X-4.79 Y-10.9 E58.2363
+G1 X-8.46 Y-10.9 E58.3163
+; fan off
+
+G1 X-8.68 Y-10.86 E58.3213
+G1 X-9.04 Y-10.74 E58.3295
+G1 X-9.53 Y-10.24 E58.3447
+G1 X-9.55 Y-10.1 E58.3479
+G1 X-9.68 Y-9.72 E58.3567
+G1 X-9.79 Y-9.64 E58.3597
+G1 X-11.21 Y-9.64 E58.3908
+; fan on
+
+G1 X-11.33 Y-9.73 E58.3941
+G1 X-11.33 Y-12.24 E58.4487
+; fan off
+
+G1 X-11.31 Y-12.24 E58.4491
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-11.05 Y-11.71 E58.4491 F16200
+G1 X-10.7 Y-12.06 E58.4599 F1200
+G1 X-10.28 Y-12.06 E58.4692
+; fan on
+
+G1 X-11.04 Y-11.3 E58.4926
+; fan off
+
+G1 X-11.04 Y-10.87 E58.5019
+G1 X-9.91 Y-12 E58.5366
+; fan on
+
+G1 X-9.8 Y-11.69 E58.5439
+G1 X-11.04 Y-10.45 E58.582
+; fan off
+
+G1 X-11.04 Y-10.03 E58.5913
+; fan on
+
+G1 X-9.62 Y-11.44 E58.6349
+; fan off
+
+G1 X-9.42 Y-11.22 E58.6414
+G1 X-10.72 Y-9.92 E58.6815
+; fan on
+
+G1 X-10.29 Y-9.92 E58.6908
+G1 X-9.18 Y-11.04 E58.7252
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E46.7252 F10500
+; fan off
+
+G1 X-10.29 Y-9.92 E46.7252 F1200
+; fan on
+
+G1 X-10.72 Y-9.92 E46.7252
+G1 X-9.42 Y-11.22 E46.7252
+; fan off
+
+G1 X-9.62 Y-11.44 E46.7252
+; fan on
+
+G1 X-10.23 Y-10.83 E46.7252
+G1 X-10.23 Y-10.83 Z1.155 E46.7252 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-2.63 Y-12.07 E46.7252
+G1 X-2.63 Y-12.07 Z0.155 E46.7252
+G1 E58.7252 F10500
+; fan off
+
+G1 X-3.75 Y-10.95 E58.7599 F1200
+; fan on
+
+G1 X-3.53 Y-10.74 E58.7665
+G1 X-2.2 Y-12.07 E58.8075
+; fan off
+
+G1 X-1.96 Y-11.89 E58.8141
+; fan on
+
+G1 X-3.33 Y-10.52 E58.8564
+; fan off
+
+G1 X-3.2 Y-10.22 E58.8634
+G1 X-1.98 Y-11.45 E58.9012
+; fan on
+
+G1 X-1.98 Y-11.02 E58.9105
+G1 X-3.08 Y-9.92 E58.9445
+; fan off
+
+G1 X-2.65 Y-9.92 E58.9537
+G1 X-1.98 Y-10.6 E58.9746
+; fan on
+
+G1 X-1.98 Y-10.17 E58.984
+G1 X-2.27 Y-9.88 E58.9931
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E46.9931 F10500
+G1 X-1.98 Y-10.17 E46.9931 F1200
+; fan off
+
+G1 X-1.98 Y-10.6 E46.9931
+; fan on
+
+G1 X-2.65 Y-9.92 E46.9931
+; fan off
+
+G1 X-3.08 Y-9.92 E46.9931
+; fan on
+
+G1 X-1.98 Y-11.02 E46.9931
+; fan off
+
+G1 X-1.98 Y-11.45 E46.9931
+G1 X-2.54 Y-10.89 E46.9931
+G1 X-2.54 Y-10.89 Z1.155 E46.9931 F16200
+;
+; 'Perimeter', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-24.33 Y-12.3 E46.9931
+G1 X-24.33 Y-12.3 Z0.155 E46.9931
+G1 E58.9931 F10500
+; fan on
+
+G1 X-24.35 Y-12.31 E58.9935 F1200
+G1 X-24.15 Y-12.34 E58.9978
+G1 X-22.72 Y-12.34 E59.029
+; fan off
+
+G1 X-22.62 Y-12.24 E59.0321
+G1 X-22.57 Y-11.83 E59.0411
+G1 X-22.06 Y-11.3 E59.0572
+; fan on
+
+G1 X-21.79 Y-11.2 E59.0633
+G1 X-21.22 Y-11.12 E59.076
+G1 X-17.83 Y-11.12 E59.1499
+; fan off
+
+G1 X-17.07 Y-11.22 E59.1667
+G1 X-16.47 Y-11.81 E59.185
+G1 X-16.31 Y-12.34 E59.1972
+; fan on
+
+G1 X-14.66 Y-12.34 E59.2333
+; fan off
+
+G1 X-14.66 Y-9.64 E59.2924
+; fan on
+
+G1 X-16.31 Y-9.64 E59.3284
+G1 X-16.46 Y-10.15 E59.3401
+G1 X-16.73 Y-10.47 E59.3492
+; fan off
+
+G1 X-17.07 Y-10.75 E59.3588
+; fan on
+
+G1 X-17.62 Y-10.89 E59.3713
+G1 X-21.23 Y-10.89 E59.45
+; fan off
+
+G1 X-21.97 Y-10.76 E59.4665
+G1 X-22.57 Y-10.15 E59.4852
+G1 X-22.64 Y-9.75 E59.4938
+G1 X-22.73 Y-9.63 E59.4972
+G1 X-24.35 Y-9.64 E59.5324
+; fan on
+
+G1 X-24.35 Y-12.31 E59.5908
+; fan off
+
+G1 X-24.33 Y-12.31 E59.5912
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-23.85 Y-12.07 E59.5912 F16200
+G1 X-24.07 Y-11.84 E59.5981 F1200
+G1 X-24.07 Y-11.42 E59.6073
+; fan on
+
+G1 X-23.43 Y-12.06 E59.627
+; fan off
+
+G1 X-23 Y-12.06 E59.6363
+; fan on
+
+G1 X-24.07 Y-11 E59.6691
+; fan off
+
+G1 X-24.07 Y-10.57 E59.6784
+G1 X-22.84 Y-11.8 E59.7162
+; fan on
+
+G1 X-22.67 Y-11.54 E59.7229
+G1 X-24.08 Y-10.13 E59.7663
+; fan off
+
+G1 X-23.88 Y-9.91 E59.7729
+; fan on
+
+G1 X-22.47 Y-11.32 E59.8165
+; fan off
+
+G1 X-22.25 Y-11.12 E59.8231
+G1 X-23.44 Y-9.93 E59.8598
+; fan on
+
+G1 X-22.97 Y-9.97 E59.8701
+G1 X-22.79 Y-10.15 E59.8755
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E47.8755 F10500
+G1 X-22.97 Y-9.97 E47.8755 F1200
+; fan off
+
+G1 X-23.44 Y-9.93 E47.8755
+; fan on
+
+G1 X-22.25 Y-11.12 E47.8755
+; fan off
+
+G1 X-22.47 Y-11.32 E47.8755
+G1 X-23.88 Y-9.91 E47.8755
+; fan on
+
+G1 X-24.08 Y-10.13 E47.8755
+G1 X-24.08 Y-10.13 Z1.155 E47.8755 F16200
+;
+; 'Solid', 0.4 [feed mm/s], 20.0 [head mm/s]
+G1 X-16.84 Y-11.01 E47.8755
+G1 X-16.84 Y-11.01 Z0.155 E47.8755
+G1 E59.8755 F10500
+G1 X-15.79 Y-12.06 E59.9079 F1200
+G1 X-15.37 Y-12.06 E59.9172
+G1 X-16.66 Y-10.76 E59.9572
+; fan off
+
+G1 X-16.45 Y-10.55 E59.9638
+G1 X-14.94 Y-12.06 E60.0103
+; fan on
+
+G1 X-14.94 Y-11.63 E60.0196
+G1 X-16.25 Y-10.33 E60.06
+; fan off
+
+G1 X-16.13 Y-10.02 E60.0671
+; fan on
+
+G1 X-14.94 Y-11.21 E60.1037
+; fan off
+
+G1 X-14.94 Y-10.79 E60.113
+G1 X-15.81 Y-9.92 E60.1396
+; fan on
+
+G1 X-15.38 Y-9.92 E60.1489
+G1 X-14.9 Y-10.41 E60.1639
+;
+; 'Wipe (and De-string)', 0.0 [feed mm/s], 20.0 [head mm/s]
+G1 E48.1639 F10500
+; fan off
+
+G1 X-15.38 Y-9.92 E48.1639 F1200
+; fan on
+
+G1 X-15.81 Y-9.92 E48.1639
+G1 X-14.94 Y-10.79 E48.1639
+; fan off
+
+G1 X-14.94 Y-11.21 E48.1639
+; fan on
+
+G1 X-16.13 Y-10.02 E48.1639
+; fan off
+
+G1 X-16.25 Y-10.33 E48.1639
+G1 X-16.08 Y-10.5 E48.1639
+G1 X-16.08 Y-10.5 Z1.505 E48.1639 F16200
+; END_LAYER_OBJECT z=0.16
+;
+; *** Cooling Extruder 1 to 0 C ***
+; Deselect the (same) extruder (usually to cool)
+M104 S0
+
+;
+; fan off
+
+; *** G-code Postfix ***
+;
+; go home
+G28
+; turn off the bed
+M140 S0
+;turn off extruders
+T0
+M104 S0
+T1
+M104 S0
+T2
+M104 S0
+;wait for 5 minutes to cool hot-ends then turn off fan
+G4 P300001
+M42 P5 S0
+;
+;
+;
+; Estimated Build Time:   3.37 minutes
+; Estimated Build Volume: 0.116 cm^3
+; Estimated Build Cost:   $0.09
+;
+; *** Extrusion Time Breakdown ***
+; * estimated time in [s]
+; * before possibly slowing down for 'cool'
+; * not including Z-travel
+;	+-------------+-------------+-------------+-----------------------+
+;	| Extruder #1 | Extruder #2 | Extruder #3 | Path Type             |
+;	+-------------+-------------+-------------+-----------------------+
+;	| 6.98512     | 0           | 0           | Move                  |
+;	| 0           | 0           | 0           | Pillar                |
+;	| 0           | 0           | 0           | Raft                  |
+;	| 0           > 0           > 0           > Support Interface     |
+;	| 0           | 0           | 0           | Support (may Stack)   |
+;	| 49.86       | 0           | 0           | Perimeter             |
+;	| 0           | 0           | 0           | Loop                  |
+;	| 70.6969     > 0           > 0           > Solid                 |
+;	| 0           | 0           | 0           | Sparse Infill         |
+;	| 0           | 0           | 0           | Stacked Sparse Infill |
+;	| 23.431      | 0           | 0           | Wipe (and De-string)  |
+;	| 0.883826    > 0           > 0           > Crown                 |
+;	| 0           | 0           | 0           | Prime Pillar          |
+;	| 0           | 0           | 0           | Skirt                 |
+;	| 0           | 0           | 0           | Pause                 |
+;	| 50.625      > 0           > 0           > Extruder Warm-Up      |
+;	+-------------+-------------+-------------+-----------------------+
+; Total estimated (pre-cool) minutes: 3.37

@@ -1,0 +1,20 @@
+redacted.gcode:
+  gcodeAnalysis:
+    estimatedPrintTime: 5040.38856934411
+    filament:
+      tool0:
+        length: 8378.455399999682
+        volume: 0.0
+      tool1:
+        length: 0.0
+        volume: 0.0
+      tool2:
+        length: 0.0
+        volume: 0.0
+  prints:
+    failure: 0
+    last:
+      date: 1400475709.552
+      lastPrintTime: 6278.176999807358
+      success: true
+    success: 2

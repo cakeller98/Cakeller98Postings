@@ -1,0 +1,603 @@
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\logging\__init__.py", line 875, in emit self.flush()
+  File "C:\dev\python27\lib\logging\__init__.py", line 835, in flush self.stream.flush()
+IOError: [Errno 22] Invalid argument
+Logged from file comm.py, line 216
+2014-05-18 18:44:01,456 - octoprint.server.util - INFO - New connection from client: 24.205.93.241
+2014-05-18 20:48:17,947 - octoprint.server.util - INFO - Client connection closed
+2014-05-18 20:48:19,598 - octoprint.server.util - INFO - New connection from client: 24.205.93.241
+2014-05-18 21:20:38,207 - octoprint.server.util - INFO - Client connection closed
+2014-05-18 22:03:54,697 - octoprint.server.util - INFO - New connection from client: 24.205.93.241
+2014-05-18 22:06:49,819 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:50,013 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:50,223 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:50,414 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:50,621 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:50,825 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:51,023 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:51,230 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:51,418 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:51,631 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:51,822 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:52,030 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:52,223 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:52,426 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:52,638 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:52,829 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:53,039 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:53,230 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:53,434 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:53,631 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:53,838 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:54,046 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:54,240 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:54,447 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:54,638 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:54,846 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:55,039 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:55,247 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:55,453 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:55,648 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:55,855 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:56,048 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:56,256 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:56,447 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:56,657 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:56,864 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:57,051 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:57,263 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:57,454 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:57,664 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:57,855 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:58,061 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:58,273 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:58,463 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:58,671 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:58,862 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-18 22:06:59,072 - octoprint.util.comm - WARNING - Printer requested line 111897 but no suffi
+cient history is available, can't resend
+2014-05-19 01:03:58,996 - octoprint.server - CRITICAL - Now that is embarrassing... Something really
+ really went wrong here. Please report this including the stacktrace below in OctoPrint's bugtracker
+. Thanks!
+2014-05-19 01:03:59,000 - octoprint.server - ERROR - Stacktrace follows:
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\site-packages\octoprint-1.2.0_dev-py2.7.egg\octoprint\server\__init__.py
+", line 214, in run
+    IOLoop.instance().start()
+  File "C:\dev\python27\lib\site-packages\tornado-3.0.2-py2.7.egg\tornado\ioloop.py", line 627, in s
+tart
+    event_pairs = self._impl.poll(poll_timeout)
+  File "C:\dev\python27\lib\site-packages\tornado-3.0.2-py2.7.egg\tornado\platform\select.py", line
+63, in poll
+    self.read_fds, self.write_fds, self.error_fds, timeout)
+error: (10038, 'An operation was attempted on something that is not a socket')

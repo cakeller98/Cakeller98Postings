@@ -1,0 +1,43 @@
+2014-06-20 11:09:44,410 - SERIAL - DEBUG - Enabling serial logging
+2014-06-20 11:10:08,006 - SERIAL - DEBUG - Changing monitoring state from 'Offline' to 'Opening serial port'
+2014-06-20 11:10:08,013 - SERIAL - DEBUG - Connecting to: COM3
+2014-06-20 11:10:08,026 - SERIAL - DEBUG - Unexpected error while connecting to serial port: COM3 SerialException: 'could not open port 'COM3': WindowsError(2, 'The system cannot find the file specified.')' @ comm.py:_openSerial:964
+2014-06-20 11:10:08,032 - SERIAL - DEBUG - Changing monitoring state from 'Opening serial port' to 'Error: Failed to open seria...'
+2014-06-20 11:10:22,131 - SERIAL - DEBUG - Changing monitoring state from 'Offline' to 'Opening serial port'
+2014-06-20 11:10:22,138 - SERIAL - DEBUG - Connecting to: COM3
+2014-06-20 11:10:22,187 - SERIAL - DEBUG - Connected to: Serial<id=0x236b8d0, open=True>(port='COM3', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=2.0, xonxoff=False, rtscts=False, dsrdtr=False), starting monitor
+2014-06-20 11:10:22,193 - SERIAL - DEBUG - Changing monitoring state from 'Opening serial port' to 'Connecting'
+2014-06-20 11:10:23,079 - SERIAL - DEBUG - Recv: start
+2014-06-20 11:10:23,118 - SERIAL - DEBUG - Recv: Free RAM:1764
+2014-06-20 11:10:23,125 - SERIAL - DEBUG - Recv: X:0.00 Y:0.00 Z:0.00 E:0.00
+2014-06-20 11:10:25,131 - SERIAL - DEBUG - Send: N1 M105*38
+2014-06-20 11:10:25,191 - SERIAL - DEBUG - Recv: SD init fail
+2014-06-20 11:10:25,197 - SERIAL - DEBUG - Recv: ok 1
+2014-06-20 11:10:25,200 - SERIAL - DEBUG - Changing monitoring state from 'Connecting' to 'Operational'
+2014-06-20 11:10:25,203 - SERIAL - DEBUG - Send: N2 M21*18
+2014-06-20 11:10:25,209 - SERIAL - DEBUG - Send: N3 M20*18
+2014-06-20 11:10:25,217 - SERIAL - DEBUG - Recv: T:0.00 /0 B:0.00 /0 B@:0 @:0
+2014-06-20 11:10:25,221 - SERIAL - DEBUG - Recv: ok 2
+2014-06-20 11:10:27,230 - SERIAL - DEBUG - Send: N4 M105*35
+2014-06-20 11:10:27,336 - SERIAL - DEBUG - Recv: SD init fail
+2014-06-20 11:10:27,345 - SERIAL - DEBUG - Recv: ok 3
+2014-06-20 11:10:27,358 - SERIAL - DEBUG - Recv: Begin file list
+2014-06-20 11:10:27,368 - SERIAL - DEBUG - Recv: End file list
+2014-06-20 11:10:27,375 - SERIAL - DEBUG - Recv: ok 4
+2014-06-20 11:10:27,387 - SERIAL - DEBUG - Recv: T:22.50 /0 B:23.75 /0 B@:0 @:0
+2014-06-20 11:10:28,325 - SERIAL - DEBUG - Recv: wait
+2014-06-20 11:10:28,331 - SERIAL - DEBUG - Send: N5 M105*34
+2014-06-20 11:10:28,339 - SERIAL - DEBUG - Recv: ok 5
+2014-06-20 11:10:28,355 - SERIAL - DEBUG - Recv: T:22.92 /0 B:24.03 /0 B@:0 @:0
+2014-06-20 11:10:29,348 - SERIAL - DEBUG - Recv: wait
+2014-06-20 11:10:29,352 - SERIAL - DEBUG - Send: N6 M105*33
+2014-06-20 11:10:29,365 - SERIAL - DEBUG - Recv: ok 6
+2014-06-20 11:10:29,371 - SERIAL - DEBUG - Recv: T:22.78 /0 B:24.17 /0 B@:0 @:0
+2014-06-20 11:10:30,372 - SERIAL - DEBUG - Recv: wait
+2014-06-20 11:10:30,378 - SERIAL - DEBUG - Send: N7 M105*32
+2014-06-20 11:10:30,388 - SERIAL - DEBUG - Recv: ok 7
+2014-06-20 11:10:30,397 - SERIAL - DEBUG - Recv: T:23.06 /0 B:24.31 /0 B@:0 @:0
+2014-06-20 11:10:30,736 - SERIAL - DEBUG - Changing monitoring state from 'Operational' to 'Closed'
+2014-06-20 11:10:30,736 - SERIAL - DEBUG - Send: N8 M105*47
+2014-06-20 11:10:30,746 - SERIAL - DEBUG - Unexpected error while writing serial port: AttributeError: ''NoneType' object has no attribute 'write'' @ comm.py:_doSendWithoutChecksum:1124
+2014-06-20 11:10:30,753 - SERIAL - DEBUG - Connection closed, closing down monitor

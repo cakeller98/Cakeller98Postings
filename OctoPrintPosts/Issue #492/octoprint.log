@@ -1,0 +1,6 @@
+2014-06-20 11:09:44,487 - octoprint.gcodefiles - INFO - Migrating metadata if necessary...
+2014-06-20 11:09:44,503 - octoprint.gcodefiles - INFO - Updated 0 sets of metadata to new format
+2014-06-20 11:09:44,566 - octoprint.server - INFO - Listening on http://0.0.0.0:5005
+2014-06-20 11:09:47,667 - octoprint.server.util - INFO - New connection from client: 24.205.93.241
+2014-06-20 11:10:03,907 - octoprint.server.util - INFO - Client connection closed
+2014-06-20 11:10:05,502 - octoprint.server.util - INFO - New connection from client: 24.205.93.241

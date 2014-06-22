@@ -1,0 +1,54 @@
+2014-06-22 10:42:34,904 - octoprint.server - INFO - Starting OctoPrint (1.2.0-dev-69-g55b24c6)
+2014-06-22 10:42:34,920 - octoprint.gcodefiles - INFO - Migrating metadata if necessary...
+2014-06-22 10:42:34,936 - octoprint.gcodefiles - INFO - Updated 0 sets of metadata to new format
+2014-06-22 10:42:34,950 - octoprint.server - INFO - Listening on http://0.0.0.0:5005
+2014-06-22 10:42:50,036 - octoprint - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\dev\python27\lib\site-packages\octoprint-1.2.0_dev_69_g55b24c6-py2.7.egg\octoprint\server\__init__.py", line 69, in index
+    uiApiKey=UI_API_KEY
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: index.jinja2
+2014-06-22 10:42:52,977 - octoprint - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\dev\python27\lib\site-packages\octoprint-1.2.0_dev_69_g55b24c6-py2.7.egg\octoprint\server\__init__.py", line 69, in index
+    uiApiKey=UI_API_KEY
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\dev\python27\lib\site-packages\jinja2-2.7.2-py2.7.egg\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\dev\python27\lib\site-packages\flask-0.9-py2.7.egg\flask\templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: index.jinja2
